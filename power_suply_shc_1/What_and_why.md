@@ -4,7 +4,7 @@ Schema je pouzita z data sheetu suciastky MCP16301Hx-xCH. Niektoere komponenty v
   - rezistory R1 a R2:
     - od ich hodnot zavisy vystupne napatie
     - v data sheete mame rovnicu na vypocet potrebnych parametrov:
-            - 
+      - $$ R_{1} = R_{2} \times \left(\frac{V_{OUT}}{V_{FB}} - 1\right) $$ 
   
 - capacitatory:
 
