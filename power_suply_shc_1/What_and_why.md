@@ -10,5 +10,17 @@ Schema je pouzita z data sheetu suciastky MCP16301Hx-xCH. Niektore komponenty vi
     - na najdenie hodnot rezistorov mozeme pouzit script find_rezistor.py (vid jeho readme.md)
   
 - capacitatory:
-  - 
+  - capacitator C1:
+    - v data sheete je to aj C<sub>IN</sub>
+    - pouzivame 10 µF capacitator
+  - capacitatori C3 a C4:
+    - v data sheete je to aj C<sub>OUT</sub>
+    - jeho hodnota zavisy od vysledneho napatia a prudu
+    - pre 3.3V pouzivame 2x10 µF capacitatory
+
 - cievka:
+  - pouzivame 15 µH cievku
+  - podla vystupneho napatia a prudu vieme upravit jej hodnotu podla prepoctov v Data sheete
+
+- ostatne externe komponenty aj ich charakteristiky vieme najst v Data sheete
+    
