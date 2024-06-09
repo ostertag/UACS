@@ -8,6 +8,8 @@ Schema je pouzita z data sheetu suciastky MCP16301Hx-xCH. Niektore komponenty vi
       $$R_{1} = R_{2} \times \left(\frac{V_{OUT}}{V_{FB}} - 1\right)$$
     - nase V<sub>OUT</sub> je napatie ktore chceme dostat na vystupe a V<sub>FB</sub> je napatie iduce z Feedback pinu a ma hodnotu 0.8V
     - na najdenie hodnot rezistorov mozeme pouzit script find_rezistor.py (vid jeho readme.md)
+    - snazime sa hladat rezistory z co najnizsich serii
+    - v data sheete uvadzaju ze R<sub>2</sub> by mal mat 10 kΩ
   
 - capacitatory:
   - capacitator C1:
