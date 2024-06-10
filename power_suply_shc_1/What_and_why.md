@@ -1,5 +1,5 @@
-Tu sú všetky informacie ohľadom komponentov a schemy [konvertora napätia](power_suply_shc_1/power_suply_schematic_1.kicad_sch).  
-Schéma je použitá z [data sheetu sučiastky MCP16301Hx-xCH](power_suply_shc_1/Data_sheet.pdf), konkrétne Figure 6-1 na strane 23.   
+Tu sú všetky informacie ohľadom komponentov a schemy [konvertora napätia](power_suply_schematic_1.kicad_sch).  
+Schéma je použitá z [data sheetu sučiastky MCP16301Hx-xCH](Data_sheet.pdf), konkrétne Figure 6-1 na strane 23.   
 Niektoré externé komponenty vieme upraviť, aby sme dostali iné výsledné napätie, prípadne iný prúd.    
 Naše schéma s ktorou pracujeme predpokladá vstupné napätie 12V a výstupné napätie 3.3V.  
 Externé komponenty sú:
