@@ -23,8 +23,10 @@ Nase napatie ktore potrebujem dodat do nasho obvodu je 3.3V a vstupne napatie je
 
 - cievka:
   - pouzivame 15 µH cievku
-  - podla vystupneho napatia a prudu vieme upravit jej hodnotu podla prepoctov v Data sheete
+  - podla vystupneho napatia upravujeme jej hodnotu podla tejto rovnice:
 
+    $$K = V_{OUT}/L$$
+  - kde K by malo mat hodnotu 22 V/µH a V<sub>OUT</sub> je nase vystupne napatie (3.3V)
 - ostatne externe komponenty aj ich charakteristiky vieme najst v Data sheete
     
 V povodnom navrhu z ktoreho tento vychadza mal medzi vystupom a vstupom BAT54 diodu
