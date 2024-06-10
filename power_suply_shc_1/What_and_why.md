@@ -1,14 +1,17 @@
-Tu sú všetky informacie ohľadom komponentov a schemy [konvertora napätia](https://github.com/cheetahzlesa/UACS/blob/hardwer_kozuch/power_suply_shc_1/power_suply_schematic_1.kicad_sch).  
-Schema je pouzita z [data sheetu suciastky MCP16301Hx-xCH](https://github.com/cheetahzlesa/UACS/edit/hardwer_kozuch/power_suply_shc_1/Data_sheet.pdf). Niektore komponenty vieme upravit, aby sme dostali ine vysledne napatie, pripadne iny prud
-Nase napatie ktore potrebujem dodat do nasho obvodu je 3.3V a vstupne napatie je 12V
+Tu sú všetky informacie ohľadom komponentov a schemy [konvertora napätia](power_suply_shc_1/power_suply_schematic_1.kicad_sch).  
+Schéma je použitá z [data sheetu sučiastky MCP16301Hx-xCH](power_suply_shc_1/Data_sheet.pdf), konkrétne Figure 6-1 na strane 23.   
+Niektoré externé komponenty vieme upraviť, aby sme dostali iné výsledné napätie, prípadne iný prúd.    
+Naše schéma s ktorou pracujeme predpokladá vstupné napätie 12V a výstupné napätie 3.3V.  
+Externé komponenty sú:
 - rezistory:
-  - rezistory R1 a R2:
-    - od ich hodnot zavisy vystupne napatie
-    - v data sheete mame rovnicu na vypocet potrebnych parametrov:
+  - rezistory R<sub>1</sub> a R<sub>2</sub>:
+    - v Data sheete sú to R<sub>TOP</sub> (R<sub>1</sub>) a R<sub>BOT</sub> (R<sub>2</sub>) 
+    - od ich hodnôt závisy výstupné napätie
+    - v data sheete mame rovnicu na vypocet odporov jednotlivých rezistorov:
 
       $$R_{1} = R_{2} \times \left(\frac{V_{OUT}}{V_{FB}} - 1\right)$$
-    - nase V<sub>OUT</sub> je napatie ktore chceme dostat na vystupe a V<sub>FB</sub> je napatie iduce z Feedback pinu a ma hodnotu 0.8V
-    - na najdenie hodnot rezistorov mozeme pouzit script find_rezistor.py (vid jeho readme.md)
+    - naše V<sub>OUT</sub> je napätie ktoré chceme dostať na výstupe a V<sub>FB</sub> je napätie idúce do Feedback pinu a musí mať hodnotu 0.8V
+    - na nájdenie hodnôt rezistorov môžeme pouziť script [find_rezistor.py](find_rezistor/find_rezistor.py) ([viď jeho readme.md](find_rezistor/README.md))
     - snazime sa hladat rezistory z co najnizsich serii
     - v data sheete uvadzaju ze R<sub>2</sub> by mal mat 10 kΩ
   
