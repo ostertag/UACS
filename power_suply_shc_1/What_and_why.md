@@ -1,5 +1,5 @@
 Tu sú všetky informacie ohľadom komponentov a schemy [konvertora napätia](https://github.com/cheetahzlesa/UACS/blob/hardwer_kozuch/power_suply_shc_1/power_suply_schematic_1.kicad_sch).  
-Schema je pouzita z data sheetu suciastky MCP16301Hx-xCH. Niektore komponenty vieme upravit, aby sme dostali ine vysledne napatie, pripadne iny prud
+Schema je pouzita z [data sheetu suciastky MCP16301Hx-xCH](https://github.com/cheetahzlesa/UACS/edit/hardwer_kozuch/power_suply_shc_1/Data_sheet.pdf). Niektore komponenty vieme upravit, aby sme dostali ine vysledne napatie, pripadne iny prud
 Nase napatie ktore potrebujem dodat do nasho obvodu je 3.3V a vstupne napatie je 12V
 - rezistory:
   - rezistory R1 a R2:
