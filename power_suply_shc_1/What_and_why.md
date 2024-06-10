@@ -1,4 +1,4 @@
-Tu budu vsetky info ohladom komponentov a schemy power suply
+Tu sú všetky informacie ohľadom komponentov a schemy [konvertora napätia] ().  
 Schema je pouzita z data sheetu suciastky MCP16301Hx-xCH. Niektore komponenty vieme upravit, aby sme dostali ine vysledne napatie, pripadne iny prud
 Nase napatie ktore potrebujem dodat do nasho obvodu je 3.3V a vstupne napatie je 12V
 - rezistory:
