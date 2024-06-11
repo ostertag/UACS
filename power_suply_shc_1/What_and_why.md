@@ -14,6 +14,7 @@ Externé komponenty sú:
     - na nájdenie hodnôt rezistorov môžeme pouziť script [find_rezistor.py](find_rezistor/find_rezistor.py) ([viď jeho readme.md](find_rezistor/README.md))
     - snažíme sa hladať rezistory z čo najnižších sérii
     - v data sheete uvadzajú že R<sub>2</sub> by mal mať 10 kΩ a R<sub>1</sub> by mal mať 31.6 kΩ
+    - my použijeme hodnoty ktoré nám našiel skript a to 75 kΩ pre R<sub>1</sub>  a 24 kΩ pre R<sub>2</sub>
   
 - kondenzátory:
   - kondenzátor C1:
