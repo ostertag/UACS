@@ -23,7 +23,14 @@ Externé komponenty sú:
   - kondezátori C3 a C4:
     - v data sheete je to aj C<sub>OUT</sub>
     - ich hodnota zavisý od výsledneho napätia
-    - pre naše výstupne napätie používame dva kapacitatory každý o hodnote 10 µF, ktoré budú paraelne zapojene
+    - pre naše výstupne napätie používame dva kondenzátory každý o hodnote 10 µF, ktoré budú paraelne zapojene
+  - pri hodnotách kondenzátorov sa riadime tabuľkov 5-2 na strane 18:  
+
+    |Parameter | Min | Max|  
+    |------|--------|-------|  
+    |C<sub>IN</sub>| 2.2 µF | None|  
+    |C<sub>OUT</sub>| 20 µF | None|  
+  - zaroveň minimálna voltáž kapacitátorov musí byť napätie ktoré nimi maximálne môže prechádzať (V) plus nejaká rezerva (zvyčajne to býva hodnota V)
 
 - cievka:
   - používame 15 µH cievku
@@ -31,6 +38,17 @@ Externé komponenty sú:
 
     $$K = V_{OUT}/L$$
   - kde K by malo mať hodnotu 0.22 V/µH a V<sub>OUT</sub> je naše výstupne napätie (3.3V)
-- ostatne externe komponenty aj ich charakteristiky vieme najst v Data sheete
+  - pre iné napätia sa môžeme riadiť tabulkov 5-1 na strane 17
+  
+    |V<sub>OUT<\sub> | K | L<sub>STANDART</sub>|  
+    |------|--------|-------|
+    |2.0V|0.20|10 µH|
+    |3.3V|0.22|15 µH|
+    |5.0V|0.23|22 µH|
+    |12V|0.21|56 µH|
+    |15V|0.22|68 µH|
     
-V povodnom navrhu z ktoreho tento vychadza mal medzi vystupom a vstupom BAT54 diodu
+- ostatne externe komponenty aj ich charakteristiky vieme najst v Data sheete
+ 
+    
+Táto schéma je silne inšpirovaná schémov zapojenia rovnakého zariadenia z (projektu Deadlock)[]
