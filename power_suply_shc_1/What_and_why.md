@@ -1,37 +1,38 @@
-Tu sú všetky informacie ohľadom komponentov a schémy [konvertora napätia](power_suply_schematic_1.kicad_sch).  
-Schéma je použitá z [data sheetu sučiastky MCP16301Hx-xCH](Data_sheet.pdf), konkrétne Figure 6-1 na strane 23.   
+Tu sú všetky informacie ohľadom komponentov a schémy [napäťového zdroja](power_suply_schematic_1.kicad_sch).  
+Schéma je použitá z [dátového listu sučiastky MCP16301Hx-xCH](Data_sheet.pdf), konkrétne Figure 6-1 na strane 23.   
 Niektoré externé komponenty vieme upraviť, aby sme dostali iné výsledné napätie, prípadne iný prúd.    
-Naše schéma s ktorou pracujeme predpokladá vstupné napätie 12V a výstupné napätie 3.3V.  
+Naše schéma s ktorou pracujeme predpokladá vstupné napätie 12V prípadne 5V a výstupné napätie 3.3V.  
 Externé komponenty sú:
 - rezistory:
   - rezistory R<sub>1</sub> a R<sub>2</sub>:
-    - v Data sheete sú to R<sub>TOP</sub> (R<sub>1</sub>) a R<sub>BOT</sub> (R<sub>2</sub>) 
-    - od ich hodnôt závisy výstupné napätie
-    - v data sheete mame rovnicu na vypocet odporov jednotlivých rezistorov:
+    - v dátovom liste sú to R<sub>TOP</sub> (R<sub>1</sub>) a R<sub>BOT</sub> (R<sub>2</sub>) 
+    - od ich hodnôt závisí výstupné napätie
+    - v dátovom liste máme rovnicu na výpočet odporov jednotlivých rezistorov:
 
       $$R_{1} = R_{2} \times \left(\frac{V_{OUT}}{V_{FB}} - 1\right)$$
     - naše V<sub>OUT</sub> je napätie ktoré chceme dostať na výstupe a V<sub>FB</sub> je napätie idúce do Feedback pinu a musí mať hodnotu 0.8V
     - na nájdenie hodnôt rezistorov môžeme pouziť script [find_rezistor.py](find_rezistor/find_rezistor.py) ([viď jeho readme.md](find_rezistor/README.md))
     - snažíme sa hladať rezistory z čo najnižších sérii
-    - v data sheete uvadzajú že R<sub>2</sub> by mal mať 10 kΩ a R<sub>1</sub> by mal mať 31.6 kΩ
+    - v dátovom liste uvádzajú že R<sub>2</sub> by mal mať 10 kΩ a R<sub>1</sub> by mal mať 31.6 kΩ
     - my použijeme hodnoty ktoré nám našiel skript a to 75 kΩ pre R<sub>1</sub>  a 24 kΩ pre R<sub>2</sub>
   
 - kondenzátory:
   - kondenzátor C1:
-    - v data sheete je to aj C<sub>IN</sub>
-    - v data sheete je uvedené že treba použiť dva paraelne zapojené kondenzátory, každý o hodnote 4.7 µF
+    - v dátovom liste je to aj C<sub>IN</sub>
+    - v dátovom liste je uvedené že treba použiť dva paraelne zapojené kondenzátory, každý o hodnote 4.7 µF
     - používame 10 µF kondenzátor aby sme znížili množstvo komponentov a náročnosť zapojenia
   - kondezátori C3 a C4:
-    - v data sheete je to aj C<sub>OUT</sub>
-    - ich hodnota zavisý od výsledneho napätia
-    - pre naše výstupne napätie používame dva kondenzátory každý o hodnote 10 µF, ktoré budú paraelne zapojene
+    - v dátovom liste je to aj C<sub>OUT</sub>
+    - ich hodnota zavisí od výsledneho napätia
+    - pre naše výstupne napätie používame dva kondenzátory každý o hodnote 10 µF, ktoré budú paraelne zapojené
   - pri hodnotách kondenzátorov sa riadime tabuľkov 5-2 na strane 18:  
 
     |Parameter | Min | Max|  
     |------|--------|-------|  
     |C<sub>IN</sub>| 2.2 µF | None|  
     |C<sub>OUT</sub>| 20 µF | None|  
-  - zaroveň minimálna voltáž kapacitátorov musí byť napätie ktoré nimi maximálne môže prechádzať (V) plus nejaká rezerva (zvyčajne to býva hodnota V)
+  - zaroveň minimálna voltáž kondenzátorov musí byť napätie ktoré nimi maximálne môže prechádzať plus nejaká rezerva
+    - ako rezervu zvičajne používame hodnotu napätia ktoré može maximalne prechádzať kondenzátorom, teda voltáž kondezatorov bude 2-krát maximálna voltáž ktorá može prechádzať daným kondenzátorom 
 
 - cievka:
   - používame 15 µH cievku
@@ -49,7 +50,7 @@ Externé komponenty sú:
     |12V|0.21|56 µH|
     |15V|0.22|68 µH|
     
-- ostatne externe komponenty aj ich charakteristiky vieme najst v Data sheete
+- ostatne externe komponenty aj ich charakteristiky vieme najst v dátovom liste
  
     
 Táto schéma je silne inšpirovaná schémov zapojenia rovnakého zariadenia z [projektu Deadlock](https://gitlab.com/project-deadlock/reader/rdr-hw-fluocerite-model0)
