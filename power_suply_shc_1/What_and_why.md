@@ -51,4 +51,4 @@ Externé komponenty sú:
 - ostatne externe komponenty aj ich charakteristiky vieme najst v Data sheete
  
     
-Táto schéma je silne inšpirovaná schémov zapojenia rovnakého zariadenia z (projektu Deadlock)[]
+Táto schéma je silne inšpirovaná schémov zapojenia rovnakého zariadenia z (projektu Deadlock)[https://gitlab.com/project-deadlock/reader/rdr-hw-fluocerite-model0]
