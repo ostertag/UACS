@@ -40,7 +40,7 @@ Externé komponenty sú:
   - kde K by malo mať hodnotu 0.22 V/µH a V<sub>OUT</sub> je naše výstupne napätie (3.3V)
   - pre iné napätia sa môžeme riadiť tabulkov 5-1 na strane 17
   
-    |V<sub>OUT<\sub> | K | L<sub>STANDART</sub>|  
+    |V<sub>OUT</sub> | K | L<sub>STANDART</sub>|  
     |------|--------|-------|
     |2.0V|0.20|10 µH|
     |3.3V|0.22|15 µH|
