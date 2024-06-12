@@ -9,7 +9,8 @@ Externé komponenty sú:
     - od ich hodnôt závisí výstupné napätie
     - v dátovom liste máme rovnicu na výpočet odporov jednotlivých rezistorov:
 
-      $$R_{1} = R_{2} \times \left(\frac{V_{OUT}}{V_{FB}} - 1\right)$$
+      $$R_{1} = R_{2} \times \left(\frac{V_{OUT}}{V_{FB}} - 1\right)$$  
+        
     - naše V<sub>OUT</sub> je napätie ktoré chceme dostať na výstupe a V<sub>FB</sub> je napätie idúce do Feedback pinu a musí mať hodnotu 0.8V
     - na nájdenie hodnôt rezistorov môžeme pouziť script [find_rezistor.py](find_rezistor/find_rezistor.py) ([viď jeho readme.md](find_rezistor/README.md))
     - snažíme sa hladať rezistory z čo najnižších sérii
