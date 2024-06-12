@@ -1756,7 +1756,7 @@
 		(dnp no)
 		(uuid "20872055-f04c-4beb-9ef5-863b731859f6")
 		(property "Reference" "C3"
-			(at 151.13 92.964 0)
+			(at 152.146 98.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,7 +1765,7 @@
 			)
 		)
 		(property "Value" "10 µF"
-			(at 148.082 97.536 0)
+			(at 157.226 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1834,7 +1834,7 @@
 			)
 		)
 		(property "Value" "10 µF"
-			(at 155.702 97.536 0)
+			(at 165.608 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2183,7 +2183,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "62021d6b-47d1-488a-b493-fd8f8d24fa1f")
 		(property "Reference" "D1"
 			(at 152.4 83.5024 90)
@@ -2195,7 +2194,7 @@
 			)
 		)
 		(property "Value" "B140-E3"
-			(at 152.4 86.0424 90)
+			(at 151.892 85.852 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2387,7 +2386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a21f9379-bb94-4b5f-8919-f2bc8e6f2ca1")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 176.53 101.5999 0)
 			(effects
 				(font
@@ -2396,7 +2395,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "31.6 kΩ"
+		(property "Value" "75 kΩ"
 			(at 176.53 104.1399 0)
 			(effects
 				(font
@@ -2441,7 +2440,7 @@
 		(instances
 			(project "power_suply_schematic_1"
 				(path "/08a23fd3-e63b-47b8-94cf-c7694ec6b09d"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -2521,7 +2520,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "aa3399df-4dbf-418c-b056-a0000b068a66")
 		(property "Reference" "#PWR03"
 			(at 163.83 111.76 0)
@@ -2533,7 +2531,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 110.49 0)
+			(at 167.386 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2589,7 +2587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad9da564-980e-4edc-acfe-bb64c37daac8")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 176.53 115.5699 0)
 			(effects
 				(font
@@ -2598,7 +2596,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" " 10 kΩ"
+		(property "Value" " 24kΩ"
 			(at 176.53 118.1099 0)
 			(effects
 				(font
@@ -2643,7 +2641,7 @@
 		(instances
 			(project "power_suply_schematic_1"
 				(path "/08a23fd3-e63b-47b8-94cf-c7694ec6b09d"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
