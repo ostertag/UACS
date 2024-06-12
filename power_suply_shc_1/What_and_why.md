@@ -13,7 +13,7 @@ Externé komponenty sú:
     - naše V<sub>OUT</sub> je napätie ktoré chceme dostať na výstupe a V<sub>FB</sub> je napätie idúce do Feedback pinu a musí mať hodnotu 0.8V
     - na nájdenie hodnôt rezistorov môžeme pouziť script [find_rezistor.py](find_rezistor/find_rezistor.py) ([viď jeho readme.md](find_rezistor/README.md))
     - snažíme sa hladať rezistory z čo najnižších sérii
-    - v dátovom liste uvádzajú že R<sub>2</sub> by mal mať 10 kΩ a R<sub>1</sub> by mal mať 31.6 kΩ
+    - v dátovom liste uvádzajú že R<sub>2</sub> by mal mať 10 kΩ a R<sub>1</sub> by mal mať 31.6 kΩ pre výstupné napätie 3.3V
     - my použijeme hodnoty ktoré nám našiel skript a to 75 kΩ pre R<sub>1</sub>  a 24 kΩ pre R<sub>2</sub>
   
 - kondenzátory:
@@ -32,7 +32,7 @@ Externé komponenty sú:
     |C<sub>IN</sub>| 2.2 µF | None|  
     |C<sub>OUT</sub>| 20 µF | None|  
   - zaroveň minimálna voltáž kondenzátorov musí byť napätie ktoré nimi maximálne môže prechádzať plus nejaká rezerva
-    - ako rezervu zvičajne používame hodnotu napätia ktoré može maximalne prechádzať kondenzátorom, teda voltáž kondezatorov bude 2-krát maximálna voltáž ktorá može prechádzať daným kondenzátorom 
+    - ako rezervu zvyčajne používame hodnotu napätia ktoré može maximalne prechádzať kondenzátorom, teda voltáž kondezatorov bude 2-krát maximálna voltáž ktorá može prechádzať daným kondenzátorom 
 
 - cievka:
   - používame 15 µH cievku
@@ -50,7 +50,7 @@ Externé komponenty sú:
     |12V|0.21|56 µH|
     |15V|0.22|68 µH|
     
-- ostatne externe komponenty aj ich charakteristiky vieme najst v dátovom liste
+- ostatné externé komponenty aj ich charakteristiky vieme najsť v dátovom liste
  
     
 Táto schéma je silne inšpirovaná schémov zapojenia rovnakého zariadenia z [projektu Deadlock](https://gitlab.com/project-deadlock/reader/rdr-hw-fluocerite-model0)
