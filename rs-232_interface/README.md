@@ -20,7 +20,7 @@ Naša [schéma](rs-232_schematic.kicad_sch) sa skladá z dvoch komponentov:
    - pin6 budeme používať pre BOOT0 signál
      
 - MAX32332
-  -  schému zapojenia používame z [dátového listu]() 
+  -  schému zapojenia používame z [dátového listu](Data_sheet.pdf) zo strany  
   -  konvertuje singály na napätia pre CMOS logiku a naopak
   -  funkcie jednotliých pinov sú v tejto tabulke:
 
