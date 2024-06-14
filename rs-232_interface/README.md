@@ -1,7 +1,7 @@
 Naša [schéma](rs-232_schematic.kicad_sch) sa skladá z dvoch komponentov:
 - RJ12 konektor 6p6c  
-   - slúži na komunikáciu s externou súčiastkou, ktorá može byť pripojená srkz kábel s RJ12 konektormi  
-   - slúži zároveň aj ako napájanie celého zariadenia 12V  
+   - slúži na komunikáciu s externou súčiastkou, ktorá môže byť pripojená srkz kábel s RJ12 konektormi  
+   - slúži zároveň aj ako napájanie celého zariadenia napätím 12V  
    - funkcie jednotlivých pinov konektora sú v tejto tabuľke:    
 
     |Pin |	Funkcia | RJ12 |	Farebný kód |  
@@ -14,8 +14,8 @@ Naša [schéma](rs-232_schematic.kicad_sch) sa skladá z dvoch komponentov:
     |6|	BOOT0|	R3|	modrá alebo hnedá|
    - pin1 budeme používať pre RST signál
    - pin2 budeme používať pre napájanie
-   - pin3 budeme používať na prijimanie signálu do nášho MCU
-   - pin4 budeme používať na posielanie signálu z nášho MCU
+   - pin3 budeme používať na prijimanie signálu 
+   - pin4 budeme používať na odosielanie signálu 
    - pin5 pripojíme na zem
    - pin6 budeme používať pre BOOT0 signál
      
@@ -30,7 +30,7 @@ Naša [schéma](rs-232_schematic.kicad_sch) sa skladá z dvoch komponentov:
 
   -  pri prijimaní signálu MAX 3232 konvertuje vstupné napätie na napätie pre logickú nulu alebo jednotku
   -  pri odosielaní signálu konvertuje napätie logickej nuly alebo jednotky na napätie z rozsahu +3V až +15 V alebo −15V až −3 V
-  -  funkcie jednotliých pinov sú v tejto tabulke, najdeme ju na strane 6 v dátovom liste:
+  -  funkcie jednotlivých pinov sú v tejto tabuľke, nájdeme ju na strane 6 v dátovom liste:
 
     |Pin|Meno|Funkcia|
     |---|----|-------|
@@ -55,8 +55,9 @@ Naša [schéma](rs-232_schematic.kicad_sch) sa skladá z dvoch komponentov:
   - piny 10 a 11 prijimajú vstupný signál ktorý je buď logická nula alebo jednotka
   - pin 15 je uzemnený
   - pin 16 je určený pre napájenie súčiastky
-  - pre posielanie signálov používame dvojicu pinov 11 a 14
-  - pre prijímanie signálov používame dvojicu pinov 12 a 13 
+  - v našej implementácii:
+     - pre posielanie signálov používame dvojicu pinov 11 a 14
+     - pre prijímanie signálov používame dvojicu pinov 12 a 13 
   - jediné externé súčiastky sú kondenzátory, ich minimálne hodnoty pre dané napätie sú v tabuľke 2 na strane 9:
 
     |V<sub>CC</sub> (V)|C1 (µF)|C2, C3, C4 (µF)|
@@ -70,8 +71,8 @@ Naša [schéma](rs-232_schematic.kicad_sch) sa skladá z dvoch komponentov:
   - pri zvyšovaní hodnôt kondenzátorov C<sub>2</sub> , C<sub>3</sub> a C<sub>4</sub> nemusíme zvyšovať hodnotu kondezátora C<sub>1</sub>
   - kondezátor C<sub>5</sub> používame v prípade ak je naša implementácia citlivá na "hluk" zdroja 
   - kondenzátor C<sub>5</sub> bude mať rovnakú hodnotu ako kondenzátor C<sub>1</sub>
-  - pre viacej detailov ohľadom kondenzátorov pozri strany 8, 9 (Capacitor Selection, Power-Supply Decoupling) dátovom liste
-  - piny ktoré nebudú na nič pripojené, pripojíme na zem
+  - pre viacej detailov ohľadom kondenzátorov pozri strany 8, 9 (Capacitor Selection, Power-Supply Decoupling) v dátovom liste
+  - piny ktoré nebudú na nič pripojené, pripojíme na zem, prípadne na V<sub>cc</sub> (pozri stranu 7 - RS-232 Transmitters v dátovom liste)
         
 Táto schéma je silne inšpirovaná schémov zapojenia rovnakého zariadenia z [projektu Deadlock](https://gitlab.com/project-deadlock/reader/rdr-hw-fluocerite-model0)
   
