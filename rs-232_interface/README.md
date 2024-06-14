@@ -38,8 +38,8 @@ Naša [schéma](rs-232_schematic.kicad_sch) sa skladá z dvoch komponentov:
     |15|GND|Ground|Zem|
     |16|V<sub>cc</sub>|+3.0V to +5.5V Supply Voltage|+ 3,0V až + 5,5V napájacie napätie|
   - zapojenie vychádza z dátového listu súčiasky 
-  - piny ktoré nebudú na nič pripojené, pripojíme na zem
-  - 
+  - dvojicu pinov 14 a 11 požívame na preklad do CMOS logiky
+  - dvojicu pinov 13 a 12 používame na preklad z CMOS logiky 
   - jediné externé súčiastky sú kondenzátory, ich minimálne hodnoty pre dané napätie sú v tejto tabuľke:
 
     |V<sub>CC</sub> (V)|C1 (µF)|C2, C3, C4 (µF)|
@@ -49,8 +49,10 @@ Naša [schéma](rs-232_schematic.kicad_sch) sa skladá z dvoch komponentov:
     |3.0 to 5.5|0.1|0.47|
 
   - vieme použiť vyššie hodnoty kondezátorov, zvlášť ak kondezátory ktoré používame menia svoju hodnotu s rastúcou teplotou
+  - ak chceme zvýšiť hodnotu kondezátora C<sub>1</sub> musíme zvýšiť aj hodnoty ostatných kondenzátorov
+  - pri zvyšovaní hodnôt kondenzátorov C<sub>2</sub> , C<sub>3</sub> a C<sub>4</sub> nemusíme zvyšovať hodnotu kondezátora C<sub>1</sub>
   - kondenzátor C<sub>5</sub> bude mať rovnakú hodnotu ako kondenzátor C<sub>1</sub>
-  
+  - piny ktoré nebudú na nič pripojené, pripojíme na zem
         
 
   
