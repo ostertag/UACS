@@ -25,15 +25,11 @@ Naša [schéma](rs-232_schematic.kicad_sch) sa skladá z dvoch komponentov:
 
     |Logická hodnota| Voltáž|
     |---------------|-------|
-    |  0    |+3 to +15 V |
-    |  1    |−15 to −3 V |
+    |  0    |+3 až +15 V |
+    |  1    |−15 až −3 V |
 
-  -  konvertuje singály na napätia pre CMOS/TTL logiku a naopak
-     -  vrámci RS-232 štandardu sú napätia pre logickú 
-     -  pri vysielaní signálu:
-        -  logickú jednotku konvertuje na napätie medzi -3V až -15V
-        -  logickú nulu konvertuje na napätie medzi 3V až 15V
-     -  pri prijmaní signálu konvertuje napätie medzi -3V až -15V (3V až 15V) na logickú jednotku (nulu) 
+  -  pri prijimaní signálu MAX 3232 konvertuje vstupné napätie na napätie pre logickú nulu alebo jednotku
+  -  pri odosielaní signálu konvertuje napätie logickej nuly alebo jednotky na napätie z rozsahu +3V až +15 V alebo −15V až −3 V
   -  funkcie jednotliých pinov sú v tejto tabulke, najdeme ju na strane 6 v dátovom liste:
 
     |Pin|Meno|Funkcia|
