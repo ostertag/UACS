@@ -20,13 +20,13 @@ Naša [schéma](rs-232_schematic.kicad_sch) sa skladá z dvoch komponentov:
    - pin6 budeme používať pre BOOT0 signál
      
 - MAX3232
-  -  schému zapojenia používame z [dátového listu](Data_sheet.pdf) zo strany  
+  -  schému zapojenia používame z [dátového listu](Data_sheet.pdf) zo strany 12
   -  konvertuje singály na napätia pre CMOS logiku a naopak
      -  pri vysielaní signálu:
         -  logickú jednotku konvertuje na napätie medzi -3V až -15V
         -  logickú nulu konvertuje na napätie medzi 3V až 15V
      -  pri prijmaní signálu konvertuje napätie medzi -3V až -15V (3V až 15V) na logickú jednotku (nulu) 
-  -  funkcie jednotliých pinov sú v tejto tabulke:
+  -  funkcie jednotliých pinov sú v tejto tabulke na strane 6 v dátovom liste:
 
     |Pin|Meno|Funkcia|
     |---|----|--------|
@@ -43,8 +43,8 @@ Naša [schéma](rs-232_schematic.kicad_sch) sa skladá z dvoch komponentov:
     |15|GND|Ground|
     |16|V<sub>cc</sub>|+3.0V to +5.5V Supply Voltage|
   - piny 1 až 6 sú súčasťov takzvanej "Charge pump"
-     - služí na zvýšenie napätia, aj keď vstupné napätie bude nižšie
-     - v našom prípade zvyšuje vstupné napätie z 3.3V na 5.5V alebo -5.5V
+     - služí na zvýšenie napätia, aj keď vstupné napätie je nižšie
+     - v našom prípade zvyšuje zo vstupného napätia 3.3V na 5.5V alebo -5.5V
   - piny 7 a 14 posielajú výstupný signál o hodnote medzi -3V až -15 V alebo 3V až 15V
   - piny 8 a 13 prijmajú vstupný signál o hodnote medzi -3V až -15 V alebo 3V až 15V
   - piny 9 a 12 posielajú výstupný signál ktorý je buď logická nula alebo jednotka
@@ -53,7 +53,7 @@ Naša [schéma](rs-232_schematic.kicad_sch) sa skladá z dvoch komponentov:
   - pin 16 je určený pre napájenie súčiastky
   - pre posielanie signálov používame dvojicu pinov 11 a 14
   - pre prijímanie signálov používame dvojicu pinov 12 a 13 
-  - jediné externé súčiastky sú kondenzátory, ich minimálne hodnoty pre dané napätie sú v tejto tabuľke:
+  - jediné externé súčiastky sú kondenzátory, ich minimálne hodnoty pre dané napätie sú v tabuľke 2 na strane 9:
 
     |V<sub>CC</sub> (V)|C1 (µF)|C2, C3, C4 (µF)|
     |------------------|-------|---------------|
@@ -64,7 +64,9 @@ Naša [schéma](rs-232_schematic.kicad_sch) sa skladá z dvoch komponentov:
   - vieme použiť vyššie hodnoty kondezátorov, zvlášť ak kondezátory ktoré používame menia svoju hodnotu s rastúcou teplotou
   - ak chceme zvýšiť hodnotu kondezátora C<sub>1</sub> musíme zvýšiť aj hodnoty ostatných kondenzátorov
   - pri zvyšovaní hodnôt kondenzátorov C<sub>2</sub> , C<sub>3</sub> a C<sub>4</sub> nemusíme zvyšovať hodnotu kondezátora C<sub>1</sub>
+  - kondezátor C<sub>5</sub> používame v prípade ak je naša implementácia citlivá na "hluk" zdroja 
   - kondenzátor C<sub>5</sub> bude mať rovnakú hodnotu ako kondenzátor C<sub>1</sub>
+  - pre viacej detailov ohľadom kondenzátorov pozri strany 8, 9 (Capacitor Selection, Power-Supply Decoupling)
   - piny ktoré nebudú na nič pripojené, pripojíme na zem
         
 Táto schéma je silne inšpirovaná schémov zapojenia rovnakého zariadenia z [projektu Deadlock](https://gitlab.com/project-deadlock/reader/rdr-hw-fluocerite-model0)
