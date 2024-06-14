@@ -20,6 +20,7 @@ Naša [schéma](rs-232_schematic.kicad_sch) sa skladá z dvoch komponentov:
    - pin6 budeme používať pre BOOT0 signál
      
 - MAX32332
+  -  schému zapojenia používame z [dátového listu]() 
   -  konvertuje singály na napätia pre CMOS logiku a naopak
   -  funkcie jednotliých pinov sú v tejto tabulke:
 
@@ -54,6 +55,6 @@ Naša [schéma](rs-232_schematic.kicad_sch) sa skladá z dvoch komponentov:
   - kondenzátor C<sub>5</sub> bude mať rovnakú hodnotu ako kondenzátor C<sub>1</sub>
   - piny ktoré nebudú na nič pripojené, pripojíme na zem
         
-
+Táto schéma je silne inšpirovaná schémov zapojenia rovnakého zariadenia z [projektu Deadlock](https://gitlab.com/project-deadlock/reader/rdr-hw-fluocerite-model0)
   
   
