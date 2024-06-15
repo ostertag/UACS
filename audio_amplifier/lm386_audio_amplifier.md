@@ -26,7 +26,7 @@ Pri type:
 ## Odporúčané operačné podmienky LM386
 - Napätie zdroja: $4$ až $12V$
 - Impedancia reproduktora: $4$ až $32\Omega$
-- Vstupné napätie: $-0.4$ -až$0.4V$
+- Vstupné napätie: $-0.4$ až $0.4V$
 - Teplota: $0$ až $70\degree C$
 
 ## Schéma
@@ -38,7 +38,7 @@ Využívame schému 9.2.1 z [datasheetu](lm386_datasheet.pdf) , ktorú sme si mi
 
 ## Komponenty a ich hodnoty
 ### Rezistor R<sub>1</sub> a potenciometer R<sub>2</sub>
-Potenciometer R<sub>2</sub> bude slúžiť hlavne na nastavenie hlasitosti a použijeme hodnotu $10k\Omega$, ale jeho hodnota nie je veľmi dôležitá a hodnoty ako $22k\Omega$ alebo $4.7k\Omega$ by fungovali tiež.
+Potenciometer R<sub>2</sub> bude slúžiť hlavne na nastavenie hlasitosti a použijeme hodnotu $10k\Omega$, ale jeho hodnota nie je veľmi dôležitá, kým je dostatočne vysoká. Hodnoty ako $22k\Omega$ alebo $4.7k\Omega$ by fungovali tiež.
 Ako už je vyššie spomenuté, tieto komponenty tvoria napäťový delič a ich hodnoty sú zvolené podľa vzorca pre napäťový delič za predpokladu, že $V_{AUDIO\_OUT} = 3.3V$  
 
 $$V_{pin3} = \frac{V_{AUDIO\_OUT} R_2}{(R_1 + R_2)}$$ 
@@ -63,12 +63,12 @@ Na výpočet zosilnenia  môžeme využiť nasledovný vzorec:
 
 kde $Z_{1-5}$ je impedancia medzi pinmi 1 a 5 a $Z_{1-8}$ je impedancia medzi pinmi 1 a 8.
 
-Pri vyššom zosilnení je potrebné na pin 7 pripojiť bypass kondenzátor - zvyčajne $0.1\mu F$, alebo tento pin uzemniť.
+Pri vyššom zosilnení je potrebné na pin 7 pripojiť bypass kondenzátor - zvyčajne $0.1\mu F$, prípadne tento pin uzemniť.
 Pin 4 zapojíme na zem, rovnako ako aj invertujúci pin 2.
 Z pinu 5 nám pôjde výstup - zosilnený signál.
 
 ### Kondenzátor C<sub>4</sub> a rezistor R<sub>5</sub>
-Spolu tvoria Boucherot cell - elektronický filter, ktorý tlmí vysokofrekvenčné oscilácie, ktoré sa môžu vyskytnúť pri vyšších frekvenciách. Je potrebný, pretože chceme zabezpečiť aby mal zosilňovač ilúziu rovnakej impedancie zo strany reproduktora pri všetkých frekvenciách. Túto ilúziu 
+Spolu tvoria Boucherot cell - elektronický filter, ktorý tlmí vysokofrekvenčné oscilácie, ktoré sa môžu vyskytnúť pri vyšších frekvenciách. Je potrebný, pretože chceme zabezpečiť, aby mal zosilňovač ilúziu rovnakej impedancie zo strany reproduktora pri všetkých frekvenciách. 
 
 ![Boucherot cell](boucherot.png "Boucherot cell")
 
@@ -89,7 +89,7 @@ Ak by sme ešte chceli zvýšiť basy nášho reproduktoru, tak vieme hodnotu $C
 Pre naše využitie to bude $R_5 = 10\Omega$ a $C_4 = 100nF$.
 
 ### Kondenzátor C<sub>5</sub>
-Je to takzvaný coupling kondenzátor, ktorý funguje ako high pass filter, ktorý narozdiel od low pass filtra vyfiltruje frekvencie pod počuteľné spektrum, teda menej ako 20Hz a zároveň odstráni DC zložku napätia zo signálu. Hodnotu $C_5$ chceme voliť vyššiu, rádovo v stovkách až tisíckach  $\mu F$. Pre naše potreby bude stačiť  $C_5 = 100\mu F$. Rovnako ako pri C<sub>4</sub> a R<sub>5</sub>, presnú hodnotu vieme vypočítať cez vzorec: 
+Je to takzvaný coupling kondenzátor, ktorý funguje ako high pass filter, ktorý narozdiel od low pass filtra vyfiltruje frekvencie pod počuteľné spektrum, teda menej ako 20Hz a zároveň odstráni DC zložku napätia zo signálu. Hodnotu $C_5$ chceme voliť vyššiu, rádovo v stovkách až tisíckach  $\mu F$. Pre naše potreby bude stačiť  $C_5 = 100\mu F$. Využijeme vzorec pre high pass filter:
 $$f_c = \frac{1}{2\pi RC}$$ 
 kde: 
 - $f_c$ je frekvencia, od ktorej nižšia frekvencia už bude vyfiltrovaná
