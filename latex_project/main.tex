@@ -1,0 +1,83 @@
+\documentclass[12pt, twoside]{book}
+%\documentclass[12pt, oneside]{book}  % jednostranna tlac
+
+%spravne nastavenie okrajov
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=3.5cm,right=2cm]{geometry}
+%zapnutie fontov pre UTF8 kodovanie
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+%zapnutie slovenskeho delenia slov
+%a automatickych nadpisov ako Obsah, Obrázok a pod. v slovencine
+\usepackage[slovak]{babel} % vypnite pre prace v anglictine!
+
+%nastavenie riadkovania podla smernice
+\linespread{1.25} % hodnota 1.25 by mala zodpovedat 1.5 riadkovaniu
+
+% balicek na vkladanie zdrojoveho kodu
+\usepackage{listings}
+% ukazky kodu su cislovane ako Listing 1,2,...
+% tu je Listing zmenene na Algoritmus 1,2,...
+\renewcommand{\lstlistingname}{Algoritmus}
+% nastavenia balicka listings
+% mozete pridat aj language=...
+% na nastavenie najcastejsie pouzivaneho prog. jazyka
+% takisto sa da zapnut cislovanie riadkov
+\lstset{frame=lines}
+
+% balicek na vkladanie obrazkov
+\usepackage{graphicx}
+% balicek na vkladanie celych pdf dokumentov, tu zadanie
+\usepackage{pdfpages}
+% balicek na spravne formatovanie URL
+\usepackage{url}
+% balicek na hyperlinky v ramci dokumentu
+% zrusime farebne ramiky okolo liniek aby pdf
+% vyzeralo rovnako ako tlacena verzia
+\usepackage[hidelinks,breaklinks]{hyperref}
+\usepackage{longtable, booktabs}
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\setlength{\emergencystretch}{3em}
+
+
+
+
+\begin{document}     
+
+
+\input kapitola.tex
+
+
+
+% -------------------
+% --- Bibliografia
+% -------------------
+
+
+%Prípadne môžete napísať literatúru priamo tu
+\begin{thebibliography}{3}
+
+\bibitem{br1} Deadlock reader documentation \href{https://gitlab.com/project-deadlock/}{<https://gitlab.com/project-deadlock/>}
+\bibitem{br2} UACS documentation \href{https://github.com/ostertag/UACS}{<https://github.com/ostertag/UACS>}
+\bibitem{br3} Dej, A. 2018.  Design and implementation of embedded components of an RFID access control system (2018)
+ 
+
+
+\end{thebibliography}
+
+%---koniec Referencii
+
+
+
+\end{document}
+
+
+
+
+
+
