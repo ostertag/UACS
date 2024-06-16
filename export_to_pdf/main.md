@@ -1,3 +1,4 @@
+
 # Ročníkový projekt 2024 
 
 Vrámci tohoto ročníkového projektu sa budeme venovať popisu schém a
@@ -268,11 +269,11 @@ Komunikačné rozhranie sa skladá z dvoch komponentov:
         liste)
 
 
-
+## Zdroje
 Deadlock reader documentation
-[\<https://gitlab.com/project-deadlock/\>](https://gitlab.com/project-deadlock/)
-UACS documentation    
-[\<https://github.com/ostertag/UACS\>](https://github.com/ostertag/UACS)    
+[\<https://gitlab.com/project-deadlock/\>](https://gitlab.com/project-deadlock/)    
+UACS documentation
+[\<https://github.com/ostertag/UACS\>](https://github.com/ostertag/UACS)        
 Dej, A. 2018. Design and implementation of embedded components of an
 RFID access control system (2018)    
 
