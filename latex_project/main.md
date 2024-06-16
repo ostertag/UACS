@@ -13,13 +13,15 @@ Napäťový zdroj nám v našej implementácii slúži na zmenu vstupného
 napätia 12 V alebo 5 V na 3.3 V
 
 ![Schéma zapojenia napäťového
-zdroja](schematic_power_suplly.png)
+zdroja](schematic_power_suplly.png)    
+*Schéma zapojenia napäťového zdroja*
 
 Schéma je použitá z [dátového
 listu](https://github.com/ostertag/UACS/blob/hardwear_kozuch/power_suply_shc_1/Data_sheet.pdf)
 súčiastky MCP16301Hx-xCH, konkrétne Figure 6-1 na strane 23.
 
-![Figure 6-1 ](sch_original.png)
+![Figure 6-1 ](sch_original.png)    
+*Figure 6-1*
 
 Niektoré externé komponenty vieme upraviť, aby sme dostali iné výsledné
 napätie, prípadne iný prúd. Naša schéma s ktorou pracujeme predpokladá
@@ -125,6 +127,7 @@ komponenty sú:
 
 ![Schéma zapojenia komunikačného
 rozhrania](rs-232_schematic.png)
+*Schéma zapojenia komunikačného rozhrania*
 
 Komunikačné rozhranie sa skladá z dvoch komponentov:
 
@@ -167,6 +170,7 @@ Komunikačné rozhranie sa skladá z dvoch komponentov:
         zo strany 12
 
         ![Schéma z dátového listu na strane 12](org_sch.png)
+        *Schéma z dátového listu na strane 12*
 
     -   vrámci RS-232 štandardu sú napätia pre logickú jednotku a nulu
         definované takto:
