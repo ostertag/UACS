@@ -1,9 +1,13 @@
-Add this to the begin of main.md file:  
+Here are instructions to convert md file to pdf
 
----
+Add this to the begin of main.md file:
+
+`---
 geometry: a4paper,vmargin=1cm
 lang: sk
----  
+---`
+
+you can adjust margin and other values if you like
 
 then run with this command:  
 make PANDOC_PDF_OPTIONS=--pdf-engine=lualatex
