@@ -267,8 +267,8 @@ Komunikačné rozhranie sa skladá z dvoch komponentov:
 
 Deadlock reader documentation
 [\<https://gitlab.com/project-deadlock/\>](https://gitlab.com/project-deadlock/)
-UACS documentation
-[\<https://github.com/ostertag/UACS\>](https://github.com/ostertag/UACS)
+UACS documentation    
+[\<https://github.com/ostertag/UACS\>](https://github.com/ostertag/UACS)    
 Dej, A. 2018. Design and implementation of embedded components of an
-RFID access control system (2018)
-:::
+RFID access control system (2018)    
+
