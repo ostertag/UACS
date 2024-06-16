@@ -1,3 +1,5 @@
+    
+
 # Ročníkový projekt 2024 
 
 Vrámci tohoto ročníkového projektu sa budeme venovať popisu schém a
@@ -268,7 +270,7 @@ Komunikačné rozhranie sa skladá z dvoch komponentov:
         liste)
 
 
-
+## Zdroje
 Deadlock reader documentation
 [\<https://gitlab.com/project-deadlock/\>](https://gitlab.com/project-deadlock/)    
 UACS documentation
