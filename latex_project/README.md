@@ -1,1 +1,1 @@
-Tu je sú zdrojové súbory latexu, na vygenerovanie pdfka projektu
+Tu sú všetky subory z LaTexoveho suboru 
