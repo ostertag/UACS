@@ -1,4 +1,4 @@
-# Ročníkový projekt 2024 {#ročníkový-projekt-2024 .unnumbered}
+# Ročníkový projekt 2024 
 
 Vrámci tohoto ročníkového projektu sa budeme venovať popisu schém a
 konkrétnych súčastí napäťového zdroja a komunikačného rozhrania pre
@@ -7,19 +7,19 @@ System)](https://github.com/ostertag/UACS). Tento projekt stavia aj na
 poznatkoch z predošlej práce na [projekte
 Deadlock](https://gitlab.com/project-deadlock).
 
-## Napäťový zdroj {#napäťový-zdroj .unnumbered}
+## Napäťový zdroj 
 
 Napäťový zdroj nám v našej implementácii slúži na zmenu vstupného
 napätia 12 V alebo 5 V na 3.3 V
 
 ![Schéma zapojenia napäťového
-zdroja](schematic_power_suplly.png){#obr:shc1 width="90%"}
+zdroja](schematic_power_suplly.png)
 
 Schéma je použitá z [dátového
 listu](https://github.com/ostertag/UACS/blob/hardwear_kozuch/power_suply_shc_1/Data_sheet.pdf)
 súčiastky MCP16301Hx-xCH, konkrétne Figure 6-1 na strane 23.
 
-![Figure 6-1 ](sch_original.png){#obr:shc2 width="90%"}
+![Figure 6-1 ](sch_original.png)
 
 Niektoré externé komponenty vieme upraviť, aby sme dostali iné výsledné
 napätie, prípadne iný prúd. Naša schéma s ktorou pracujeme predpokladá
@@ -79,10 +79,10 @@ komponenty sú:
     -   pri hodnotách kondenzátorov sa riadime tabuľkou 5-2 na strane
         18:
 
-          Parameter   Min      Max
-          ----------- -------- ------
-          $C_{IN}$    2.2 µF   None
-          $C_{OUT}$   20 µF    None
+          |Parameter|   Min   |   Max|
+          |-----------|--------|------|
+          |$C_{IN}$|    2.2 µF|   None|
+          |$C_{OUT}$|   20 µF |   None|
 
     -   zároveň minimálna napätie kondenzátorov musí byť napätie ktoré
         nimi maximálne môže prechádzať plus nejaká rezerva
@@ -106,13 +106,13 @@ komponenty sú:
 
     -   pre iné napätia sa môžeme riadiť tabuľkou 5-1 na strane 17
 
-          $V_{OUT}$   K      $L_{STANDART}$
-          ----------- ------ ----------------
-          2.0V        0.20   10 µH
-          3.3V        0.22   15 µH
-          5.0V        0.23   22 µH
-          12V         0.21   56 µH
-          15V         0.22   68 µH
+          |$V_{OUT}$|   K   |   $L_{STANDART}$|
+          |-----------|------|----------------|
+          |2.0V       | 0.20 |  10 µH|
+          |3.3V       | 0.22 |  15 µH|
+          |5.0V       | 0.23 |  22 µH|
+          |12V        | 0.21 |  56 µH|
+          |15V        | 0.22 |  68 µH|
 
 -   ostatné externé komponenty aj ich charakteristiky vieme nájsť v
     dátovom liste na stranách 19 až 20
@@ -121,10 +121,10 @@ komponenty sú:
     dióda BAT54, nakoľko si nie sme istý dôvodom umiestnenia tejto
     diódy, je pri nej v schéme otáznik
 
-## Komunikačné rozhranie {#komunikačné-rozhranie .unnumbered}
+## Komunikačné rozhranie 
 
 ![Schéma zapojenia komunikačného
-rozhrania](rs-232_schematic.png){#obr:shc1 width="90%"}
+rozhrania](rs-232_schematic.png)
 
 Komunikačné rozhranie sa skladá z dvoch komponentov:
 
@@ -138,14 +138,14 @@ Komunikačné rozhranie sa skladá z dvoch komponentov:
 
     -   funkcie jednotlivých pinov konektora sú v tejto tabuľke:
 
-          Pin   Funkcia
-          ----- -----------
-                RST
-          2     Napájanie
-          3     Transmit
-          4     Receive
-          5     Zem
-          6     BOOT0
+          |Pin |  Funkcia|
+          |-----|-----------|
+          |1    |  RST|
+          |2    | Napájanie|
+          |3     |Receive|
+          |4     |Transmit|
+          |5     |Zem|
+          |6     |BOOT0|
 
     -   pin1 budeme používať pre RST signál
 
@@ -163,20 +163,18 @@ Komunikačné rozhranie sa skladá z dvoch komponentov:
 
 -   MAX3232
 
-    -   schému zapojenia používame z [dátového
-        listu](https://github.com/ostertag/UACS/blob/hardwear_kozuch/rs-232_interface/Data_sheet.pdf)
+    -   schému zapojenia používame z [dátového listu](https://github.com/ostertag/UACS/blob/hardwear_kozuch/rs-232_interface/Data_sheet.pdf)
         zo strany 12
 
-        ![Schéma z dátového listu na strane
-        12](org_sch.png){#fig:enter-label width="0.5\\linewidth"}
+        ![Schéma z dátového listu na strane 12](org_sch.png)
 
     -   vrámci RS-232 štandardu sú napätia pre logickú jednotku a nulu
         definované takto:
 
-       Logická hodnota     Napätie
-      ----------------- -------------
-                         +3 až +15 V
-              1          -15 až -3 V
+      | Logická hodnota|     Napätie|
+      |----------------- |------------|
+       |      0        |  +3 až +15 V |
+      |        1       |   -15 až -3 V |
 
     -   pri prijímaní signálu MAX 3232 konvertuje vstupné napätie na
         napätie pre logickú nulu (0V až 0.8V) alebo jednotku(2V až 3.3V)
@@ -190,20 +188,20 @@ Komunikačné rozhranie sa skladá z dvoch komponentov:
     -   funkcie jednotlivých pinov sú v tejto tabuľke, nájdeme ju na
         strane 6 v dátovom liste:
 
-      Pin      Meno       Funkcia
-      -------- ---------- ------------------------------------------------------------
-               C1+        Positive Terminal of Voltage-Doubler Charge-Pump Capacitor
-      2        V+         +5.5V Generated by the Charge Pump
-      3        C1-        Negative Terminal of Voltage-Doubler Charge-Pump Capacitor
-      4        C2+        Positive Terminal of Inverting Charge-Pump Capacitor
-      5        C2-        Negative Terminal of Inverting Charge-Pump Capacitor
-      6        V-         -5.5V Generated by the Charge Pump
-      7,14     T_OUT      RS-232 Transmitter Outputs
-      8,13     R_IN       RS-232 Receiver Inputs
-      9,12     R_OUT      TTL/CMOS Receiver Outputs
-      10, 11   T_IN       TTL/CMOS Transmitter Inputs
-      15       GND        Ground
-      16       $V_{CC}$   +3.0V to +5.5V Supply Voltage
+      |Pin     | Meno       |Funkcia|
+      |--------|----------|------------------------------------------------------------|
+      |1         |C1+        |Positive Terminal of Voltage-Doubler Charge-Pump Capacitor|
+      |2        |V+         |+5.5V Generated by the Charge Pump|
+      |3        |C1-        |Negative Terminal of Voltage-Doubler Charge-Pump Capacitor|
+      |4        |C2+        |Positive Terminal of Inverting Charge-Pump Capacitor|
+      |5        |C2-        |Negative Terminal of Inverting Charge-Pump Capacitor|
+      |6        |V-         |-5.5V Generated by the Charge Pump|
+      |7,14     |T_OUT      |RS-232 Transmitter Outputs|
+      |8,13     |R_IN       |RS-232 Receiver Inputs|
+      |9,12     |R_OUT      |TTL/CMOS Receiver Outputs|
+      |10, 11   |T_IN       |TTL/CMOS Transmitter Inputs|
+      |15       |GND        |Ground|
+      |16       |$V_{CC}$  | +3.0V to +5.5V Supply Voltage|
 
     -   piny 1 až 6 sú súčasťou takzvanej "Charge pump"
 
@@ -237,11 +235,11 @@ Komunikačné rozhranie sa skladá z dvoch komponentov:
     -   jediné externé súčiastky sú kondenzátory, ich minimálne hodnoty
         pre dané napätie sú v tabuľke 2 na strane 9:
 
-          $V_{CC}$ (V)   C1 (µF)   C2, C3, C4 (µF)
-          -------------- --------- -----------------
-          to 3.6         0.1       0.1
-          4.5 to 5.5     0.047     0.33
-          3.0 to 5.5     0.1       0.47
+          |$V_{CC}$ (V) |  C1 (µF) |  C2, C3, C4 (µF)|
+          |-------------- |--------- |-----------------|
+          |to 3.6        | 0.1       |0.1 |
+          |4.5 to 5.5    | 0.047    | 0.33 |
+          |3.0 to 5.5    | 0.1     |  0.47 |
 
     -   vieme použiť vyššie hodnoty kondenzátorov, zvlášť ak
         kondenzátory ktoré používame menia svoju hodnotu s rastúcou
@@ -265,8 +263,7 @@ Komunikačné rozhranie sa skladá z dvoch komponentov:
         na $V_{cc}$ (pozri stranu 7 - RS-232 Transmitters v dátovom
         liste)
 
-::: thebibliography
-3
+
 
 Deadlock reader documentation
 [\<https://gitlab.com/project-deadlock/\>](https://gitlab.com/project-deadlock/)
