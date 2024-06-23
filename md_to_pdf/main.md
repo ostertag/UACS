@@ -1,9 +1,3 @@
----
-geometry: a4paper,vmargin=2cm
-lang: sk
-title: Deadlock
----
-
 # Zosilňovač audia pomocou LM386
 
 Tento zosilňovač je využitý v schéme zosilňovača v [projekte Deadlock](https://gitlab.com/project-deadlock). 
