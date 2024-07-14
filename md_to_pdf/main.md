@@ -1,3 +1,9 @@
+---
+geometry: a4paper,vmargin=2cm
+lang: sk
+title: Deadlock
+---
+
 # Zosilňovač audia pomocou LM386
 
 Tento zosilňovač je využitý v schéme zosilňovača v [projekte Deadlock](https://gitlab.com/project-deadlock). 
@@ -37,7 +43,7 @@ Pri type:
 
 ![Schéma 9.2.1 z dátového listu](schematic_lm386_orig.png)
 
-Využívame schému 9.2.1 z [dátového listu](lm386_datasheet.pdf) , ktorú sme si mierne prispôsobili pridaním rezistora $R_1$, ktorý spolu s potenciometrom $R_2$ tvorí napäťový delič a zaručuje, že vstupné napätie bude v odporúčanom rozsahu (maximálne 0.4V pri vstupnom napätí 3.3V).
+Využívame schému 9.2.1 z [dátového listu](lm386_datasheet.pdf) , ktorú sme si mierne prispôsobili pridaním rezistora **R<sub>1</sub>**, ktorý spolu s potenciometrom **R<sub>2</sub>** tvorí napäťový delič a zaručuje, že vstupné napätie bude v odporúčanom rozsahu (maximálne 0.4V pri vstupnom napätí 3.3V).
 
 ![Upravená schéma](schematic.png)
 
@@ -47,7 +53,7 @@ Využívame schému 9.2.1 z [dátového listu](lm386_datasheet.pdf) , ktorú sme
 
 ### Rezistor $R_1$ a potenciometer $R_2$
 
-Potenciometer $R_2$ bude slúžiť hlavne na nastavenie hlasitosti a použijeme hodnotu $10k\Omega$, ale jeho hodnota nie je veľmi dôležitá, kým je dostatočne vysoká. Hodnoty ako $22k\Omega$ alebo $4.7k\Omega$ by fungovali tiež.
+Potenciometer R<sub>2</sub> bude slúžiť hlavne na nastavenie hlasitosti a použijeme hodnotu $10k\Omega$, ale jeho hodnota nie je veľmi dôležitá, kým je dostatočne vysoká. Hodnoty ako $22k\Omega$ alebo $4.7k\Omega$ by fungovali tiež.
 Ako už je vyššie spomenuté, tieto komponenty tvoria napäťový delič a ich hodnoty sú zvolené podľa [vzorca pre napäťový delič](https://www.digikey.lv/en/resources/conversion-calculators/conversion-calculator-voltage-divider) za predpokladu, že $V_{AUDIO\_OUT} = 3.3V$  
 
 $$V_{pin3} = \frac{V_{AUDIO\_OUT} R_2}{(R_1 + R_2)}$$ 
@@ -190,3 +196,38 @@ Pre zelenú diódu to bude:
 $$R = \frac{V_{in} - V_{fw}}{I} = \frac{5 - 2.2}{20 \times 10^{-3}} = 140\Omega$$
 
 Vybrali by sme si teda rezistor so strednou hodnotou $150\Omega$, kde by cez červenú diódu tiekol prúd 21mA a cez zelenú 19mA, čo sú hodnoty z rozsahu.
+
+# USB interface
+
+Tento USB interface je využitý v schéme readera v [projekte Deadlock](https://gitlab.com/project-deadlock). 
+
+##  Schéma zapojenia
+
+![Schéma](schematic2.png "Schéma")
+
+Schéma je z [aplikačnej poznámky](an1.pdf) na strane 19, Figure 10.
+
+![Figure 10](usb_orig.png "Figure 10")
+
+## Rozdelenie pinov
+
+Tieto piny využívame v našej schéme, ostatné sa nachádzajú v [tabuľke 2](an1.pdf)  na strane 6 a 7.
+
+| **Pin** | **Názov**       | **Popis**                                                                |
+|---------|-----------------|--------------------------------------------------------------------------|
+| A4      | VBUS            | Bus power                                                                |
+| A5, B5  | CC1 alebo VCONN | Configuration channel or power for active or electronically marked cable |
+| A6, B6  | D+              | USB2.0 Data line                                                         |
+| A7, B7  | D-              | USB2.0 Data line                                                         |
+| A1      | GND             | Ground return                                                            |
+
+##  Komponenty a ich hodnoty
+
+### Rezistory $R_{13}$ a $R_{14}$
+Tieto rezistory nie sú potrebné, ale slúžia ako ukončovacie rezistory, ktoré zabraňujú odrážaniu signálu a tým zvyšujú jeho kvalitu.
+
+### Rezistor $R_{15}$
+Kvôli splneniu USB2.0 full-speed electrical špecifikácie, D+ pin musí byť pripojený s $1.5k\Omega$ pull up rezistorom na napätie v rozsahu 3.0 až 3.6V. Tento rezistor je niekedy zabudovaný na D+ linke, dá sa to overiť podľa [tabuľky 4](an2.pdf) na strane 3 a 4 v poslednom stĺpci.
+
+### Rezistory $R_{16}$ a $R_{17}$
+Podľa [tabuľky 6](an1.pdf) na strane 10 potrebujeme pripojiť na piny CC1 aj CC2 $5.1k\Omega$ pull-down rezistory
