@@ -1,0 +1,10 @@
+Schému zapojenia nášho microcontrolera vieme rozdeliť na 4 časti:
+
+###Blokovanie(Decoupling)
+
+###Externý oscilátor
+
+###Prepínače pri pinoch NRST a 0BOOT
+
+###Serial wire debug 
+
