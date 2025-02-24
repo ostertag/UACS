@@ -19,7 +19,7 @@ Kondenzátor pri pine NRST slúži ako ochrana proti náhodným resetom. Minimá
 
 ### 4. Serial wire debug 
 Pre debugovanie budeme používať 10 pinový SWD. Zapojenie je podľa tejto 
-schémy:
+schémy:     
 ![swd_schematic](swd_schematic.png)
  
 
