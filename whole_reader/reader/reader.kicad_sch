@@ -2908,6 +2908,274 @@
 				)
 			)
 		)
+		(symbol "Device:LED_Dual_AKA"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_Dual_AKA"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual LED, common cathode on pin 2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode bicolor dual"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Dual_AKA_0_1"
+				(circle
+					(center -2.54 0)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.572 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 1.905 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 1.905 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -1.27) (xy -1.27 -2.54) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 3.81) (xy -1.27 2.54) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy 2.032 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 5.08) (xy 3.556 6.604) (xy 2.794 6.604) (xy 3.556 6.604) (xy 3.556 5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 4.064) (xy 4.826 5.588) (xy 4.064 5.588) (xy 4.826 5.588) (xy 4.826 4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 4.572)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LED_Dual_AKA_1_1"
+				(pin input line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.048)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -5807,372 +6075,6 @@
 				)
 			)
 		)
-		(symbol "deadlock-reader-eagle-import:KAA-3528SRSGS"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 5.08 0.762 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 5.08 -2.159 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "deadlock-reader:KAA-3528SRSGS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "KINGBRIGHT ELECTRONIC KAA-3528RSGS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "KAA-3528SRSGS_1_0"
-				(polyline
-					(pts
-						(xy -7.112 -1.016) (xy -8.001 -1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 -1.778) (xy -7.239 -2.667)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.794) (xy -6.35 -2.794)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.794) (xy -6.35 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -2.794) (xy -5.08 -2.794)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -0.762) (xy -6.35 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -0.762) (xy -5.08 -2.794)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -1.016) (xy -2.921 -1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.778) (xy -2.159 -2.667)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.794) (xy -1.27 -2.794)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.794) (xy -1.27 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.794) (xy 0 -2.794)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -0.762) (xy -1.27 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -0.762) (xy 0 -2.794)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.128 -1.524) (xy -8.382 -2.286) (xy -7.62 -2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.366 -2.286) (xy -7.62 -3.048) (xy -6.858 -2.794)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -1.524) (xy -3.302 -2.286) (xy -2.54 -2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 -2.286) (xy -2.54 -3.048) (xy -1.778 -2.794)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(text "green"
-					(at 0.508 1.016 0)
-					(effects
-						(font
-							(size 0.762 0.6477)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "red"
-					(at -7.62 1.016 0)
-					(effects
-						(font
-							(size 0.762 0.6477)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 270)
-					(length 5.08)
-					(name "A-RED"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 90)
-					(length 2.54)
-					(name "C-RED"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "C-GREEN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 5.08)
-					(name "A-GREEN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -7117,12 +7019,6 @@
 		(uuid "6b68f035-d55c-4212-b693-0f24d77098bd")
 	)
 	(junction
-		(at 107.95 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7222d728-acb8-4db2-aaca-cc9a007d3c23")
-	)
-	(junction
 		(at 241.3 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7211,12 +7107,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba2f8857-b287-439e-9bf2-2bb97af04c0c")
-	)
-	(junction
-		(at 130.81 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bd40a4f1-d668-4476-a0bb-6ad92d630572")
 	)
 	(junction
 		(at 238.76 45.72)
@@ -7466,16 +7356,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 54.61) (xy 130.81 54.61)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "09a1afea-2b81-42f3-921a-c7cd6c248685")
-	)
-	(wire
-		(pts
 			(xy 165.1 172.72) (xy 165.1 176.53)
 		)
 		(stroke
@@ -7683,16 +7563,6 @@
 			(type default)
 		)
 		(uuid "247d914d-868a-40c2-b420-26c858b54b0d")
-	)
-	(wire
-		(pts
-			(xy 102.87 54.61) (xy 107.95 54.61)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "24cec1e0-cc67-433b-b48a-bf479378fbd0")
 	)
 	(wire
 		(pts
@@ -8153,16 +8023,6 @@
 			(type default)
 		)
 		(uuid "5f8165fa-9db1-4289-b96f-4c874287ee07")
-	)
-	(wire
-		(pts
-			(xy 130.81 54.61) (xy 130.81 63.5)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "5fbea55c-57f9-4f55-a9a0-580a2fa016b0")
 	)
 	(wire
 		(pts
@@ -8646,7 +8506,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 43.18) (xy 102.87 46.99)
+			(xy 102.87 43.18) (xy 102.87 48.26)
 		)
 		(stroke
 			(width 0.1524)
@@ -9156,16 +9016,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 54.61) (xy 107.95 62.23)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "deb795ce-b1d0-4bbd-afee-6cbe0a19e457")
-	)
-	(wire
-		(pts
 			(xy 250.19 142.24) (xy 247.65 142.24)
 		)
 		(stroke
@@ -9406,7 +9256,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 43.18) (xy 107.95 46.99)
+			(xy 107.95 43.18) (xy 107.95 48.26)
 		)
 		(stroke
 			(width 0.1524)
@@ -10986,72 +10836,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 130.81 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15d0b785-947a-43c8-92aa-822962fb9e6e")
-		(property "Reference" "#PWR019"
-			(at 130.81 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33f82839-2138-4521-97ea-f61e6f253347")
-		)
-		(instances
-			(project "reader"
-				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 176.53 147.32 0)
 		(unit 1)
@@ -11119,16 +10903,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 62.23 0)
+		(at 105.41 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1e6fd0f9-1552-400c-8973-fe4233975279")
-		(property "Reference" "#PWR014"
-			(at 107.95 68.58 0)
+		(uuid "1cc4d49f-4e8a-46de-8fd0-2bb52c2640a0")
+		(property "Reference" "#PWR019"
+			(at 105.41 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11137,7 +10921,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 67.31 0)
+			(at 105.41 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11145,7 +10929,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 62.23 0)
+			(at 105.41 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11154,7 +10938,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 62.23 0)
+			(at 105.41 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11163,7 +10947,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 62.23 0)
+			(at 105.41 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11172,12 +10956,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "59553eeb-cd5f-49fc-9c68-66c95550a647")
+			(uuid "ba585783-6058-4eb4-9a18-62c132146044")
 		)
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR014")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -14788,81 +14572,6 @@
 		)
 	)
 	(symbol
-		(lib_id "deadlock-reader-eagle-import:KAA-3528SRSGS")
-		(at 107.95 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "99c23f54-11b8-463a-aa51-00310026093c")
-		(property "Reference" "LED1"
-			(at 112.268 59.69 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "KAA-3528SRSGS"
-			(at 115.189 59.69 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_PLCC-2_3x2mm_KA"
-			(at 107.95 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 107.95 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "eb6210be-25a6-46b8-9c9b-e5e5aa981e91")
-		)
-		(pin "2"
-			(uuid "40ed924a-75d7-4d54-8b74-d43b5f4070c8")
-		)
-		(pin "3"
-			(uuid "8eadc45a-acc7-4a4e-8043-39495c2e441b")
-		)
-		(pin "1"
-			(uuid "1471f318-0808-4182-87ec-91c27969aa3b")
-		)
-		(instances
-			(project "reader"
-				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "LED1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 68.58 57.15 0)
 		(unit 1)
@@ -16663,81 +16372,6 @@
 		)
 	)
 	(symbol
-		(lib_id "deadlock-reader-eagle-import:KAA-3528SRSGS")
-		(at 130.81 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c3408487-fd72-4d69-af2e-725ce605c940")
-		(property "Reference" "LED2"
-			(at 135.128 59.69 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "KAA-3528SRSGS"
-			(at 138.049 59.69 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_PLCC-2_3x2mm_KA"
-			(at 130.81 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 130.81 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "ade57658-5684-4650-8b43-cddecb6a046d")
-		)
-		(pin "2"
-			(uuid "9e534610-f651-43cb-8351-f3f5618cf3ab")
-		)
-		(pin "3"
-			(uuid "14405ef6-8d23-4641-be19-b5d8ad11f3f9")
-		)
-		(pin "1"
-			(uuid "1854578c-e1d0-4423-baf2-abc6e4be8727")
-		)
-		(instances
-			(project "reader"
-				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "LED2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 241.3 130.81 0)
 		(unit 1)
@@ -17004,6 +16638,79 @@
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Dual_AKA")
+		(at 128.27 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d32464bd-2503-4adb-841c-f63238819640")
+		(property "Reference" "D8"
+			(at 134.62 53.2764 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_Dual_AKA"
+			(at 134.62 55.8164 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Kingbright_KPA-3010_3x2x1mm"
+			(at 128.27 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual LED, common cathode on pin 2"
+			(at 128.27 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2fdd90c5-683c-44a7-806f-b07baf60f1dd")
+		)
+		(pin "1"
+			(uuid "be54fc0f-4502-48c5-9dc7-20e188f146be")
+		)
+		(pin "2"
+			(uuid "b84185e7-f624-46d8-937b-71888e69626e")
+		)
+		(instances
+			(project "reader"
+				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -17421,6 +17128,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_Dual_AKA")
+		(at 105.41 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e12e8c6e-3725-45ab-a6f2-c212c1859b9b")
+		(property "Reference" "D7"
+			(at 111.76 54.5464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_Dual_AKA"
+			(at 107.188 68.326 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Kingbright_KPA-3010_3x2x1mm"
+			(at 105.41 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual LED, common cathode on pin 2"
+			(at 105.41 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "953bdc65-794d-4045-8c4a-e56bbebe1d06")
+		)
+		(pin "1"
+			(uuid "d366391e-e2f6-4b88-9f77-26d94b0a29e6")
+		)
+		(pin "2"
+			(uuid "e1c89e73-1cc4-4886-998b-52153c2141da")
+		)
+		(instances
+			(project ""
+				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 165.1 182.88 0)
 		(unit 1)
@@ -17824,6 +17603,72 @@
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6b3c2e3-5c19-480f-91fe-873844e90bee")
+		(property "Reference" "#PWR014"
+			(at 128.27 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44392311-8a52-429d-b75c-c9f875e4886e")
+		)
+		(instances
+			(project "reader"
+				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
