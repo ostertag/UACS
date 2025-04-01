@@ -2442,169 +2442,6 @@
 				)
 			)
 		)
-		(symbol "Device:D_Schottky_Dual_CommonAnode_AKK_Split"
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky_Dual_CommonAnode_AKK_Split"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual Schottky diode, common anode on pin 1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_Dual_CommonAnode_AKK_Split_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 1.016) (xy 1.778 1.27) (xy 1.27 1.27) (xy 1.27 -1.27) (xy 0.762 -1.27) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "D_Schottky_Dual_CommonAnode_AKK_Split_1_1"
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "D_Schottky_Dual_CommonAnode_AKK_Split_2_1"
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:FerriteBead"
 			(pin_numbers hide)
 			(pin_names
@@ -7103,12 +6940,6 @@
 		(uuid "b9da1775-fb89-427d-9ba1-e8e5872880f4")
 	)
 	(junction
-		(at 212.09 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba2f8857-b287-439e-9bf2-2bb97af04c0c")
-	)
-	(junction
 		(at 238.76 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8286,7 +8117,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 157.48) (xy 212.09 157.48)
+			(xy 196.85 157.48) (xy 222.25 157.48)
 		)
 		(stroke
 			(width 0)
@@ -9233,16 +9064,6 @@
 			(type solid)
 		)
 		(uuid "f125bc79-ce4d-4de3-9cda-86ac7baeb448")
-	)
-	(wire
-		(pts
-			(xy 212.09 157.48) (xy 196.85 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1b9d475-e81e-4c58-afb3-2e72734a9d60")
 	)
 	(wire
 		(pts
@@ -11954,7 +11775,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP1.73x1.85mm_ThermalVias"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 53.34 36.83 0)
 			(effects
 				(font
@@ -12395,6 +12216,74 @@
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT60A")
+		(at 226.06 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4237fb35-500f-40cf-bd34-dc500ecdedd4")
+		(property "Reference" "D4"
+			(at 225.7425 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT60A"
+			(at 225.7425 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 226.06 161.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9"
+			(at 226.06 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10V 3A High Current Recitifier Schottky Diode, SOD-323"
+			(at 226.06 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fb740c4c-dcf4-4268-baeb-a89bc9d8ac16")
+		)
+		(pin "1"
+			(uuid "deedd4d3-b48a-4c1a-babd-1d0fd741d0c8")
+		)
+		(instances
+			(project ""
+				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -13138,72 +13027,6 @@
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 212.09 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59432329-7f89-4e4c-9478-dba633ae60cb")
-		(property "Reference" "#FLG04"
-			(at 212.09 155.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 212.09 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 212.09 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 212.09 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "072e198f-e909-48e9-a894-dc0e2cd2aa59")
-		)
-		(instances
-			(project "reader"
-				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -14906,77 +14729,6 @@
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky_Dual_CommonAnode_AKK_Split")
-		(at 226.06 157.48 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a362c3d5-c1f1-4aae-a322-d07c43a7d2a9")
-		(property "Reference" "D4"
-			(at 225.806 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT60A"
-			(at 225.806 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 228.6 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 228.6 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Schottky diode, common anode on pin 1"
-			(at 226.06 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "90e3dd72-10bf-4231-8410-c0d05907a8ea")
-		)
-		(pin "3"
-			(uuid "d2c4077c-5118-43f5-8905-47eb9d26bef7")
-		)
-		(pin "1"
-			(uuid "51cec77d-68ab-4eb8-b8e5-66ff1e2614b7")
-		)
-		(instances
-			(project "reader"
-				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "D4")
 					(unit 1)
 				)
 			)
