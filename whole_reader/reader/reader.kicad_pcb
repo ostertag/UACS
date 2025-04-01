@@ -3574,7 +3574,7 @@
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U1"
-			(at 0 -3.4 360)
+			(at 0 -3.4 0)
 			(layer "F.SilkS")
 			(uuid "0410eb2a-6f46-44ed-b23c-178cd5b599f0")
 			(effects
@@ -3585,7 +3585,7 @@
 			)
 		)
 		(property "Value" "LM386"
-			(at 0 3.4 360)
+			(at 0 3.4 0)
 			(layer "F.Fab")
 			(uuid "800aed81-8aa4-4cf0-ab35-e115f30207fc")
 			(effects
@@ -3596,7 +3596,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "42eabd59-2e6e-4443-99ed-b48d66bbd877")
@@ -3608,7 +3608,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm386.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "182fbf62-a9d0-4436-b89f-d47077bae68e")
@@ -3620,7 +3620,7 @@
 			)
 		)
 		(property "Description" "Low Voltage Audio Power Amplifier, DIP-8/SOIC-8/SSOP-8"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4bd3ec3d-8ab7-494b-8802-6a867f37a00e")
@@ -3779,7 +3779,7 @@
 			(uuid "923cf23c-0779-4560-83ab-918a01ba121b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "56464788-0712-4f40-8efd-3d2da22668dc")
 			(effects
@@ -16406,7 +16406,7 @@
 		(layer "Edge.Cuts")
 		(uuid "e86b22ca-3aff-4421-82e2-93ee1622c368")
 	)
-	(gr_text "RC522 Athena"
+	(gr_text "RC522 Antena"
 		(at 134.5 31 0)
 		(layer "F.SilkS")
 		(uuid "470da88e-d9ae-4e80-a125-4c6008eb03e1")
