@@ -12679,7 +12679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical"
 			(at 83.82 52.07 0)
 			(effects
 				(font
@@ -15217,7 +15217,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical"
 			(at 83.82 55.88 0)
 			(effects
 				(font
