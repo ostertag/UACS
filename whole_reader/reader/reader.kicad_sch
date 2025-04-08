@@ -18122,7 +18122,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2_throug_holes"
+		(property "Value" "2_through_holes"
 			(at 85.09 55.8799 90)
 			(effects
 				(font
