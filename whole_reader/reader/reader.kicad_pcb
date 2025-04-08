@@ -109,6 +109,7 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
+			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -8759,7 +8760,7 @@
 			)
 		)
 		(property "Value" "2_through_holes"
-			(at 1.5 2 0)
+			(at 2.5 3 0)
 			(layer "F.Fab")
 			(uuid "c7f9ea16-8f05-4c6c-9965-05e2995da464")
 			(effects
@@ -8783,7 +8784,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at -0.3 0 0)
+			(at 0.54 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8821,6 +8822,26 @@
 			(uuid "1ddc68a7-47a6-468c-bdc7-56e01dff690f")
 		)
 		(fp_line
+			(start 1.24 -1.3)
+			(end 1.24 1.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f599d5ee-b50a-4a13-bb15-93655fca88ca")
+		)
+		(fp_line
+			(start 1.24 1.3)
+			(end 3.84 1.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "eda2fe59-76d8-433a-ad0f-31be58785313")
+		)
+		(fp_line
 			(start 1.3 -1.3)
 			(end -1.3 -1.3)
 			(stroke
@@ -8841,28 +8862,8 @@
 			(uuid "c122476d-5525-42e9-aa6a-bb21f94500e4")
 		)
 		(fp_line
-			(start 2 -1.3)
-			(end 2 1.3)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "f599d5ee-b50a-4a13-bb15-93655fca88ca")
-		)
-		(fp_line
-			(start 2 1.3)
-			(end 4.6 1.3)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "eda2fe59-76d8-433a-ad0f-31be58785313")
-		)
-		(fp_line
-			(start 4.6 -1.3)
-			(end 2 -1.3)
+			(start 3.84 -1.3)
+			(end 1.24 -1.3)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -8871,8 +8872,8 @@
 			(uuid "b272fd47-d692-4c32-b64c-9811c90b31be")
 		)
 		(fp_line
-			(start 4.6 1.3)
-			(end 4.6 -1.3)
+			(start 3.84 1.3)
+			(end 3.84 -1.3)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -8892,8 +8893,8 @@
 			(uuid "62f3ed0b-be86-4448-9c08-e3ee71a78867")
 		)
 		(fp_circle
-			(center 3.3 0)
-			(end 3.8 0)
+			(center 2.54 0)
+			(end 3.04 0)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -8903,7 +8904,7 @@
 			(uuid "31782f80-c0ac-476d-9521-95b3b09e6fdd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.5 0 90)
+			(at -1.5 0 90)
 			(layer "F.Fab")
 			(uuid "dc3b2357-85c6-44d0-b028-d825a5681396")
 			(effects
@@ -8926,7 +8927,7 @@
 			(uuid "0e1fe666-a017-4abd-a63e-5995f65670ab")
 		)
 		(pad "2" thru_hole circle
-			(at 3.3 0)
+			(at 2.54 0)
 			(size 1.6 1.6)
 			(drill 0.6)
 			(layers "*.Cu" "*.Mask")
@@ -15637,7 +15638,7 @@
 		(uuid "e86b22ca-3aff-4421-82e2-93ee1622c368")
 	)
 	(gr_text "-"
-		(at 166.8 31.6 0)
+		(at 166 32 0)
 		(layer "F.SilkS")
 		(uuid "01adb1ee-6f49-448b-81ae-51ad984c1384")
 		(effects
@@ -15672,7 +15673,7 @@
 		)
 	)
 	(gr_text "+"
-		(at 163.4 31.6 0)
+		(at 163.4 32 0)
 		(layer "F.SilkS")
 		(uuid "5a69f84b-beed-4563-9a45-ad339931417d")
 		(effects
