@@ -10676,7 +10676,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "10 µF"
 			(at 24.13 95.2499 0)
 			(effects
 				(font
@@ -11885,7 +11885,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "330 R"
 			(at 102.616 37.846 90)
 			(effects
 				(font
@@ -12465,7 +12465,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "10 µF"
 			(at 234.95 99.314 0)
 			(effects
 				(font
@@ -13051,7 +13051,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "10 pF"
 			(at 19.05 163.8299 0)
 			(effects
 				(font
@@ -13875,7 +13875,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100 K"
 			(at 37.846 26.924 90)
 			(effects
 				(font
@@ -13953,7 +13953,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10 nF"
 			(at 96.52 95.2499 0)
 			(effects
 				(font
@@ -14385,7 +14385,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10 K"
 			(at 156.21 117.094 90)
 			(effects
 				(font
@@ -14461,7 +14461,7 @@
 				)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "120 R"
 			(at 116.7892 83.82 90)
 			(effects
 				(font
@@ -14603,7 +14603,7 @@
 				)
 			)
 		)
-		(property "Value" "100µF"
+		(property "Value" "100 µF"
 			(at 74.93 34.29 90)
 			(effects
 				(font
@@ -14679,7 +14679,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "75 k"
+		(property "Value" "75 K"
 			(at 171.45 170.1799 0)
 			(effects
 				(font
@@ -15180,7 +15180,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "10 R"
 			(at 71.628 60.452 90)
 			(effects
 				(font
@@ -15467,7 +15467,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k5"
+		(property "Value" "1500 R"
 			(at 213.36 134.874 0)
 			(effects
 				(font
@@ -15545,7 +15545,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µF"
+		(property "Value" "1 µF"
 			(at 129.54 95.2499 0)
 			(effects
 				(font
@@ -15933,7 +15933,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5K1"
+		(property "Value" "5100 R"
 			(at 234.95 132.0799 0)
 			(effects
 				(font
@@ -16436,7 +16436,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "330 R"
 			(at 131.064 37.846 90)
 			(effects
 				(font
@@ -16737,7 +16737,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5K1"
+		(property "Value" "5100 R"
 			(at 243.84 132.0799 0)
 			(effects
 				(font
@@ -17247,7 +17247,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10 K"
 			(at 33.02 34.544 90)
 			(effects
 				(font
@@ -17328,7 +17328,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µF"
+		(property "Value" "1 µF"
 			(at 109.22 95.2499 0)
 			(effects
 				(font
@@ -17538,7 +17538,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "330 R"
 			(at 131.064 37.846 90)
 			(effects
 				(font
@@ -17696,7 +17696,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "24k"
+		(property "Value" "24 K"
 			(at 171.45 184.1499 0)
 			(effects
 				(font
@@ -18081,7 +18081,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "330 R"
 			(at 113.03 37.846 90)
 			(effects
 				(font
@@ -18159,7 +18159,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "10 pF"
 			(at 38.1 165.0999 0)
 			(effects
 				(font
