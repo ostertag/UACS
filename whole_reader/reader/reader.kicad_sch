@@ -8406,6 +8406,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 46.99) (xy 233.68 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b2a18c1-020b-4fd0-9e61-f40309522d84")
+	)
+	(wire
+		(pts
 			(xy 176.53 130.81) (xy 176.53 134.62)
 		)
 		(stroke
@@ -8716,16 +8726,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 46.99) (xy 233.68 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65bb24ac-e5c2-45b6-b7b0-9c2343e77816")
-	)
-	(wire
-		(pts
 			(xy 39.37 97.79) (xy 49.53 97.79)
 		)
 		(stroke
@@ -8993,6 +8993,16 @@
 			(type default)
 		)
 		(uuid "87174ce2-4a46-431a-9acf-bd7b603e7f27")
+	)
+	(wire
+		(pts
+			(xy 254 64.77) (xy 255.27 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8843da5e-efdf-4314-a0f9-d6750036e117")
 	)
 	(wire
 		(pts
@@ -9733,16 +9743,6 @@
 			(type default)
 		)
 		(uuid "e7a7a7bd-a9f5-49da-a724-663de06d1fb0")
-	)
-	(wire
-		(pts
-			(xy 255.27 64.77) (xy 254 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7a9adb6-f505-47bb-89ed-81b70c8dbd63")
 	)
 	(wire
 		(pts
@@ -11848,6 +11848,76 @@
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54J")
+		(at 233.68 43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "203a6a92-e40a-46e8-a725-1cd363989ae9")
+		(property "Reference" "D5"
+			(at 236.22 41.5924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54J"
+			(at 236.22 44.1324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
+			(at 229.235 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf"
+			(at 233.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V 200mA Schottky diode, SOD-323F"
+			(at 233.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e90203a4-c2e2-4d4e-8f95-23d996d6b054")
+		)
+		(pin "1"
+			(uuid "93e86a96-3589-4eee-b64a-ad231f143c86")
+		)
+		(instances
+			(project ""
+				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -14241,81 +14311,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAT54J")
-		(at 140.97 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "636aad90-61aa-42d2-948b-216276ed7744")
-		(property "Reference" "D1"
-			(at 144.272 130.556 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT60A"
-			(at 140.6525 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 140.97 136.525 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf"
-			(at 140.97 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V 200mA Schottky diode, SOD-323F"
-			(at 140.97 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" ""
-			(at 140.97 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b0136272-18b6-41ea-ade5-c9f8a760b1b2")
-		)
-		(pin "2"
-			(uuid "75b19cad-f489-42a0-8ae5-c4c857626187")
-		)
-		(instances
-			(project "reader"
-				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 41.91 31.75 0)
 		(unit 1)
@@ -15472,81 +15467,6 @@
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BAT60A")
-		(at 250.19 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "971f767f-923d-450c-ab29-66f2a72bca89")
-		(property "Reference" "D6"
-			(at 250.19 70.612 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT60A"
-			(at 250.19 68.072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 250.19 69.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9"
-			(at 250.19 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10V 3A High Current Recitifier Schottky Diode, SOD-323"
-			(at 250.19 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" ""
-			(at 250.19 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "31560da3-1f7f-4f5f-9b5c-aacc3f304cc4")
-		)
-		(pin "1"
-			(uuid "ea897936-0493-4816-b038-6201df2b9cec")
-		)
-		(instances
-			(project "reader"
-				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -17151,35 +17071,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAT60A")
-		(at 233.68 43.18 270)
+		(lib_id "Diode:BAT54J")
+		(at 140.97 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bae61a67-25f0-4180-8b20-149fc72644f7")
-		(property "Reference" "D5"
-			(at 236.22 41.5924 90)
+		(uuid "b8389471-cac0-43ce-bec6-169402daac3a")
+		(property "Reference" "D1"
+			(at 140.6525 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "BAT60A"
-			(at 236.22 44.1324 90)
+		(property "Value" "BAT54J"
+			(at 140.6525 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 229.235 43.18 0)
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
+			(at 140.97 136.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17187,8 +17105,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9"
-			(at 233.68 43.18 0)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf"
+			(at 140.97 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17196,33 +17114,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10V 3A High Current Recitifier Schottky Diode, SOD-323"
-			(at 233.68 43.18 0)
+		(property "Description" "30V 200mA Schottky diode, SOD-323F"
+			(at 140.97 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Note" ""
-			(at 233.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
-			(uuid "966dd580-56c7-4e6a-a2b5-12bf5f2ec229")
+			(uuid "75d7cdb0-04a0-437e-bce1-77cd13d0030a")
 		)
 		(pin "1"
-			(uuid "94c1da54-8079-494f-b7c4-e766a9b4022d")
+			(uuid "16d6ed4c-23d9-4162-89ea-d7d2729b1088")
 		)
 		(instances
-			(project "reader"
+			(project ""
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "D5")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -17368,6 +17278,74 @@
 			(project ""
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54J")
+		(at 250.19 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c81dd457-a2b0-40c5-ac17-0dec6ff9bf17")
+		(property "Reference" "D6"
+			(at 249.8725 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54J"
+			(at 249.8725 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
+			(at 250.19 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf"
+			(at 250.19 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V 200mA Schottky diode, SOD-323F"
+			(at 250.19 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "24b00c6d-1358-4803-b456-2c6e90b8369d")
+		)
+		(pin "1"
+			(uuid "574b22e1-d6a2-41c7-90a4-3077904c09d9")
+		)
+		(instances
+			(project ""
+				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
+					(reference "D6")
 					(unit 1)
 				)
 			)
