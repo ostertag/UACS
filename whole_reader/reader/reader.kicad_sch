@@ -10834,7 +10834,43 @@
 			"CkI30nbBINowPgAAAAAAAAAAd1QKQqdNcMEg2jA+AACAPwAAAAAr9QlCp01wwSDaMD4AAAAAAACA"
 			"P9EkCkKWjm/BINowPgAAAAAAAAAA0SQKQkIMccEg2jA+AACAPwAAAADRJApCDI9vwSDaMD4AAAAA"
 			"AACAP5VUCkKnTXDBINowPgAAAAAAAAAAqOEJQgyPb8Eg2jA+AACAPwAAAACo4QlCQgxxwSDaMD4A"
-			"AAAAAACAP+SxCUKnTXDBINowPgAAAAAAAAA="
+			"AAAAAACAP+SxCUKnTXDBINowPgAAAAAAAACAUG90ZW50aW+PYq/ZclgAgHQAZQByAG0AaQBuAGEA"
+			"bAAgAGIAbABvAGMAawAgAFIATgBEACAAMgAwADUALQAwADAAMgA0ADkALAAgADEAMAAgAHAAaQBu"
+			"AHMALAAgAHAAaQB0AGMAaAAgADEAMAAuADIAbQBtACwAIABzAGkAegBlACAAOQA2AC4ANQB4ADgA"
+			"LgAzAG0AbQAsACAAZAByAGkAbABsACAAZABpAGEAbQBlAHQAZQByACAAMQAuADMAbQBtACwAIABw"
+			"AGEAZAAgAGQAaQBhAG0AZQB0AGUAcgAgADIALgA1AG0AbQAsACAAaAB0AHQAcAA6AC8ALwBjAGQA"
+			"bgAtAHIAZQBpAGMAaABlAGwAdAAuAGQAZQAvAGQAbwBjAHUAbQBlAG4AdABzAC8AZABhAHQAZQBu"
+			"AGIAbABhAHQAdAAvAEMAMQA1ADEALwBSAE4ARABfADIAMAA1AC0AMAAwADAAMgAzAF8ARABCAF8A"
+			"RQBOAC4AcABkAGYALAAgAHMAYwByAGkAcAB0AC0AZwBlAG4AZQByAGEAdABlAGQAIAB1AHMAaQBu"
+			"AGcAIABoAHQAdABwAHMAOgAvAC8AZwBpAHQAbABhAGIALgBjAG8AbQAvAGsAaQBjAGEAZAAvAGwA"
+			"aQBiAHIAYQByAGkAZQBzAC8AawBpAGMAYQBkAC0AZgBvAG8AdABwAHIAaQBuAHQALQBnAGUAbgBl"
+			"AHIAYQB0AG8AcgAvAC0ALwB0AHIAZQBlAC8AbQBhAHMAdABlAHIALwBzAGMAcgBpAHAAdABzAC8A"
+			"VABlAHIAbQBpAG4AYQBsAEIAbABvAGMAawBfAFIATgBEAAAAAHYDgFBvdGVudGlvt2KH2XJZAIB0"
+			"AGUAcgBtAGkAbgBhAGwAIABiAGwAbwBjAGsAIABSAE4ARAAgADIAMAA1AC0AMAAwADIAOQAwACwA"
+			"IAA1ACAAcABpAG4AcwAsACAAcABpAHQAYwBoACAANQAuADAAOABtAG0ALAAgAHMAaQB6AGUAIAAy"
+			"ADUALgA0AHgAMQAwAC4ANgBtAG0ALAAgAGQAcgBpAGwAbAAgAGQAaQBhAG0AZQB0AGUAcgAgADEA"
+			"LgAzAG0AbQAsACAAcABhAGQAIABkAGkAYQBtAGUAdABlAHIAIAAyAC4ANQBtAG0ALAAgAGgAdAB0"
+			"AHAAOgAvAC8AYwBkAG4ALQByAGUAaQBjAGgAZQBsAHQALgBkAGUALwBkAG8AYwB1AG0AZQBuAHQA"
+			"cwAvAGQAYQB0AGUAbgBiAGwAYQB0AHQALwBDADEANQAxAC8AUgBOAEQAXwAyADAANQAtADAAMAAy"
+			"ADgANwBfAEQAQgBfAEUATgAuAHAAZABmAEUAZABpAHQAbwByAC4AcABhAHMAdABlAEYAbwBvAHQA"
+			"cAByAGkAbgB0AAkACQAKAHAAYwBiAG4AZQB3AC4ATQBvAGQAdQBsAGUARQBkAGkAdABvAHIALgBy"
+			"AGUAbgBhAG0AZQBGAG8AbwB0AHAAcgBpAG4AdAAJAAkACgBwAGMAYgBuAGUAdwAuAE0AbwBkAHUA"
+			"bABlAEUAZABpAHQAbwByAC4AcgBlAHAAYQBpAHIARgBvAG8AdABwAHIAaQBuAHQACQAJAAoAcABj"
+			"AGIAbgBlAHcALgBNAHUAbAB0AGkAYwBoAGEAbgBuAGUAbAAuAGcAZQBuAGUAcgBhAHQAZQBQAGwA"
+			"YQBjAGUAbQBlAG4AdABSAHUAbABlAEEAcgBlAGEAcwAJAAkACgBwAGMAYgBuAGUAdwAuAE0AdQBs"
+			"AHQAaQBjAGgAYQBuAG4AZQBsAC4AcgBlAHAAZQBhAHQATABhAHkAbwB1AHQACQAJAAoAcABjAGIA"
+			"bgBlAHcALgBQAGEAZABUAG8AbwBsAC4AQQBwAHAAbAB5AFAAYQBkAFMAZQB0AHQAaQBuAGcAcwAJ"
+			"AAkACgBwAGMAYgBuAGUAdwAuAFAAYQBkAFQAbwBvAGwALgBDAG8AcAB5AFAAYQBkAFMAZQB0AHQA"
+			"aQBuAGcAcwAJAAkACgBwAGMAYgBuAGUAdwAuAFAAYQBkAFQAbwBvAGwALgBQAHUAcwBoAFAAYQBk"
+			"AFMAZQB0AHQAaQBuAGcAcwAJAAkACgBwAGMAYgBuAGUAdwAuAFAAYQBkAFQAbwBvAGwALgBkAGUA"
+			"ZgBhAHUAbAB0AFAAYQBkAFAAcgBvAHAAZQByAHQAaQBlAHMACQAJAAoAcABjAGIAbgBlAHcALgBQ"
+			"AGEAZABUAG8AbwBsAC4AZQBuAHUAbQBlAHIAYQB0AGUAUABhAGQAcwAJAAkACgBwAGMAYgBuAGUA"
+			"dwAuAFAAYQBkAFQAbwBvAGwALgBlAHgAcABsAG8AZABlAFAAYQBkAAkAQwB0AHIAbAArAEUACQAK"
+			"AHAAYwBiAG4AZQB3AC4AUABhAGQAVABvAG8AbAAuAHAAbABhAGMAZQBQAGEAZAAJAAkACgBwAGMA"
+			"YgBuAGUAdwAuAFAAYQBkAFQAbwBvAGwALgByAGUAYwBvAG0AYgBpAG4AZQBQAGEAZAAJAEMAdABy"
+			"AGwAKwBFAAkACgBwAGMAYgBuAGUAdwAuAFAAaQBjAGsAZQByAC4AcwBlAGwAZQBjAHQASQB0AGUA"
+			"bQBJAG4AdABlAHIAYQBjAHQAaQB2AGUAbAB5AAkACQAKAHAAYwBiAG4AZQB3AC4AUABpAGMAawBl"
+			"AHIALgBzAGUAbABlAGMAdABQAG8AaQBuAA=="
 		)
 	)
 	(image
@@ -12755,7 +12791,43 @@
 			"ADUANwAyACAAMAAuADUAMwA1ADMAMwA0ACkADQAKACAAIAAgACAAIAAgACgAeAB5ACAAMAAuADgA"
 			"OAA4ADkAOAAgADAALgA0ADkANgAwADEAMgApAA0ACgAgACAAIAAgACAAIAAoAHgAeQAgADAALgA5"
 			"ADMANQAwADYANAAgADAALgA0ADYAMgAxADMAMgApAA0ACgAgACAAIAAgACAAIAAoAHgAeQAgADAA"
-			"LgA5ADgAMwA2ADgAMQ=="
+			"LgA5ADgAMwA2ADgAMQBfcO0BAAAAAOEIAAAAAAAAwKpLzCUBAABgqkvMJQEAAAAAAAAAAAAAIUly"
+			"CgAAAAC9AO8BAAAAAOIIAAAAAAAA8KpLzCUBAACQqkvMJQEAAAAAAAAAAAAAIklyCgAAAAC+AO8B"
+			"AAAAAOMIAAAAAAAAIKtLzCUBAADAqkvMJQEAAAAAAAAAAAAAJElyCgAAAAC/AO8BAAAAAOQIAAAA"
+			"AAAAUKtLzCUBAADwqkvMJQEAAAAAAAAAAAAAdzN0CgAAAADWG/ABAAAAAOUIAAAAAAAAgKtLzCUB"
+			"AAAgq0vMJQEAAAAAAAAAAAAAeDN0CgAAAADWG/ABAAAAAOYIAAAAAAAAsKtLzCUBAABQq0vMJQEA"
+			"AAAAAAAAAAAAezN0CgAAAADYG/ABAAAAAOcIAAAAAAAA4KtLzCUBAACAq0vMJQEAAAAAAAAAAAAA"
+			"ZVZ2CgAAAABkrvABAAAAAOgIAAAAAAAAEKxLzCUBAACwq0vMJQEAAAAAAAAAAAAAaFZ2CgAAAABk"
+			"rvABAAAAAOkIAAAAAAAAQKxLzCUBAADgq0vMJQEAAAAAAAAAAAAAmox4CgAAAABkrvABAAAAAOoI"
+			"AAAAAAAAcKxLzCUBAAAQrEvMJQEAAAAAAAAAAAAAm4x4CgAAAABkrvABAAAAAOsIAAAAAAAAoKxL"
+			"zCUBAABArEvMJQEAAAgAAAAAAAAAW415CgAAAACXafABAAAAAOwIAAAAAAAA0KxLzCUBAABwrEvM"
+			"JQEAAAAAAAAAAAAALdx5CgAAAACPXfABAAAAAO0IAAAAAAAAAK1LzCUBAACgrEvMJQEAAAAAAAAA"
+			"AAAALzx6CgAAAAC/OvABAAAAAO4IAAAAAAAAMK1LzCUBAADQrEvMJQEAAAAAAAAAAAAAha96CgAA"
+			"AADYG/ABAAAAAO8IAAAAAAAAYK1LzCUBAAAArUvMJQEAAAAAAAAAAAAAYL16CgAAAADXE/ABAAAA"
+			"APAIAAAAAAAAkK1LzCUBAAAwrUvMJQEAAAAAAAAAAAAAbgp7CgAAAAD27+8BAAAAAPEIAAAAAAAA"
+			"wK1LzCUBAABgrUvMJQEAAAAAAAAAAAAA8xeBCgAAAAAmvu0BAAAAAPIIAAAAAAAA8K1LzCUBAACQ"
+			"rUvMJQEAAAAAAAAAAAAADr2BCgAAAAAkoe0BAAAAAPMIAAAAAAAAIK5LzCUBAADArUvMJQEAAAAA"
+			"AAAAAAAAmC6LCgAAAAAkoe0BAAAAAPQIAAAAAAAAUK5LzCUBAADwrUvMJQEAAAQAAAAAAAAAs9OL"
+			"CgAAAAAmvu0BAAAAAPUIAAAAAAAAgK5LzCUBAAAgrkvMJQEAAAAAAAAAAAAAUgmSCgAAAACC/u8B"
+			"AAAAAPYIAAAAAAAAsGQ1ODk4NDYiKShlZmZlY3RzKGZvbnQoc2l6ZSAxIDEpKHRoaWNrbmVzcyAw"
+			"LjE1KSkpKShwYWQgIiIgbnBfdGhydV9ob2xlIGNpcmNsZShhdCAwIDAgKShzaXplIDEuNCAxLjQp"
+			"KGRyaWxsIDEuMTUyKShsYXllcnMgICIqLkN1IiAiKi5NYXNrIikodXVpZCAiNWM5MWJmMjktNDZl"
+			"NS00ZGMwLTllZTgtYWIyOWVlNjQ3OTFhIikpKGVtYmVkZGVkX2ZvbnRzIG5vKSkoZm9vdHByaW50"
+			"ICJEaW9kZV9TTUQ6TmV4cGVyaWFfQ0ZQM19TT0QtMTIzVyIobGF5ZXIgIkYuQ3UiICkodXVpZCAi"
+			"NTVkMTc5OGMtYTkxYi00M2JkLWEzOWYtMGY5Yzg5ZDI5OWU5IikoYXQgMTQwLjQyIDYwLjc1ICko"
+			"ZGVzY3IgIk5leHBlcmlhIENGUDMgKFNPRC0xMjNXKSwgaHR0cHM6Ly9hc3NldHMubmV4cGVyaWEu"
+			"Y29tL2RvY3VtZW50cy9vdXRsaW5lLWRyYXdpbmcvU09EMTIzVy5wZGYiKSh0YWdzICJDRlAzIFNP"
+			"RC0xMjNXIikocHJvcGVydHkgIlJlZmVyZW5jZSIgIkQ2IihhdCAtMC4zMiAxLjkzIDApKGxheWVy"
+			"ICJGLlNpbGtTIiApKHV1aWQgIjA4MDNiODhiLThhNDAtNDIwNi04ZGQ2LTJkMmVjMjY3NjUyNCIp"
+			"KGVmZmVjdHMoZm9udChzaXplIDEgMSkodGhpY2tuZXNzIDAuMTUpKSkpKHByb3BlcnR5ICJWYWx1"
+			"ZSIgIlBNRUcyMDEwRVIiKGF0IDAgMiAwKShsYXllciAiRi5GYWIiICkodXVpZCAiMTBmOGU3OTgt"
+			"NWNiYS00NTQ4LTgzOTYtMjQyMDU4M2RjNjQ5IikoZWZmZWN0cyhmb250KHNpemUgMSAxKSh0aGlj"
+			"a25lc3MgMC4xNSkpKSkocHJvcGVydHkgIkRhdGFzaGVldCIgImh0dHBzOi8vYXNzZXRzLm5leHBl"
+			"cmlhLmNvbS9kb2N1bWVudHMvZGF0YS1zaGVldC9QTUVHMjAxMEVSLnBkZiIoYXQgMCAwIDApKHVu"
+			"bG9ja2VkIHllcykobGF5ZXIgIkYuRmFiIiApKGhpZGUgeWVzKSh1dWlkICIwNmZmNDBkOS01M2Yy"
+			"LTQ0YzUtYmNjZS02ZWJkZjkyODNjMjEiKShlZmZlY3RzKGZvbnQoc2l6ZSAxLjI3IDEuMjcpKHRo"
+			"aWNrbmVzcyAwLjE1KSkpKShwcm9wZXJ0eSAiRGVzY3JpcHRpb24iICIyMCBWLCAxIEEgbG93IFZG"
+			"IFNjaG90dGt5IGJhcg=="
 		)
 	)
 	(label "HSE_OUT"
@@ -14000,7 +14072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
 			(at 100.33 185.42 0)
 			(effects
 				(font
@@ -14146,7 +14218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
 			(at 39.37 93.98 0)
 			(effects
 				(font
@@ -14170,6 +14242,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 39.37 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14870,7 +14951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
 			(at 147.32 143.51 0)
 			(effects
 				(font
@@ -14894,6 +14975,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 147.32 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15199,7 +15289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
 			(at 100.33 179.07 0)
 			(effects
 				(font
@@ -15572,7 +15662,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAX3232"
+		(property "Value" "TP3232N-SR"
 			(at 186.3441 29.21 0)
 			(effects
 				(font
@@ -15591,7 +15681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586176442657226752"
 			(at 184.15 54.61 0)
 			(effects
 				(font
@@ -15609,12 +15699,40 @@
 				(hide yes)
 			)
 		)
-		(property "Note" ""
+		(property "Note" "Alternative to MAX3232"
 			(at 184.15 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Note2" "https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf"
+			(at 184.15 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81661"
+			(at 184.15 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/3peak-TP3232NSR/C81661"
+			(at 184.15 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -15922,7 +16040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
 			(at 68.58 53.34 0)
 			(effects
 				(font
@@ -15941,6 +16059,14 @@
 			)
 		)
 		(property "Note" ""
+			(at 68.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 68.58 53.34 0)
 			(effects
 				(font
@@ -16076,7 +16202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
 			(at 59.69 93.98 0)
 			(effects
 				(font
@@ -16100,6 +16226,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 59.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16561,7 +16696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
 			(at 29.21 93.98 0)
 			(effects
 				(font
@@ -16585,6 +16720,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 29.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17662,18 +17806,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7fbea1cf-81a7-44b9-aa67-1e9ce40e3937")
 		(property "Reference" "FB1"
-			(at 116.7892 81.28 90)
+			(at 114.554 81.026 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "120 R"
-			(at 116.7892 83.82 90)
+		(property "Value" "120 R @ 100 MHz"
+			(at 114.554 83.566 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17689,7 +17832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8558282617856040960"
 			(at 116.84 88.9 0)
 			(effects
 				(font
@@ -17707,12 +17850,31 @@
 				(hide yes)
 			)
 		)
-		(property "Note" ""
-			(at 116.84 88.9 0)
+		(property "Note" "150 mΩ ±25% DCR, Current Rating 500 mA"
+			(at 114.3508 84.836 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2661467"
+			(at 116.84 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/Tdk-MMZ1608S121ATD25/C2661467"
+			(at 116.84 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18164,7 +18326,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 100.33 172.72 0)
+		(at 100.33 172.72 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -18173,24 +18335,24 @@
 		(fields_autoplaced yes)
 		(uuid "90ec0c63-2630-4280-acec-8c5106fb5e76")
 		(property "Reference" "H1"
-			(at 102.87 171.4499 0)
+			(at 102.87 171.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 102.87 173.9899 0)
+		(property "Value" "ToolingHole"
+			(at 102.87 173.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
 			(at 100.33 172.72 0)
 			(effects
 				(font
@@ -18208,7 +18370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Tooling Hole without connection"
 			(at 100.33 172.72 0)
 			(effects
 				(font
@@ -18611,7 +18773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
 			(at 151.13 96.52 0)
 			(effects
 				(font
@@ -18635,6 +18797,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 151.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19496,7 +19667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
 			(at 49.53 93.98 0)
 			(effects
 				(font
@@ -19520,6 +19691,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 49.53 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19983,10 +20163,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c5e75acb-0cde-492b-8a43-75e1675e42aa")
 		(property "Reference" "TP2"
-			(at 118.11 121.1579 0)
+			(at 118.11 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
