@@ -16,7 +16,7 @@ $$C_{L} = \frac{C_{L1} * C_{L2}}{C_{L1}+C_{L2}}+ C_{S} $$
 
 Kde:
 - $C_L$ je záťažová kapacita oscilátora, u nás to je 10 pF, kedže chceme použiť tento 
-[kondezátor](https://jlcpcb.com/parts/componentSearch?searchTxt=16mHZ,%2010pF)  
+[oscilator]()  
 - $C_S$ je rozptylová kapacita dosky plošných spojov, zvyčajne je medzi 2 až 7 pF, my použijeme hodnotu 5 pF 
 - $C_{L1}$ a $C_{L2}$ sú hodnoty kondenzátorov a teda   
 $$C_{L1} = C_{L2} = 10 pF  $$
