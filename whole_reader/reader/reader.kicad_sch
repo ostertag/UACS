@@ -3084,7 +3084,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_Dual_AKA"
+		(symbol "Device:LED_Dual_AKKA"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -3100,7 +3100,7 @@
 					)
 				)
 			)
-			(property "Value" "LED_Dual_AKA"
+			(property "Value" "LED_Dual_AKKA"
 				(at 0 -6.35 0)
 				(effects
 					(font
@@ -3109,7 +3109,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 0.762 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3118,7 +3118,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 0 0)
+				(at 0.762 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3126,7 +3126,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Dual LED, common cathode on pin 2"
+			(property "Description" "Dual LED, cathodes on pins 2 and 3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3153,10 +3153,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_Dual_AKA_0_1"
+			(symbol "LED_Dual_AKKA_0_1"
 				(polyline
 					(pts
-						(xy -4.572 0) (xy -2.54 0)
+						(xy -5.08 2.54) (xy 2.032 2.54)
 					)
 					(stroke
 						(width 0)
@@ -3166,20 +3166,21 @@
 						(type none)
 					)
 				)
-				(circle
-					(center -2.54 0)
-					(radius 0.2794)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy 2.032 -2.54)
+					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -1.27 3.81)
+						(xy -1.27 3.81) (xy -1.27 1.27) (xy 1.27 2.54) (xy -1.27 3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -3191,7 +3192,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 -3.81)
+						(xy -1.27 -1.27) (xy -1.27 -3.81) (xy 1.27 -2.54) (xy -1.27 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -3214,7 +3215,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 3.81) (xy -1.27 2.54) (xy 1.27 1.27)
+						(xy 1.27 3.81) (xy 1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -3226,7 +3227,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -3.81) (xy 1.27 -1.27) (xy -1.27 -2.54) (xy 1.27 -3.81)
+						(xy 1.27 -1.27) (xy 1.27 -3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -3239,18 +3240,6 @@
 				(polyline
 					(pts
 						(xy 2.032 5.08) (xy 3.556 6.604) (xy 2.794 6.604) (xy 3.556 6.604) (xy 3.556 5.842)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy 2.032 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -3297,28 +3286,10 @@
 					)
 				)
 			)
-			(symbol "LED_Dual_AKA_1_1"
+			(symbol "LED_Dual_AKKA_1_1"
 				(pin input line
-					(at -7.62 0 0)
+					(at -7.62 2.54 0)
 					(length 3.048)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 2.54 180)
-					(length 3.81)
 					(name "A1"
 						(effects
 							(font
@@ -3335,9 +3306,45 @@
 					)
 				)
 				(pin input line
+					(at -7.62 -2.54 0)
+					(length 3.048)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "K1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at 7.62 -2.54 180)
 					(length 3.81)
-					(name "A2"
+					(name "K2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7269,6 +7276,12 @@
 		(uuid "7fcd22dd-1aeb-431b-b9e7-e0e50387ff60")
 	)
 	(junction
+		(at 107.95 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0183bc23-53c0-4a2d-970d-e67ffd2ad79e")
+	)
+	(junction
 		(at 158.75 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7567,6 +7580,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da963162-9095-42d0-a41c-c116edfc8739")
+	)
+	(junction
+		(at 130.81 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbe91743-5591-40df-97e2-22a76e07f5ea")
 	)
 	(junction
 		(at 233.68 35.56)
@@ -7884,6 +7903,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 63.5) (xy 107.95 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18532d1a-b5ff-4e9b-8196-d94e46a15ec4")
+	)
+	(wire
+		(pts
 			(xy 125.73 88.9) (xy 120.65 88.9)
 		)
 		(stroke
@@ -7991,6 +8020,16 @@
 			(type default)
 		)
 		(uuid "23507462-a4db-45d0-9ef5-b5ce209afd37")
+	)
+	(wire
+		(pts
+			(xy 107.95 63.5) (xy 110.49 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2456ebcf-c96c-416e-b3ec-ff8e63f921eb")
 	)
 	(wire
 		(pts
@@ -8444,6 +8483,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 62.23) (xy 130.81 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "587bdf3c-b9bd-4883-bc7c-674b726faeee")
+	)
+	(wire
+		(pts
 			(xy 204.47 54.61) (xy 208.28 54.61)
 		)
 		(stroke
@@ -8781,6 +8830,16 @@
 			(type default)
 		)
 		(uuid "808a589d-d52e-4d4b-b38b-cee9716b8d6a")
+	)
+	(wire
+		(pts
+			(xy 130.81 62.23) (xy 133.35 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80f11bc5-4481-451e-9e78-86c706dc8460")
 	)
 	(wire
 		(pts
@@ -9564,6 +9623,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 63.5) (xy 107.95 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0b95ac6-a4f4-4bee-9062-c65ddffb10e4")
+	)
+	(wire
+		(pts
 			(xy 119.38 147.32) (xy 121.92 147.32)
 		)
 		(stroke
@@ -9801,16 +9870,6 @@
 			(type default)
 		)
 		(uuid "fa6e3f95-4852-4f73-b842-6675fc6ceac8")
-	)
-	(wire
-		(pts
-			(xy 107.95 67.31) (xy 107.95 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fae119e7-95b4-43f3-a504-676635293ac1")
 	)
 	(wire
 		(pts
@@ -10870,23 +10929,41 @@
 			"YgBuAGUAdwAuAFAAYQBkAFQAbwBvAGwALgByAGUAYwBvAG0AYgBpAG4AZQBQAGEAZAAJAEMAdABy"
 			"AGwAKwBFAAkACgBwAGMAYgBuAGUAdwAuAFAAaQBjAGsAZQByAC4AcwBlAGwAZQBjAHQASQB0AGUA"
 			"bQBJAG4AdABlAHIAYQBjAHQAaQB2AGUAbAB5AAkACQAKAHAAYwBiAG4AZQB3AC4AUABpAGMAawBl"
-			"AHIALgBzAGUAbABlAGMAdABQAG8AaQBuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AHIALgBzAGUAbABlAGMAdABQAG8AaQBuAGXo/loAAHMAAABjAAAAcgAAAGkAAABwAAAAdAAAAGkA"
+			"AABvAAAAbgAAAAAAAAB0AAAAaQAAACEEAAAAAAAAoFjRR/taAAAgi/C+1HAAAAAAAAAAAAAAAAAA"
+			"AAAAAABpAAAAbwAAAG4AAAAAAAAAQAAAAAAAAABAAAAAAAAAADUsZej+WgAAYwAAAHMAAABtAAAA"
+			"MAAAADQAAAB4AAAAeAAAAHMAAABuAAAAAAAAACsAAAAAAAAAoQMAAAAAAACAhNFH+1oAAIB+0Uf7"
+			"WgAAeAAAAHgAAAB4AAAALQAAAE0AAABDAAAAAAAAAE8AAABNAAAAAAAAAGEDAAAAAAAAEGPRR/ta"
+			"AABwO9FH+1oAAHgAAAB4AAAAeAAAAAAAAAAwAAAAAAAAADAAAAAAAAAAhVZl6P5aAABwAAAAcgAA"
+			"AG8AAABtAAAAAAAAAAAAAABwXdFH+1oAAAEDAAAAAAAAEGPRR/taAAAgi/C+1HAAAHIAAAB5AAAA"
+			"AAAAAAAAAABAAQAAAAAAANECAAAAAAAAIFLRR/taAAAgi/C+1HAAAGEAAABsAAAAAAAAAAAAAAB0"
+			"AAAAAAAAAKECAAAAAAAAEGPRR/taAAAgUtFH+1oAAABV0Uf7WgAAcFnRR/taAABwUdFH+1oAAAsA"
+			"AAAAAAAACwAAAAAAAAA4U9FH+1oAAAAAAAAAAAAAAAAAAAAAAADgZM9H+1oAACcAAAAAAAAAJwAA"
+			"AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAACAAAAAAAAAAhUFl6P5aAABsAAAA"
+			"dQAAAGUAAAAAAAAAMQEAAAAAAABwjtJH+1oAAFB60kf7WgAAAAAAAAAAAAAAAAAAAAAAAHBn0Uf7"
+			"WgAACQAAAAAAAAAJAAAAAAAAAGQAAABzAAAAAAAAAAAAAAAAAAAAAAAAAHBp0Uf7WgAAOgAAAAAA"
+			"AAA6AAAAAAAAAGwAAAB2AAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAAoAAAAAAAAABQAAAAYQAA"
+			"AGMAAABrAAAAYQAAAGcAAABlAAAAXwAAAFMAAABPAAAAOgAAAFMAAABPAAAASQAAAEMAAAAtAAAA"
+			"OAAAAF8AAAAzAAAALgAAADkAAAB4AAAANAAAAC4AAAA5AAAAbQAAAG0AAABfAAAAUAAAADEAAAAu"
+			"AAAAMgAAADcAAABtAAAAbQAAAAAAAADgAQAAAAAAADAAAAAAAAAANS9l6P5aAABmAAAAZQAAAHIA"
+			"AABlAAAAbgAAAGMAAABlAAAAAAAAAJEAAAAAAAAAoCzRR/taAACwTNFH+1oAAAAAAAAAAAAAAAAA"
+			"AAAAAABAZ9FH+1oAAAkAAAAAAAAAYOgAAP////9UVFT//////1RUVP//////VFRU//////9UVFT/"
+			"/////1RUVP//////VFRU//////9UVFT//////73R2///////vdHb//////+90dv//////73R2///"
+			"////vdHb//////+90dv//////73R2///////vdHb//////+90dv//////73R2///////vdHb////"
+			"//+90dv//////73R2///////vdHb//////+90dv//////73R2///////vdHb//////+90dv/////"
+			"/73R2///////vdHb//////+90dv//////73R2///////vdHb//////+90dv//////73R2///////"
+			"vdHb//////+90dv//////73R2///////vdHb//////+90dv//////73R2///////vdHb//////+9"
+			"0dv//////73R2///////vdHb//////+90dv//////73R2///////vdHb//////+90dv//////73R"
+			"2///////vdHb//////+90dv//////73R2///////vdHb//////+90dv//////73R2///////vdHb"
+			"//////+90dv//////73R2///////vdHb//////+90dv//////73R2///////vdHb//////+90dv/"
+			"/////73R2///////vdHb//////+90dv//////73R2///////vdHb//////+90dv//////73R2///"
+			"////vdHb//////+90dv//////73R2///////vdHb//////+90dv//////73R2///////vdHb////"
+			"//+90dv//////73R2///////vdHb//////+90dv//////73R2///////vdHb//////+90dv/////"
+			"/73R2///////vdHb//////+90dv//////73R2///////vdHb//////+90dv//////73R2///////"
+			"vdHb//////+90dv//////73R2///////vdHb//////+90dv//////73R2///////vdHb//////+9"
+			"0dv//////73R2///////vdHb//////+90dv//////73R2///////vdHb//////+90dv//////73R"
+			"2///////vdHb//////+90dv//////73R2///////vdHb//////+90dv//////73R2///////vdHb"
+			"//////+90dv//////73R2///////vNDakf////+229sHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
@@ -12845,25 +12922,43 @@
 			"bG9ja2VkIHllcykobGF5ZXIgIkYuRmFiIiApKGhpZGUgeWVzKSh1dWlkICIwNmZmNDBkOS01M2Yy"
 			"LTQ0YzUtYmNjZS02ZWJkZjkyODNjMjEiKShlZmZlY3RzKGZvbnQoc2l6ZSAxLjI3IDEuMjcpKHRo"
 			"aWNrbmVzcyAwLjE1KSkpKShwcm9wZXJ0eSAiRGVzY3JpcHRpb24iICIyMCBWLCAxIEEgbG93IFZG"
-			"IFNjaG90dGt5IGJhcgB3AFgASwA5AGUASABoAC8AdgBnAEMASwBjAFEANgAwAE4AeAB6AGsAVAAw"
-			"AGQATgBRAFcAWgBjAFAAcwBCAEEAQQBBAEEAQQBDAEEAKwBkAFcAYgA0AC8AcgBzAGgAcABhAGEA"
-			"RwA5AHMAYgBFAEcASAA4AGwAWgBjAFkARQBNAGYAUgAyAGMATQBQAGkAQwBOAGYAWgBCAHAAeAAr"
-			"AGoAaQBuAGQATgB1AG4AcwB3AE0AQQBBAEEAQQBBAEEAQgBiAHkAdQArAHkAQQBWAHEAcQB4AFcA"
-			"LwAxAFIAZABnAFMAMABrAHEAMQBsAFAASQAyADQAQQA0ADQAOABJAFoANAA4AHIAaQBGAGQAdAAx"
-			"AG4AWgBQAEQAcwBCAEEAQQBBAEEAQQBHAEEAQgBKAHMAUwBKADgATABGADYAVgBIAFkAQwB0AEYA"
-			"RgA1AFQAVwB5AGMAMwBkAEEAcQBNADAAZgA2ADQASQBnAFQAWQByADAAcQAvAGoAeQArAEwAUgAx"
-			"ADMAUwBDAG4AWgBDAFEAQQBBAEEAQQBBAEEAOAB6AGsANwBPADYAQwBGAEQAcQArAEgAWgBDAGQA"
-			"QQBHADUAVQBTAG4AOABwAHUAYQBKAFcATAA2AHoAVQBqAGYAWABqAGsAVQA0AGcAUgBwADQAeABm"
-			"AEMAYgBGAEIAYgBKADIAZABBAEEAQQBBAEEAQQBBAHcAbgAvAFAAagA3AHUAeQBFAGwAdgBsADIA"
-			"NwBKAFcAZABBAEMAMwAxAGwAbABnAC8ATwA2AEYAVgBSAGoAeQBEAHUAUABnAEoAYwBUAEYALwBP"
-			"AGEAUAAwAHEAVABJAHQATwB3AEUAQQBBAEEAQQBBADQAQgAvAHEAMwBQAGgAVgBkAGsATwByAG4A"
-			"QgBEAHYAcQBqAFUANwBBAHQAcQBvAFQASQA4AEQAcwB4AHQAYQA1AHQAUwBSAFAANwB5ADQAQwBm"
-			"AEYAYwBQADQARQB5AHIAcAA0AFoANwA4ADUATwBBAEEAQQBBAEEAQQBDAFkAegA4ACsAeQBBADEA"
-			"cgBrAHQATgBpADIAegBzADIATwBnAEoAYgBhAFAAWgA2AGUAbgBkAEEAcQBkADgAWgB2AFIAdgA2"
-			"AEUAeABVAHkASQA5AGUARQA0AGYAZgB4AHEAaQBJAGoAOQB5AC8ATABaAEMAUQBBAEEAQQBBAEEA"
-			"QQBqAHoAawBwAG4ASgBvAGIASAA3ACsASgBOADkAZQBIAHMAaQBPAGcAbgBjAG8ASwA4AFkAbgBz"
-			"AGgAcABZADUAcgBjADQAWgArAFIATQBXAGQAdwByAFIAVgBhAGIAagBiAFoAWABZAEoAegBzAEIA"
-			"QQBBAEEAQQBBAE8AQQ=="
+			"IFNjaG90dGt5IGJhcjn7WgAAL0lCdXMvSW5wdXRDb250ZXh0XzIyMAAA4QIAAAAAAAAAjTc++1oA"
+			"ALAWVkv7WgAAqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+			"qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+			"qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+			"qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+			"qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+			"qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+			"qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+			"qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+			"qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+			"qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+			"qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+			"qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+			"qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqpAtQEAAAAAAGAAAAAAAAAAL5CzrwUAAAB0AAAA"
+			"bwAAACAAAABMAAAAbwAAAG8AAABwAAAAZQAAAGQAAAAgAAAAVAAAAGgAAABhAAAAaQAAACAAAABC"
+			"AAAAbwAAAGwAAACgtQEAAAAAAJABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAE4AAAAwAAAAeQAAAEEAAABxAAAAMAAAAHgAAABuAAAATQAAAFMAAABI"
+			"AAAAVwAAAGMAAABwAAAAVQAAAHAAAAB6AAAAVAAAAEkAAABoAAAATQAAAGsAAABVAAAAbQAAAHgA"
+			"AABPAAAAVQAAAHoAAABJAAAATAAAAEkAAAA1AAAARQAAACsAAABMAAAAeQAAACsAAABUAAAAawAA"
+			"AEUAAABBAAAARQAAAHoAAABTAAAAcwAAAEMAAABiAAAAKwAAAE4AAABwAAAANgAAAGEAAABYAAAA"
+			"VQAAAEcAAAB5AAAAbgAAAGUAAABLAAAARQAAADQAAABTAAAASAAAAFoAAABFAAAAWgAAAFAAAAB3"
+			"AAAAVgAAADMAAABGAAAAdAAAAGQAAABzAAAASwAAAGsAAABIAAAARAAAAFQAAABjAAAASwAAAHoA"
+			"AAB1AAAAaAAAAGEAAABhAAAANAAAAHkAAAByAAAAWAAAAGQAAABJAAAAZAAAAGsAAABDAAAAegAA"
+			"AFQAAABJAAAAaQAAADEAAABUAAAASQAAAGcAAAAwAAAAeQAAADQAAABUAAAASQAAAEYAAABMAAAA"
+			"bQAAAFoAAABmAAAAUAAAAGwAAABLAAAAZAAAAGcAAABCAAAATgAAADgAAABUAAAAdwAAAEEAAABB"
+			"AAAATAAAAEMAAABaAAAAWQAAAFkAAABnAAAALwAAAGoAAAAyAAAAZAAAAG0AAABWAAAAOQAAAEMA"
+			"AABBAAAATwAAADgAAABlAAAASgAAAHcAAAAvAAAAMgAAAHkAAABJAAAALwAAAHAAAABYAAAAcgAA"
+			"AG8AAAB1AAAALwAAAHoAAABXAAAANgAAAFkAAABtAAAAQwAAAE8AAAB6AAAAQQAAADUAAABwAAAA"
+			"MgAAAGMAAABuAAAAYgAAAEEAAABCAAAARAAAAGkAAABGAAAATwAAAE0AAAB0AAAAWgAAADIAAABR"
+			"AAAASAAAAGQAAABNAAAAeQAAAEgAAABTAAAATAAAAEIAAABNAAAAaQAAAEEAAABBAAAAQQAAAEEA"
+			"AABzAAAARQAAAFgAAABEAAAARQAAAEcAAAArAAAATgAAAEYAAAAyAAAAWgAAAFgAAAAwAAAASQAA"
+			"AGkAAAA3AAAAeAAAAHIAAAA4AAAATgAAAEIAAAAyAAAAUgAAAEgAAABUAAAATQAAAEMAAABiAAAA"
+			"ZgAAAFgAAABGAAAAegAAAHIAAABsAAAAeAAAAGwAAAB1AAAAaAAAAEEAAABUAAAAWQAAAHIAAAAy"
+			"AAAARAAAAHMAAAB3AAAATwAAAGEAAAA1AAAAUgAAAFIAAABpAAAATAAAAFIAAABNAAAAaQAAAHoA"
+			"AABUAAAASQAAAGgAAA=="
 		)
 	)
 	(label "HSE_OUT"
@@ -13064,7 +13159,7 @@
 	)
 	(global_label "LED_R1"
 		(shape input)
-		(at 105.41 26.67 90)
+		(at 110.49 26.67 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13074,7 +13169,7 @@
 		)
 		(uuid "2ba6269a-46d0-4150-a578-0f1269c8bfbb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.41 16.7906 90)
+			(at 110.49 16.7906 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13306,7 +13401,7 @@
 	)
 	(global_label "LED_R2"
 		(shape input)
-		(at 128.27 26.67 90)
+		(at 133.35 26.67 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13316,7 +13411,7 @@
 		)
 		(uuid "5fa4bc5c-dbfe-4237-a33c-d6fad11f5762")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.27 16.7906 90)
+			(at 133.35 16.7906 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13526,7 +13621,7 @@
 	)
 	(global_label "LED_G2"
 		(shape input)
-		(at 133.35 26.67 90)
+		(at 128.27 26.67 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13536,7 +13631,7 @@
 		)
 		(uuid "94b4b857-c05e-404f-b3a0-eadea82905c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.35 16.7906 90)
+			(at 128.27 16.7906 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13680,7 +13775,7 @@
 	)
 	(global_label "LED_G1"
 		(shape input)
-		(at 110.49 26.67 90)
+		(at 105.41 26.67 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13690,7 +13785,7 @@
 		)
 		(uuid "e7296269-7368-49e8-8f91-c2bdcb6a77ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.49 16.7906 90)
+			(at 105.41 16.7906 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13902,12 +13997,31 @@
 				(hide yes)
 			)
 		)
-		(property "Note" ""
+		(property "Note" "100V 1.25V@150mA 4ns 150mA"
 			(at 153.67 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/2485-1N4148WS/C2128"
+			(at 153.67 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 153.67 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13961,7 +14075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707107920437248"
 			(at 19.05 93.98 0)
 			(effects
 				(font
@@ -13985,6 +14099,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 19.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19702"
+			(at 19.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14039,7 +14172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707174974914560"
 			(at 156.21 38.1 0)
 			(effects
 				(font
@@ -14063,6 +14196,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923"
+			(at 156.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 156.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14141,6 +14293,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -14278,9 +14431,19 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC" "C1525"
+			(at 39.37 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 39.37 93.98 0)
 			(effects
 				(font
@@ -14424,12 +14587,31 @@
 				(hide yes)
 			)
 		)
-		(property "Note" ""
+		(property "Note" "40V 1A 520mV@1A"
 			(at 144.78 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/VishayIntertech-B140_E361T/C968568"
+			(at 144.78 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C968568"
+			(at 144.78 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14707,6 +14889,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -14910,7 +15093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707107920437248"
 			(at 113.03 152.4 0)
 			(effects
 				(font
@@ -14934,6 +15117,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 113.03 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19702"
+			(at 113.03 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15011,9 +15213,19 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC" "C1525"
+			(at 147.32 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 147.32 143.51 0)
 			(effects
 				(font
@@ -15098,6 +15310,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/5762033-USB4110_GFA/C5143397"
+			(at 264.16 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5143397"
+			(at 264.16 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "B12"
@@ -15256,7 +15487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588881939923685376"
 			(at 105.41 39.37 0)
 			(effects
 				(font
@@ -15280,6 +15511,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/12862-0402WGJ0331TCE/C12246"
+			(at 105.41 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C12246"
+			(at 105.41 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15358,6 +15608,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -15470,7 +15721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707107920437248"
 			(at 158.75 161.29 0)
 			(effects
 				(font
@@ -15494,6 +15745,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 158.75 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19702"
+			(at 158.75 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15545,7 +15815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.coilcraft.com/getmedia/57f966eb-7d10-43b3-836d-0bce7dd15059/lps3010.pdf"
 			(at 152.4 147.32 0)
 			(effects
 				(font
@@ -15569,6 +15839,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19276043"
+			(at 152.4 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/Coilcraft-LPS3010103MRC/C19276043"
+			(at 152.4 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15644,6 +15933,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/slkor_slkormicro_elec-LM386M1/C5375298"
+			(at 57.15 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5375298"
+			(at 57.15 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -15864,7 +16172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707107920437248"
 			(at 242.57 95.25 0)
 			(effects
 				(font
@@ -15888,6 +16196,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 242.57 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19702"
+			(at 242.57 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16100,6 +16427,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC" "C1525"
@@ -16108,6 +16436,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
+			(at 68.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16161,7 +16499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707174974914560"
 			(at 212.09 38.1 0)
 			(effects
 				(font
@@ -16185,6 +16523,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923"
+			(at 212.09 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 212.09 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16262,9 +16619,19 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC" "C1525"
+			(at 59.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 59.69 93.98 0)
 			(effects
 				(font
@@ -16390,7 +16757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707322534723585"
 			(at 19.05 138.43 0)
 			(effects
 				(font
@@ -16414,6 +16781,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/33914-CL05C100JB5NNNC/C32949"
+			(at 19.05 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C32949"
+			(at 19.05 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16756,9 +17142,19 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC" "C1525"
+			(at 29.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 29.21 93.98 0)
 			(effects
 				(font
@@ -17284,7 +17680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590008830043058177"
 			(at 41.91 31.75 0)
 			(effects
 				(font
@@ -17308,6 +17704,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/Sunway-SC0805J1003F4ANRH/C3152215"
+			(at 41.91 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3152215"
+			(at 41.91 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17362,7 +17777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707307011465216"
 			(at 92.71 93.98 0)
 			(effects
 				(font
@@ -17386,6 +17801,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/15869-CL05B103KB5NNNC/C15195"
+			(at 92.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15195"
+			(at 92.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17571,7 +18005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707107920437248"
 			(at 151.13 161.29 0)
 			(effects
 				(font
@@ -17595,6 +18029,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 151.13 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19702"
+			(at 151.13 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17629,7 +18082,7 @@
 				)
 			)
 		)
-		(property "Value" "16 MHz"
+		(property "Value" "16MHz"
 			(at 27.94 118.872 0)
 			(effects
 				(font
@@ -17646,7 +18099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588879072148017152"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2307141654_Yajingxin-TX322516M4DBDE2T_C5310731.pdf"
 			(at 27.94 127 0)
 			(effects
 				(font
@@ -17664,7 +18117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Note" "Load Capacitance 9pF"
+		(property "Note" "16MHz SMD crystal oscillator 10pF ±10ppm ±30ppm SMD3225-4P Crystals ROHS"
 			(at 27.94 127 0)
 			(effects
 				(font
@@ -17673,7 +18126,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C13738"
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/Yajingxin-TX322516M4DBDE2T/C5310731"
 			(at 27.94 127 0)
 			(effects
 				(font
@@ -17682,7 +18135,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "https://jlcpcb.com/partdetail/Yxc_CrystalOscillators-X322516MLB4SI/C13738"
+		(property "LCSC" "C5310731"
 			(at 27.94 127 0)
 			(effects
 				(font
@@ -17803,7 +18256,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 156.21 117.602 90)
 			(effects
 				(font
@@ -17812,7 +18265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590236309504753664"
 			(at 156.21 119.38 0)
 			(effects
 				(font
@@ -17836,6 +18289,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/Sunway-SC0603J1002F2BNRH/C3152154"
+			(at 156.21 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3152154"
+			(at 156.21 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18068,6 +18540,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/Nexperia-PMEG2010ER115/C82288"
+			(at 233.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C82288"
+			(at 233.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3c27e99d-57c8-4141-8084-1fd02a0e24c7")
 		)
@@ -18118,7 +18608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588894212876484608"
 			(at 74.93 46.99 0)
 			(effects
 				(font
@@ -18142,6 +18632,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/152991-GRM21BR60J107ME15L/C141660"
+			(at 74.93 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C141660"
+			(at 74.93 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18195,7 +18704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706657955778560"
 			(at 168.91 168.91 0)
 			(effects
 				(font
@@ -18219,6 +18728,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/18507-0805W8F7502T5E/C17819"
+			(at 168.91 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C17819"
+			(at 168.91 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18271,7 +18799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588945699613888512"
 			(at 161.29 87.63 0)
 			(effects
 				(font
@@ -18295,6 +18823,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/Bzcn-TSD001A05035A/C2889001"
+			(at 161.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2889001"
+			(at 161.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18440,6 +18987,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -18684,7 +19232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588881975520743424"
 			(at 68.58 62.23 0)
 			(effects
 				(font
@@ -18708,6 +19256,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/25882-0402WGJ0100TCE/C25139"
+			(at 68.58 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25139"
+			(at 68.58 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18852,9 +19419,19 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC" "C1525"
+			(at 151.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 151.13 96.52 0)
 			(effects
 				(font
@@ -19048,7 +19625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705932919590912"
 			(at 219.71 125.73 0)
 			(effects
 				(font
@@ -19072,6 +19649,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/26610-0402WGF1501TCE/C25867"
+			(at 219.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25867"
+			(at 219.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19126,7 +19722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707174974914560"
 			(at 125.73 93.98 0)
 			(effects
 				(font
@@ -19150,6 +19746,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923"
+			(at 125.73 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 125.73 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19293,6 +19908,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/MicrochipTech-MCP16301HT_ECH/C511272"
+			(at 132.08 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C511272"
+			(at 132.08 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "6"
@@ -19424,7 +20058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589042236348227584"
 			(at 265.43 57.785 90)
 			(effects
 				(font
@@ -19448,6 +20082,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/AmphenolIcc-54601906WPLF/C4355015"
+			(at 265.43 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4355015"
+			(at 265.43 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "5"
@@ -19514,7 +20167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706036003409920"
 			(at 232.41 147.32 0)
 			(effects
 				(font
@@ -19538,6 +20191,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/26648-0402WGF5101TCE/C25905"
+			(at 232.41 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 232.41 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19746,9 +20418,19 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC" "C1525"
+			(at 49.53 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 49.53 93.98 0)
 			(effects
 				(font
@@ -19833,6 +20515,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/STMicroelectronics-STM32F103C8T6/C8734"
+			(at 72.39 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8734"
+			(at 72.39 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "19"
@@ -20025,7 +20726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588881939923685376"
 			(at 128.27 39.37 0)
 			(effects
 				(font
@@ -20049,6 +20750,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/12862-0402WGJ0331TCE/C12246"
+			(at 128.27 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C12246"
+			(at 128.27 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20133,6 +20853,212 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_Dual_AKKA")
+		(at 107.95 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be71b84d-aef4-4526-8afc-24a2972ce599")
+		(property "Reference" "LED1"
+			(at 115.57 54.4829 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_Dual_AKKA"
+			(at 115.57 57.0229 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Kingbright_APHBM2012_2x1.25mm"
+			(at 107.95 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590908716709863424"
+			(at 107.95 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual LED, cathodes on pins 2 and 3"
+			(at 107.95 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/Kingbright-APHBM2012LSURKZGKC/C6465979"
+			(at 107.95 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "    C6465979"
+			(at 107.95 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" "2mA  Red,Emerald 120° SMD-4P,2x1.3mm"
+			(at 107.95 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "67c63820-f6f2-4580-b63e-677a19456105")
+		)
+		(pin "4"
+			(uuid "6498616c-ab08-48a5-a333-e8e867bb830f")
+		)
+		(pin "1"
+			(uuid "64f482b9-b577-4ca7-92fb-ed9f7600218d")
+		)
+		(pin "3"
+			(uuid "774cb9ca-038e-4d11-8b7d-e161c9625a23")
+		)
+		(instances
+			(project ""
+				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Dual_AKKA")
+		(at 130.81 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0f8becb-e2b9-454f-aa83-066b8130b804")
+		(property "Reference" "LED2"
+			(at 138.43 53.2129 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_Dual_AKKA"
+			(at 138.43 55.7529 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Kingbright_APHBM2012_2x1.25mm"
+			(at 130.81 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590908716709863424"
+			(at 130.81 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual LED, cathodes on pins 2 and 3"
+			(at 130.81 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/Kingbright-APHBM2012LSURKZGKC/C6465979"
+			(at 130.81 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "    C6465979"
+			(at 130.81 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" "2mA  Red,Emerald 120° SMD-4P,2x1.3mm"
+			(at 130.81 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fe377358-5446-4da9-aa18-c70a4ebc4f11")
+		)
+		(pin "4"
+			(uuid "c2cd7971-47ac-4e36-8cd2-f923c356928b")
+		)
+		(pin "1"
+			(uuid "24c4e074-fd79-4233-9468-6f666bd75633")
+		)
+		(pin "3"
+			(uuid "de9087b0-02c5-4661-bd2f-377d462ce824")
+		)
+		(instances
+			(project "reader"
+				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 148.59 29.21 0)
 		(unit 1)
@@ -20169,7 +21095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707174974914560"
 			(at 148.59 29.21 0)
 			(effects
 				(font
@@ -20193,6 +21119,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923"
+			(at 148.59 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 148.59 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20313,7 +21258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706036003409920"
 			(at 243.84 147.32 0)
 			(effects
 				(font
@@ -20337,6 +21282,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/26648-0402WGF5101TCE/C25905"
+			(at 243.84 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 243.84 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20389,7 +21353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588906493386608641"
 			(at 144.78 109.22 0)
 			(effects
 				(font
@@ -20413,6 +21377,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/ck-PCM12SMTR/C221841"
+			(at 144.78 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C221841"
+			(at 144.78 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -20632,87 +21615,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Dual_AKA")
-		(at 130.81 54.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d32464bd-2503-4adb-841c-f63238819640")
-		(property "Reference" "LED2"
-			(at 137.16 53.2764 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_Dual_AKA"
-			(at 137.16 55.8164 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_Kingbright_KPA-3010_3x2x1mm"
-			(at 130.81 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual LED, common cathode on pin 2"
-			(at 130.81 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" ""
-			(at 130.81 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "2fdd90c5-683c-44a7-806f-b07baf60f1dd")
-		)
-		(pin "1"
-			(uuid "be54fc0f-4502-48c5-9dc7-20e188f146be")
-		)
-		(pin "2"
-			(uuid "b84185e7-f624-46d8-937b-71888e69626e")
-		)
-		(instances
-			(project "reader"
-				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "LED2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 212.09 54.61 90)
 		(unit 1)
@@ -20746,7 +21648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707174974914560"
 			(at 212.09 54.61 0)
 			(effects
 				(font
@@ -20770,6 +21672,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923"
+			(at 212.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 212.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20823,7 +21744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579618923001528320"
 			(at 41.91 44.45 0)
 			(effects
 				(font
@@ -20841,12 +21762,31 @@
 				(hide yes)
 			)
 		)
-		(property "Note" ""
+		(property "Note" "±20% ±100ppm/℃ 250mW 10kΩ SMD-3P,4.5x4.5mm"
 			(at 41.91 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/Bourns-3314G_1103E/C780220"
+			(at 41.91 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C780220"
+			(at 41.91 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20904,7 +21844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707174974914560"
 			(at 105.41 93.98 0)
 			(effects
 				(font
@@ -20928,6 +21868,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923"
+			(at 105.41 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 105.41 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21114,7 +22073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588881939923685376"
 			(at 133.35 39.37 0)
 			(effects
 				(font
@@ -21138,6 +22097,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/12862-0402WGJ0331TCE/C12246"
+			(at 133.35 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C12246"
+			(at 133.35 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21150,86 +22128,6 @@
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Dual_AKA")
-		(at 107.95 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e12e8c6e-3725-45ab-a6f2-c212c1859b9b")
-		(property "Reference" "LED1"
-			(at 114.3 54.5464 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_Dual_AKA"
-			(at 113.03 59.182 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_Kingbright_KPA-3010_3x2x1mm"
-			(at 107.95 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual LED, common cathode on pin 2"
-			(at 107.95 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" ""
-			(at 107.95 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "953bdc65-794d-4045-8c4a-e56bbebe1d06")
-		)
-		(pin "1"
-			(uuid "d366391e-e2f6-4b88-9f77-26d94b0a29e6")
-		)
-		(pin "2"
-			(uuid "e1c89e73-1cc4-4886-998b-52153c2141da")
-		)
-		(instances
-			(project ""
-				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -21279,6 +22177,24 @@
 			)
 		)
 		(property "Description" "20 V, 1 A low VF Schottky barrier rectifier"
+			(at 243.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/Nexperia-PMEG2010ER115/C82288"
+			(at 243.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C82288"
 			(at 243.84 120.65 0)
 			(effects
 				(font
@@ -21347,6 +22263,24 @@
 			)
 		)
 		(property "Description" "20 V, 1 A low VF Schottky barrier rectifier"
+			(at 250.19 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/Nexperia-PMEG2010ER115/C82288"
+			(at 250.19 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C82288"
 			(at 250.19 64.77 0)
 			(effects
 				(font
@@ -21473,7 +22407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588881938798530560"
 			(at 168.91 182.88 0)
 			(effects
 				(font
@@ -21497,6 +22431,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/1734-0805W8J0243T5E/C1382"
+			(at 168.91 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1382"
+			(at 168.91 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21573,6 +22526,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "5"
@@ -21714,7 +22668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707174974914560"
 			(at 212.09 46.99 0)
 			(effects
 				(font
@@ -21738,6 +22692,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923"
+			(at 212.09 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 212.09 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21857,7 +22830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588881939923685376"
 			(at 110.49 39.37 0)
 			(effects
 				(font
@@ -21881,6 +22854,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/12862-0402WGJ0331TCE/C12246"
+			(at 110.49 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C12246"
+			(at 110.49 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21934,7 +22926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707322534723585"
 			(at 35.56 138.43 0)
 			(effects
 				(font
@@ -21958,6 +22950,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/33914-CL05C100JB5NNNC/C32949"
+			(at 35.56 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C32949"
+			(at 35.56 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22235,6 +23246,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22296,6 +23308,24 @@
 			)
 		)
 		(property "Description" "20 V, 1 A low VF Schottky barrier rectifier"
+			(at 140.97 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/Nexperia-PMEG2010ER115/C82288"
+			(at 140.97 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C82288"
 			(at 140.97 132.08 0)
 			(effects
 				(font
