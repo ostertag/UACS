@@ -456,7 +456,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -482,7 +482,7 @@
   "net_settings": {
     "classes": [
       {
-        "bus_width": 12,
+        "bus_width": 16,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -497,9 +497,10 @@
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 6
+        "wire_width": 8
       },
       {
+        "bus_width": 16,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -508,12 +509,14 @@
         "name": "Ground",
         "pcb_color": "rgba(0, 255, 0, 0.502)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 255, 0)",
         "track_width": 0.3,
         "via_diameter": 0.6,
-        "via_drill": 0.3
+        "via_drill": 0.3,
+        "wire_width": 8
       },
       {
+        "bus_width": 16,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -522,10 +525,11 @@
         "name": "Power",
         "pcb_color": "rgba(194, 0, 194, 0.502)",
         "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(194, 0, 194)",
         "track_width": 0.3,
         "via_diameter": 0.6,
-        "via_drill": 0.3
+        "via_drill": 0.3,
+        "wire_width": 8
       }
     ],
     "meta": {
@@ -721,5 +725,10 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "date": "2025/04",
+    "github": "ostertag/UACS",
+    "revision": "1.0",
+    "title": "UACS Reader"
+  }
 }

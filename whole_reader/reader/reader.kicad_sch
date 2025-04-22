@@ -5,10 +5,10 @@
 	(uuid "6275a1a7-d424-4390-b849-2e49b1a9780b")
 	(paper "A4")
 	(title_block
-		(title "UACS Reader")
-		(date "2025/04")
-		(rev "1.0")
-		(comment 2 "                         github.com/ostertag/UACS")
+		(title "${title}")
+		(date "${date}")
+		(rev "${revision}")
+		(comment 2 "                         github.com/${github}")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Audio:LM386"
@@ -7966,8 +7966,8 @@
 			(xy 46.99 49.53) (xy 46.99 67.31)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
 		(uuid "1ee40658-e1c1-4173-bc72-2e3248ef1836")
 	)
@@ -8176,8 +8176,8 @@
 			(xy 54.61 54.61) (xy 54.61 67.31)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
 		(uuid "40d15424-10e8-414e-9064-5564fa37684d")
 	)
@@ -8493,6 +8493,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 102.87) (xy 151.13 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59236fd9-6f4a-467d-b7bc-66fc6e180841")
+	)
+	(wire
+		(pts
 			(xy 204.47 54.61) (xy 208.28 54.61)
 		)
 		(stroke
@@ -8786,8 +8796,8 @@
 			(xy 68.58 66.04) (xy 68.58 67.31)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
 		(uuid "7b6f6b39-589f-43c6-a7a0-00d1e18655e2")
 	)
@@ -8936,8 +8946,8 @@
 			(xy 81.28 62.23) (xy 81.28 67.31)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
 		(uuid "89607557-ac75-4396-bff0-97abcbd11323")
 	)
@@ -9443,6 +9453,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 93.98) (xy 184.15 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc8c6a84-51c6-49c6-b228-c91bb316aa72")
+	)
+	(wire
+		(pts
 			(xy 125.73 88.9) (xy 125.73 90.17)
 		)
 		(stroke
@@ -9546,8 +9566,8 @@
 			(xy 41.91 48.26) (xy 41.91 67.31)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
 		(uuid "d7ab3cc7-6ef6-440b-b02c-38560cc60531")
 	)
@@ -11019,7 +11039,25 @@
 			"INowPqA5Dr9Z21Q/AAAAAFqYBUJCkpTBINowvqA5Dr9Z21Q/AAAAAJ6hBUK7f5TBINowPoLXVL9e"
 			"Pw4/AAAAAJ6hBUK7f5TBINowvoLXVL9ePw4/AAAAAKKmBUKFZ5TBINowPiAUe7860kc+AAAAAKKm"
 			"BUKFZ5TBINowviAUe7860kc+AAAAAKKmBUJRTZTBINowPsITe7+R2Ue+AAAAAAYAAAbeAnAAoNgp"
-			"GCACAACww+AEIAIAAHGZzUAcM7M+BAAABA=="
+			"GCACAACww+AEIAIAAHGZzUAcM7M+BAAABPt/AAAQzh6h+38AAEDOHqH7fwAA4NYeoft/AAD41h6h"
+			"+38AAHzXHqH7fwAANNoeoft/AABA2h6h+38AAJDbHqH7fwAAnNseoft/AAAg3x6h+38AAHASIqH7"
+			"fwAAQBQioft/AADQEiKh+38AALAPIqH7fwAAUBAioft/AADwvCGh+38AABC+IaH7fwAAABAioft/"
+			"AABAvSGh+38AAMAAIqH7fwAA8K0hoft/AABYqh6h+38AAJDVHqH7fwAA0Pkhoft/AAAQ+yGh+38A"
+			"AJyiHqH7fwAAUKYhoft/AACQoh6h+38AAKCqHqH7fwAAuMgeoft/AACw1h6h+38AAMCLIaH7fwAA"
+			"mNkeoft/AACwoB6h+38AALygHqH7fwAA1OUeoft/AADg1iGh+38AAEDbIaH7fwAAIPohoft/AABg"
+			"+yGh+38AAMAUIqH7fwAAYB8ioft/AABgHiKh+38AAKAeIqH7fwAA4B4ioft/AAAgHyKh+38AAOAe"
+			"IqH7fwAAIB8ioft/AACg0yGh+38AACDUIaH7fwAAINQhoft/AADwEiKh+38AAACKIaH7fwAAUIoh"
+			"oft/AAAgiiGh+38AAID5IaH7fwAAwPohoft/AADAFCKh+38AAEB2IaH7fwAANM4eoft/AADgox6h"
+			"+38AAJjBHqH7fwAAYPghoft/AACwOCKh+38AAPAUIqH7fwAAUJkhoft/AABghyGh+38AAEAVIqH7"
+			"fwAAsMQeoft/AABQ9CGh+38AAODzIaH7fwAAMPQhoft/AABw/SGh+38AAMD9IaH7fwAA4PMhoft/"
+			"AACw/iGh+38AAFD/IaH7fwAAYP4hoft/AAAA/yGh+38AABD+IaH7fwAAMPQhoft/AACQACKh+38A"
+			"AGAWIqH7fwAAIP0hoft/AABQKSKh+38AAPD/IaH7fwAAQAAioft/AACg/yGh+38AABBtIaH7fwAA"
+			"YG0hoft/AACQgSGh+38AAIAbIqH7fwAAoDcioft/AADAfCGh+38AALDpIaH7fwAAUOohoft/AADI"
+			"5R6h+38AAECDIaH7fwAAkPUhoft/AABwbCGh+38AABAcIqH7fwAA4OQhoft/AACQOCKh+38AAPAb"
+			"IqH7fwAA0Bsioft/AAAQkCGh+38AABioHqH7fwAAwOAhoft/AACA4CGh+38AABCBIaH7fwAAAIYh"
+			"oft/AAAA8SGh+38AAPD4IaH7fwAAcLEhoft/AABQICKh+38AAKAgIqH7fwAA8CAioft/AABAISKh"
+			"+38AAJAhIqH7fwAAQHchoft/AABgJCKh+38AALAkIqH7fwAAACUioft/AABQJSKh+38AAKAlIqH7"
+			"fwAAYAMioft/AADAHyKh+38AAJB2IaH7fw=="
 		)
 	)
 	(image
@@ -13066,7 +13104,25 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAQAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAEAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAA=="
+			"AAAAAAAAAAAAAAAAAABwAGQAZgAsACAAcwBjAHIAaQBwAHQALQBnAGUAbgBlAHIAYQB0AGUAZAAg"
+			"AHUAcwBpAG4AZwAgAGgAdAB0AHAAcwA6AC8ALwBnAGkAdABsAGEAYgAuAGMAbwBtAC8AawBpAGMA"
+			"YQBkAC8AbABpAGIAcgBhAHIAaQBlAHMALwBrAGkAYwBhAGQALQBmAG8AbwB0AHAAcgBpAG4AdAAt"
+			"AGcAZQBuAGUAcgBhAHQAbwByAC8ALQAvAHQAcgBlAGUALwBtAGEAcwB0AGUAcgAvAHMAYwByAGkA"
+			"cAB0AHMALwB0AGUAcgBtAGkAbgBhAGwAYgBsAG8AYwBrAF8AcgBuAGQAAABpAG4AZwBsAGUAIABC"
+			"AGUAAqr4CiC2AIB0AGUAcgBtAGkAbgBhAGwAIABiAGwAbwBjAGsAIABSAE4ARAAgADIAMAA1AC0A"
+			"MAAwADAAOAAzACwAIAA3ACAAcABpAG4AcwAsACAAcABpAHQAYwBoACAAMQAwAG0AbQAsACAAcwBp"
+			"AHoAZQAgADYANQB4ADEAMAAuADMAbQBtACwAIABkAHIAaQBsAGwAIABkAGkAYQBtAGUAdABlAHIA"
+			"IAAxAC4AMwBtAG0ALAAgAHAAYQBkACAAZABpAGEAbQBlAHQAZQByACAAMgAuADUAbQBtACwAIABo"
+			"AHQAdABwADoALwAvAGMAZABuAC0AcgBlAGkAYwBoAGUAbAB0AC4AZABlAC8AZABvAGMAdQBtAGUA"
+			"bgB0AHMALwBkAGEAdABlAG4AYgBsAGEAdAB0AC8AQwAxADUAMQAvAFIATgBEAF8AMgAwADUALQAw"
+			"ADAAMAA3ADgAXwBEAEIAXwBFAE4ALgBwAGQAZgAsACAAcwBjAHIAaQBwAHQALQBnAGUAbgBlAHIA"
+			"YQB0AGUAZAAgAHUAcwBpAG4AZwAgAGgAdAB0AHAAcwA6AC8ALwBnAGkAdABsAGEAYgAuAGMAbwBt"
+			"AC8AawBpAGMAYQBkAC8AbABpAGIAcgBhAHIAaQBlAHMALwBrAGkAYwBhAGQALQBmAG8AbwB0AHAA"
+			"cgBpAG4AdAAtAGcAZQBuAGUAcgBhAHQAbwByAC8ALQAvAHQAcgBlAGUALwBtAGEAcwB0AGUAcgAv"
+			"AHMAYwByAGkAcAB0AHMALwBUAGUAcgBtAGkAbgBhAGwAQgBsAG8AYwBrAF8AUgBOAEQAAABEAAAA"
+			"LQAwADIALQB4AHgAeAAtAOqqEAottwCAdABlAHIAbQBpAG4AYQBsACAAYgBsAG8AYwBrACAAcgBu"
+			"AGQAIAAyADAANQAtADAAMAAwADcAOAAsACAAMgAgAHAAaQBuAHMALAAgAHAAaQB0AGMAaAAgADEA"
+			"MABtAG0ALAAgAHMAaQ=="
 		)
 	)
 	(label "HSE_OUT"
@@ -19402,7 +19458,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 100.33 0)
+		(at 151.13 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19411,7 +19467,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b820e84-f408-434b-be94-186aded7ee6a")
 		(property "Reference" "#PWR021"
-			(at 151.13 106.68 0)
+			(at 151.13 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19420,7 +19476,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 105.41 0)
+			(at 151.13 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19428,7 +19484,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 100.33 0)
+			(at 151.13 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19437,7 +19493,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 100.33 0)
+			(at 151.13 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19446,7 +19502,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 100.33 0)
+			(at 151.13 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19892,7 +19948,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 184.15 87.63 0)
+		(at 184.15 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19901,7 +19957,7 @@
 		(fields_autoplaced yes)
 		(uuid "a69d794e-5c15-414b-aacd-8c2bc10ab3c7")
 		(property "Reference" "#PWR029"
-			(at 184.15 93.98 0)
+			(at 184.15 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19910,7 +19966,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.15 92.71 0)
+			(at 184.15 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19918,7 +19974,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 87.63 0)
+			(at 184.15 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19927,7 +19983,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 87.63 0)
+			(at 184.15 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19936,7 +19992,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 87.63 0)
+			(at 184.15 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21033,7 +21089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Note" "2mA  Red,Emerald 120° SMD-4P,2x1.3mm"
+		(property "Note" "2mA Red, Emerald, 120°, SMD-4P, 2 x 1.3 mm"
 			(at 107.95 55.88 0)
 			(effects
 				(font
@@ -21127,7 +21183,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "    C6465979"
+		(property "LCSC" "C6465979"
 			(at 130.81 54.61 0)
 			(effects
 				(font
@@ -21136,7 +21192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Note" "2mA  Red,Emerald 120° SMD-4P,2x1.3mm"
+		(property "Note" "2mA, Red, Emerald, 120°, SMD-4P, 2 x 1.3 mm"
 			(at 130.81 54.61 0)
 			(effects
 				(font
