@@ -5,30 +5,42 @@
         "rows": "2",
         "cols": "3"
     },
+    "source": {
+        "tolerance": "10mm"
+    },
     "tabs": {
-        "type": "fixed"
+        "type": "fixed",
+        "vwidth": "2mm",
+        "hwidth": "2mm",
+        "vcount": "2",
+        "hcount": "2"
     },
     "cuts": {
         "type": "mousebites",
-        "spacing": "1mm",
-        "offset": "-0.2mm",
-        "prolong": "0.5mm"
+        "offset": "-0.25mm",
+        "prolong": "0.9mm"
     },
     "framing": {
-        "type": "railstb",
-        "width": "8mm"
+        "type": "frame",
+        "width": "6mm",
+        "mintotalheight": "70mm",
+        "mintotalwidth": "70mm",
+        "maxtotalheight": "200m",
+        "maxtotalwidth": "200m",
+        "fillet": "5mm"
     },
     "tooling": {
-        "type": "3hole",
-        "hoffset": "3mm",
-        "voffset": "3mm",
+        "type": "4hole",
+        "hoffset": "11.5mm",
+        "voffset": "4mm",
         "size": "1.152mm",
         "soldermaskmargin": "1.3mm"
     },
     "fiducials": {
         "type": "4fid",
-        "hoffset": "6mm",
-        "voffset": "3mm"
+        "hoffset": "33mm",
+        "voffset": "4.2mm",
+        "opening": "2mm"
     },
     "text": {
         "type": "simple",
