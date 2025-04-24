@@ -8183,16 +8183,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 99.06) (xy 194.31 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "414b2313-de84-4ece-9e4f-870b20849392")
-	)
-	(wire
-		(pts
 			(xy 172.72 147.32) (xy 176.53 147.32)
 		)
 		(stroke
@@ -9140,6 +9130,16 @@
 			(type default)
 		)
 		(uuid "a497dbf3-afd7-4118-a437-c66620d03d87")
+	)
+	(wire
+		(pts
+			(xy 194.31 99.06) (xy 203.2 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a50551be-24d9-43c0-9b2d-cea6a81cd344")
 	)
 	(wire
 		(pts
@@ -11111,7 +11111,43 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHkgNS42MzA3NjUgLTMuNDg1NTIxKSh4eSA1LjY3OTQ3"
+			"NiAtMy40ODg1NjQpKHh5IDUuNzU3MTI5IC0zLjQ4OTIxMykoeHkgNS43NzA0OTYgLTMuNDg5MjE3"
+			"KSh4eSA1Ljg0NjYwMSAtMy40ODg2MjcpKHh5IDUuOTA2MTczIC0zLjQ4NzA0MikoeHkgNS45NDEw"
+			"MTggLTMuNDg0NzQyKSh4eSA1Ljk0NjY3NiAtMy40ODMyNDIpKHh5IDUuOTQxNzg0IC0zLjQ2MzQ5"
+			"NikoeHkgNS45MjkxNjcgLTMuNDE4ODM4KSh4eSA1LjkxNjk1NSAtMy4zNzcxODgpKHh5IDUuODU3"
+			"NzAxIC0zLjIzNTMxNykoeHkgNS43NzA1MDYgLTMuMTE3MjY4KSh4eSA1LjY1MzYyOSAtMy4wMjEw"
+			"NzMpKHh5IDUuNTUzNTg4IC0yLjk2NTg1NSkoeHkgNS41MDQ5MjMgLTIuOTQ0NjcxKSh4eSA1LjQ2"
+			"MDA3OCAtMi45MzA2NSkoeHkgNS40MDkyOTggLTIuOTIyMzQzKSh4eSA1LjM0MjgyNiAtMi45MTgz"
+			"MDYpKHh5IDUuMjUwOTA3IC0yLjkxNzA5MikoeHkgNS4yMjQ0NDUgLTIuOTE3MDYpKHh5IDUuMTI1"
+			"NDc5IC0yLjkxNzc4NCkoeHkgNS4wNTQxNzQgLTIuOTIwOTUyKSh4eSA1LjAwMDY4NiAtMi45Mjgw"
+			"NTkpKHh5IDQuOTU1MTcgLTIuOTQwNjAxKSh4eSA0LjkwNzc4MiAtMi45NjAwNzIpKHh5IDQuODkx"
+			"NDE5IC0yLjk2NzYzMykoeHkgNC43NDU2MDQgLTMuMDU1NjMzKSh4eSA0LjYyNTYzMiAtMy4xNjk3"
+			"NzIpKHh5IDQuNTMyNzkyIC0zLjMwNzgxOCkoeHkgNC40NjgzNzIgLTMuNDY3NTQyKSh4eSA0LjQz"
+			"MzY2NCAtMy42NDY3MTQpKHh5IDQuNDI3NjM2IC0zLjc2OTg1NykoeHkgNC4xNjQ1NDkgLTMuNzY5"
+			"ODU3KSh4eSA0LjE2NDU0OSAtMi45NDUxOTkpKHh5IDMuOTk1NzE1IC0yLjk0NTE5OSkoeHkgMy44"
+			"MjY4ODIgLTIuOTQ1MTk5KSh4eSAzLjgyNjg4MiAtMy41MDMwNzEpKHh5IDMuODI2ODgyIC00LjA2"
+			"MDk0MykoeHkgMy40ODI5MjUgLTMuNTA3NzYxKSh4eSAzLjEzODk2OCAtMi45NTQ1NzgpKHh5IDIu"
+			"OTU3NjY3IC0yLjk0OTIwOSkoeHkgMi43NzYzNjUgLTIuOTQzODQpKHh5IDIuNzc2MzY1IC0zLjc2"
+			"OTkyNikoeHkgLTEuMTQyMjY1IC0zLjc2OQ=="
 		)
 	)
 	(image
@@ -13230,7 +13266,43 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAA=="
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAABqAEIAagBKAEkARABFAEgANgBWAEgAOQAwAE4AMQBRAHYATAAzADUAdQA5"
+			"AEEASgAzAEIAagBaAEwARwB1ADQAQQA2AG8AcgBUAGQASQByADcAbwBiAHMATABjAEgAaQBjAHUA"
+			"UwBCAEwAMQBTAFUAagBCAEYAaQBNADMAQgBEAFgAbgAxAGMAcQA3ACsANABFAHcAcQB3AG4ARABz"
+			"AEEAQQBBAEMAZwBQAG0ASwBPADIAQwAyAHUAMQBWADkAMQB2AHMAYQBvAGwANwB1AG0AUgBSAGIA"
+			"VQBnAFoAcQBvAEYAeABrAGsAWgB1AEYAWQB2AGUAQgBPAEsATgB3AFMAVwBzAGUAZABVAEgAMwBw"
+			"AGMAWQBZADcAVABjAEoAdABpAEIAMwBoAEgARwBLAGoAKwBtAFcAMgBiAGgAMgAxAHgAUQBnAFIA"
+			"SgBXAE8ARQAyAEwAaAA3ADAAbABQAHUAQgBMAFIATABtAHEAcABmAHUAeABzAEsATQBBAGUAcgBU"
+			"AGcAQQBBAEEARgBvAHYAKwBzAFcAdQBjAFoAMwArAHAAdgBNADEAUgByADMAZABOAFcAMgB3AGsA"
+			"QQA3AFUAUgBEADAAVAAzADQAdABoADcAaABUAE0AVwBQAHAAQQBYADMARQAzAEYARwA4AGYAZAAw"
+			"AEEAVwBiAG4ASQBIAEYASQBJAFIAWQBrAGMAWQBJAFQAYQBPAFYAYQBiAEkAQQBpAE4ARQBGAEMA"
+			"dAA2AGEAWABGADMAUQB3AEUAWQBLAGQAWABMAEoAZQA2AEEASQB2AEQAeQBBAGcAQQBBAFEARQB2"
+			"AEYAMABuAEcAaQBYAHQARQBGADIAcQB3AFcAdwA4AE4AUABXADAATABmADEAaAAvAGkAdwBSAGcA"
+			"YgAvAGQAMABwACsARwB6AHAAQgBsADMAagBiAGkAagBjAGQAbABIAE8AdQB1AEwAVwA0AFQAYgBF"
+			"ADUAaABnAGUAcwA3AGcAVABLAHUAdwB4AGQAMABBAEIARwBDAEUAaQBDADQAdwBRAFUAYQA1AEYA"
+			"MQBkAGUAZABrAEwAMwBwAHUAdAB5AGQAZwBMAFoANgBVAE0AKwA3AEUAdwByAEEAeQB3AHMAQQBB"
+			"AEEAQQB0AEUAdgAxAGkAKwA1AGkAZwBwADMAUwA0AEIAcgB0AGIAagBGAGIAVgBPAFAAMAA1AHgA"
+			"cwBXAEsANwBoAEIAOABwAGcAUAAwAHYAagB1AGgAYQBQADIAMAB2AFQAcwBoAEEAegBkAHAAaQBq"
+			"AHUAaABDAEgAMgAxAGkAagB1AGgAdwBqAGkARgAyAEwAZwBsADMAUQBGAEEAWgB6AEIAQwBSAEwA"
+			"awArADUAdwA0AG8Adw=="
 		)
 	)
 	(label "HSE_OUT"
@@ -15128,7 +15200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
+		(property "Footprint" "UACS:PinSocket_1x08_P2.54mm_Vertical"
 			(at 269.24 99.06 0)
 			(effects
 				(font
@@ -15170,6 +15242,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC" "C27438"
@@ -15178,6 +15251,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -15574,7 +15648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588920841703079936"
 			(at 260.35 135.89 0)
 			(effects
 				(font
@@ -15601,7 +15675,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "https://jlcpcb.com/partdetail/5762033-USB4110_GFA/C5143397"
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/ShouHan-TYPE_C_16PIN_2MD_073/C2765186"
 			(at 264.16 135.89 0)
 			(effects
 				(font
@@ -15610,7 +15684,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5143397"
+		(property "LCSC" "C2765186"
 			(at 264.16 135.89 0)
 			(effects
 				(font
@@ -16103,7 +16177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.coilcraft.com/getmedia/57f966eb-7d10-43b3-836d-0bce7dd15059/lps3010.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588948186942099456"
 			(at 152.4 147.32 0)
 			(effects
 				(font
@@ -16130,7 +16204,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C19276043"
+		(property "LCSC" "C520285"
 			(at 152.4 147.32 0)
 			(effects
 				(font
@@ -16139,7 +16213,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "https://jlcpcb.com/partdetail/Coilcraft-LPS3010103MRC/C19276043"
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/Ceaiya-CR3012150M/C520285"
 			(at 152.4 147.32 0)
 			(effects
 				(font
@@ -17967,7 +18041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590008830043058177"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588884762697584640"
 			(at 41.91 31.75 0)
 			(effects
 				(font
@@ -17994,7 +18068,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "https://jlcpcb.com/partdetail/Sunway-SC0805J1003F4ANRH/C3152215"
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/160838-0805W8F1003T5E/C149504"
 			(at 41.91 31.75 0)
 			(effects
 				(font
@@ -18003,7 +18077,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3152215"
+		(property "LCSC" "C149504"
 			(at 41.91 31.75 0)
 			(effects
 				(font
@@ -18386,7 +18460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2307141654_Yajingxin-TX322516M4DBDE2T_C5310731.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588879072148017152"
 			(at 27.94 127 0)
 			(effects
 				(font
@@ -18413,7 +18487,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "https://jlcpcb.com/partdetail/Yajingxin-TX322516M4DBDE2T/C5310731"
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/Yxc_CrystalOscillators-X322516MLB4SI/C13738"
 			(at 27.94 127 0)
 			(effects
 				(font
@@ -18422,7 +18496,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5310731"
+		(property "LCSC" "C13738"
 			(at 27.94 127 0)
 			(effects
 				(font
@@ -19519,7 +19593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588881975520743424"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705954880966656"
 			(at 68.58 62.23 0)
 			(effects
 				(font
@@ -19546,7 +19620,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "https://jlcpcb.com/partdetail/25882-0402WGJ0100TCE/C25139"
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/25820-0402WGF100JTCE/C25077"
 			(at 68.58 62.23 0)
 			(effects
 				(font
@@ -19555,7 +19629,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25139"
+		(property "LCSC" "C25077"
 			(at 68.58 62.23 0)
 			(effects
 				(font
@@ -21279,7 +21353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590908716709863424"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590902847586181120"
 			(at 130.81 55.372 0)
 			(effects
 				(font
@@ -21297,7 +21371,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "https://jlcpcb.com/partdetail/Kingbright-APHBM2012LSURKZGKC/C6465979"
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/Kingbright-APHBM2012SURKCGKC/C5553822"
 			(at 130.81 54.61 0)
 			(effects
 				(font
@@ -21306,7 +21380,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C6465979"
+		(property "LCSC" "C5553822"
 			(at 130.81 54.61 0)
 			(effects
 				(font
@@ -21640,7 +21714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588906493386608641"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588894528896454656"
 			(at 144.78 109.22 0)
 			(effects
 				(font
@@ -21667,7 +21741,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "https://jlcpcb.com/partdetail/ck-PCM12SMTR/C221841"
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/Alpsalpine-SSSS811101/C109335"
 			(at 144.78 116.84 0)
 			(effects
 				(font
@@ -21676,7 +21750,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C221841"
+		(property "LCSC" "C109335"
 			(at 144.78 116.84 0)
 			(effects
 				(font
@@ -22022,7 +22096,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_3314S_Horizontal"
+		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_3314G_Vertical"
 			(at 41.91 44.45 0)
 			(effects
 				(font
@@ -22756,13 +22830,13 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
-		(at 208.28 101.6 0)
+		(at 210.82 101.6 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e67d815c-3379-4ebb-ab65-309661f694cf")
 		(property "Reference" "SWD1"
 			(at 209.55 92.71 0)
@@ -22780,8 +22854,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_2x05_P1.27mm_Vertical"
-			(at 208.28 101.6 0)
+		(property "Footprint" "UACS:PinSocket_2x05_P1.27mm_Vertical"
+			(at 210.82 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22790,7 +22864,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588891463094841344"
-			(at 208.28 101.6 0)
+			(at 210.82 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22799,7 +22873,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 208.28 101.6 0)
+			(at 210.82 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22808,7 +22882,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 208.28 101.6 0)
+			(at 210.82 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22817,19 +22891,21 @@
 			)
 		)
 		(property "JLCPCB" "https://jlcpcb.com/partdetail/Hoauc-2343U205CNG1SNT01/C350287"
-			(at 208.28 101.6 0)
+			(at 210.82 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC" "C350287"
-			(at 208.28 101.6 0)
+			(at 210.82 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "5"
