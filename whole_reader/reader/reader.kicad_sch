@@ -11093,7 +11093,25 @@
 			"AACUeCkDAAAAAFxkEQIAAAAAaHcoAwAAAAD+WSgDAAAAAOAZpwQAAAAAhIMIAgAAAABgBSkDAAAA"
 			"AJCGqgIAAAAA2sGpBAAAAADc+qkCAAAAAF1NKQMAAAAA6BgpAwAAAAB0p6sEAAAAACjpugEAAAAA"
 			"ti6sAgAAAABkPkUCAAAAAAD9LAMAAAAAWDtCAgAAAACUMSsDAAAAAMHfrQIAAAAApFWwBAAAAACk"
-			"weEBAAAAAMSmKwMAAAAAti6sAgAAAADwBA=="
+			"weEBAAAAAMSmKwMAAAAAti6sAgAAAADwBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
 	)
 	(image
@@ -13194,7 +13212,25 @@
 			"QAXs6j+TuQA+AFZdf15eX/9zc3P/AAAAAAAAAAAkawVABezqP5O5AD4AVl1/Xl5f/3Nzc/8AAAAA"
 			"AAAAAPRbGECCeuY/iq4UPgAvdX9eXl//c3Nz/wAAAAAAAAAA504GQH8k6T/KBAs+AERqf15eX/9z"
 			"c3P/AAAAAAAAAADmowdAgnrmP4quFD4ALnZ/Xl5f/3Nzc/8AAAAAAAAAAPRbGECCeuY/iq4UPgAv"
-			"dX9eXl//c3Nz/wAAAA=="
+			"dX9eXl//c3Nz/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAA=="
 		)
 	)
 	(label "HSE_OUT"
@@ -14390,7 +14426,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 µF"
+		(property "Value" "100 nF"
 			(at 160.02 39.3699 0)
 			(effects
 				(font
@@ -14408,7 +14444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707174974914560"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
 			(at 156.21 38.1 0)
 			(effects
 				(font
@@ -14435,7 +14471,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923"
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 156.21 38.1 0)
 			(effects
 				(font
@@ -14444,7 +14480,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC" "C1525"
 			(at 156.21 38.1 0)
 			(effects
 				(font
@@ -14870,7 +14906,7 @@
 		(at 180.34 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -15069,7 +15105,7 @@
 		(at 269.24 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -15101,7 +15137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8576018131540119552"
 			(at 269.24 99.06 0)
 			(effects
 				(font
@@ -15126,6 +15162,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/28187-2_54_1_8P/C27438"
+			(at 269.24 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C27438"
+			(at 269.24 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -16716,7 +16768,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 µF"
+		(property "Value" "100 nF"
 			(at 214.376 40.386 0)
 			(effects
 				(font
@@ -16734,7 +16786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707174974914560"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
 			(at 212.09 38.1 0)
 			(effects
 				(font
@@ -16761,7 +16813,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923"
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 212.09 38.1 0)
 			(effects
 				(font
@@ -16770,7 +16822,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC" "C1525"
 			(at 212.09 38.1 0)
 			(effects
 				(font
@@ -17123,7 +17175,7 @@
 		(at 125.73 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -17484,7 +17536,7 @@
 		(at 135.89 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -19370,7 +19422,7 @@
 		(at 45.72 25.4 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9987b233-b589-40d4-a663-14fcb02b395a")
@@ -21312,7 +21364,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 µF"
+		(property "Value" "100 nF"
 			(at 152.4 30.4799 0)
 			(effects
 				(font
@@ -21330,7 +21382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707174974914560"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
 			(at 148.59 29.21 0)
 			(effects
 				(font
@@ -21357,7 +21409,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923"
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 148.59 29.21 0)
 			(effects
 				(font
@@ -21366,7 +21418,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC" "C1525"
 			(at 148.59 29.21 0)
 			(effects
 				(font
@@ -21395,7 +21447,7 @@
 		(at 115.57 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c5e75acb-0cde-492b-8a43-75e1675e42aa")
@@ -21866,7 +21918,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1 µF"
+		(property "Value" "100 nF"
 			(at 216.916 52.324 90)
 			(effects
 				(font
@@ -21883,7 +21935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707174974914560"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
 			(at 212.09 54.61 0)
 			(effects
 				(font
@@ -21910,7 +21962,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923"
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 212.09 54.61 0)
 			(effects
 				(font
@@ -21919,7 +21971,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC" "C1525"
 			(at 212.09 54.61 0)
 			(effects
 				(font
@@ -22720,7 +22772,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "2x5P, direct insert"
 			(at 209.55 92.71 0)
 			(effects
 				(font
@@ -22737,7 +22789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588891463094841344"
 			(at 208.28 101.6 0)
 			(effects
 				(font
@@ -22762,6 +22814,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/Hoauc-2343U205CNG1SNT01/C350287"
+			(at 208.28 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C350287"
+			(at 208.28 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -22886,7 +22954,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1 µF"
+		(property "Value" "100 nF"
 			(at 217.17 44.704 90)
 			(effects
 				(font
@@ -22903,7 +22971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707174974914560"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
 			(at 212.09 46.99 0)
 			(effects
 				(font
@@ -22930,7 +22998,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923"
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 212.09 46.99 0)
 			(effects
 				(font
@@ -22939,7 +23007,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC" "C1525"
 			(at 212.09 46.99 0)
 			(effects
 				(font
