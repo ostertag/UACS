@@ -1687,6 +1687,148 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -6385,191 +6527,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "UACS:Speaker"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Speaker1"
-				(at -2.54 5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Value" "8 Ohm, 0.5 W"
-				(at -2.54 -8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/530/53047/530470210_sd.pdf?inline\\"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at -1.016 -11.176 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Field5" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Field6" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB" "https://jlcpcb.com/partdetail/Molex-530470210/C114130"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C114130"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Speaker_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "AUDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -7629,12 +7586,6 @@
 		(uuid "6cdc323b-643b-4eba-a69b-c63f2f0a4407")
 	)
 	(junction
-		(at 99.06 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70a14db2-e75d-4cc5-991d-8905c879ac7c")
-	)
-	(junction
 		(at 49.53 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7713,10 +7664,10 @@
 		(uuid "abbf3e1d-2ac6-45d6-8340-ba1e20252496")
 	)
 	(junction
-		(at 99.06 53.34)
+		(at 99.06 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bea53a10-aad7-4361-8518-9368be884f18")
+		(uuid "bb722613-c301-4b8f-888f-1cae0d784cf3")
 	)
 	(junction
 		(at 27.94 146.05)
@@ -7783,6 +7734,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbe91743-5591-40df-97e2-22a76e07f5ea")
+	)
+	(junction
+		(at 99.06 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc21d58f-c597-41d5-88d6-1a60b7480f57")
 	)
 	(junction
 		(at 34.29 40.64)
@@ -11848,7 +11805,25 @@
 			"AHX04gBiAAA1AAAAAAAAADBcmMIGYgAA8NMM1bZzAACxAAAAtnMAAEA9mMIGYgAAAMB+1bZzAAAB"
 			"AQAAAAAAABBTmMIGYgAA4FyYwgZiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADRAAAAAAAAAHDC"
 			"oMIGYgAA0J2yugZiAADwDpXCBmIAAAAAAAAjAAAAAAAAAAEA/ADADZXCBmIAAEAAAAAAAAAAcAAA"
-			"AAAAAADQHKnkAGIAAKqqqqqqqqqqqqqqqg=="
+			"AAAAAADQHKnkAGIAAKqqqqqqqqqqqqqqqgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
 	)
 	(image
@@ -14255,7 +14230,25 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAANhbXcIGYgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAEAAAAAAAAAcFxdwgZiAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOFxdwgZiAAA4XF3CBmIAAAAAAAAAAAAA"
-			"MAYAAAAAAACAAAAAAA=="
+			"MAYAAAAAAACAAAAAAAAAAG8AAABPAAAAeQAAAEEAAAB6AAAAdAAAADEAAABxAAAAUQAAAHAAAAB4"
+			"AAAAaAAAAHoAAAArAAAAeQAAAEEAAAB6AAAAdgAAAGsAAABYAAAAawAAAHUAAABhAAAAWQAAAEUA"
+			"AABBAAAARgAAAGcAAAA2AAAALwAAAHAAAAAwAAAAUAAAAEwAAABqAAAAOAAAAGMAAABqAAAAawAA"
+			"ADMAAABPAAAAdwAAAE8AAABXAAAAYgAAAE0AAABnAAAATwAAAGcAAABLAAAANwAAADQAAABrAAAA"
+			"ZwAAAGgAAABOAAAASwAAAHgAAABmAAAARwAAAE8AAAA3AAAATQAAAGIAAABXAAAASwAAAFcAAAB1"
+			"AAAAagAAAGoAAABkAAAAbAAAAEoAAAAvAAAAUgAAAGgAAAB1AAAASwAAAGUAAABKAAAAWgAAAHkA"
+			"AAA1AAAATQAAAGkAAABMAAAATQAAAGMAAABuAAAAQgAAADMAAABRAAAAdQAAAFEAAAB1AAAAOQAA"
+			"AG8AAAAzAAAAbwAAAEcAAABwAAAAeAAAAEQAAAByAAAAbQAAAEIAAABCAAAAcAAAAGoAAABnAAAA"
+			"awAAAFIAAABBAAAATAAAAGEAAABlAAAANgAAACsAAABLAAAANQAAADUAAABjAAAAaAAAAHkAAABl"
+			"AAAAbgAAAFkAAABHAAAATAAAAEkAAAB0AAAAQgAAAEIAAABKAAAAYgAAAEMAAAA2AAAARQAAADcA"
+			"AAByAAAALwAAAGkAAABCAAAAdQAAAHoAAABFAAAANQAAAGcAAABWAAAAWAAAAHAAAABEAAAAYwAA"
+			"AFUAAABuAAAAYgAAADQAAABqAAAAaQAAAEQAAABPAAAAQQAAADkAAABYAAAAZQAAAHUAAAAvAAAA"
+			"bQAAAFQAAABDAAAAYgAAAHEAAABPAAAAcgAAADQAAABVAAAAUAAAAEkAAABzAAAASgAAAHMAAABj"
+			"AAAANwAAAGwAAAAyAAAAUQAAAEgAAAB3AAAAZwAAADAAAAB5AAAASQAAAEEAAABMAAAAQwAAADEA"
+			"AABuAAAAQgAAADYAAABQAAAASwAAAE8AAAAvAAAASwAAAGoAAABvAAAAQgAAAGwAAABNAAAANAAA"
+			"AGoAAABBAAAAVQAAAGgAAABqAAAAZAAAAGEAAABWAAAAeQAAADUAAABPAAAATgAAADYAAABhAAAA"
+			"MwAAAGMAAABBAAAAcQAAAGQAAABGAAAAbQAAADgAAABKAAAAVAAAAHUAAABoAAAARwAAADAAAAAv"
+			"AAAASwAAAEQAAABwAAAAaQAAAEUAAABiAAAAMgAAAFkAAABIAAAAdAAAAEcAAAByAAAAWQAAADEA"
+			"AAByAAAAcwAAAFEAAA=="
 		)
 	)
 	(label "HSE_OUT"
@@ -19213,113 +19206,6 @@
 		)
 	)
 	(symbol
-		(lib_id "UACS:Speaker")
-		(at 104.14 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "51d6d45a-d987-49e3-99c1-465a5b29be8c")
-		(property "Reference" "Sp_connector1"
-			(at 101.6 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "1x02_P1.25mm"
-			(at 101.6 61.468 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical"
-			(at 104.14 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/530/53047/530470210_sd.pdf?inline\\"
-			(at 104.14 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 103.124 64.516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
-			(at 104.14 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 104.14 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "https://jlcpcb.com/partdetail/Molex-530470210/C114130"
-			(at 104.14 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C114130"
-			(at 104.14 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c27657eb-1f13-438c-b1b4-e0b1448c3791")
-		)
-		(pin "2"
-			(uuid "b65865ba-136d-4c1b-af83-2bd27e3911b6")
-		)
-		(instances
-			(project ""
-				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "Sp_connector1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 144.78 156.21 0)
 		(unit 1)
@@ -22974,6 +22860,93 @@
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 104.14 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7ec2e70-73e9-4926-96d4-49828854b231")
+		(property "Reference" "SP_Conn1"
+			(at 99.822 50.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P=1.25mm"
+			(at 101.092 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical"
+			(at 104.14 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/530/53047/530470210_sd.pdf?inline\\"
+			(at 104.14 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 104.14 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/Molex-530470210/C114130"
+			(at 104.14 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114130"
+			(at 104.14 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "801457ae-a245-45c1-9575-fddf03416276")
+		)
+		(pin "1"
+			(uuid "ef4b60d0-187b-4002-a814-42fc92826d3c")
+		)
+		(instances
+			(project ""
+				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
+					(reference "SP_Conn1")
 					(unit 1)
 				)
 			)
