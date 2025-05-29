@@ -55,7 +55,8 @@ void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
 void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
-
+void Led_Blick(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, uint32_t Delay);
+void Generate_Pulse_Lenght();
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/

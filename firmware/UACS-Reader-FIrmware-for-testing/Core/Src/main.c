@@ -22,6 +22,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include <math.h>
 
 /* USER CODE END Includes */
 
@@ -32,7 +33,8 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
+#define SAMPLES 64
+#define PI 3.14159265358979323846f
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -51,7 +53,8 @@ DMA_HandleTypeDef hdma_usart3_tx;
 DMA_HandleTypeDef hdma_usart3_rx;
 
 /* USER CODE BEGIN PV */
-
+uint16_t sine_table[SAMPLES];
+int counter = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -107,7 +110,9 @@ int main(void)
   MX_TIM3_Init();
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
-
+  Generate_Pulse_Lenght();
+  HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_1);
+  HAL_TIM_Base_Start(&htim2);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -115,7 +120,11 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
+    int delay = 200;
+	  Led_Blick(GPIOB, GPIO_PIN_6, delay);
+	  Led_Blick(GPIOB, GPIO_PIN_7, delay);
+	  Led_Blick(GPIOA, GPIO_PIN_8, delay);
+	  Led_Blick(GPIOA, GPIO_PIN_9, delay);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -410,7 +419,28 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+void Led_Blick(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, uint32_t Delay){
+	HAL_GPIO_WritePin(GPIOx, GPIO_Pin, GPIO_PIN_SET);
+	HAL_Delay(Delay);
+	HAL_GPIO_WritePin(GPIOx, GPIO_Pin, GPIO_PIN_RESET);
+}
+void Generate_Pulse_Lenght() {
+    for (int i = 0; i < SAMPLES; i++) {
+    	float value = ((sinf(2.0f*PI*((float)i/(float)SAMPLES)) + 1.0f)/2.0f)*1124.0f;
+        sine_table[i] = value;
+    }
+}
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
+	Led_Blick(GPIOB, GPIO_PIN_6, 200);
+	TIM3->CCR1 = sine_table[counter];
+	counter++;
+	if (counter > 63){
+		counter = 0;
+	}
+}
+void USB_CDC_RxHandler(uint8_t* Buf, uint32_t Len){
 
+}
 /* USER CODE END 4 */
 
 /**
