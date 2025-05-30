@@ -57,6 +57,10 @@ void Error_Handler(void);
 /* USER CODE BEGIN EFP */
 void Led_Blick(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, uint32_t Delay);
 void Generate_Pulse_Lenght();
+void Serial_Command_Handler(uint8_t* Buf);
+void Led_Handler(char* Buf);
+void UART_Handler(char* payload);
+void Timer_Starter();
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/

@@ -1,4 +1,4 @@
-/* USER CODE BEGIN Header */
+ /* USER CODE BEGIN Header */
 /**
   ******************************************************************************
   * @file           : usbd_cdc_if.c
@@ -259,11 +259,12 @@ static int8_t CDC_Control_FS(uint8_t cmd, uint8_t* pbuf, uint16_t length)
 static int8_t CDC_Receive_FS(uint8_t* Buf, uint32_t *Len)
 {
   /* USER CODE BEGIN 6 */
-  USBD_CDC_SetRxBuffer(&hUsbDeviceFS, &Buf[0]);
-  USBD_CDC_ReceivePacket(&hUsbDeviceFS);
-  USB_CDC_RxHandler(UserRxBufferFS, *Len);
-  memset(UserRxBufferFS, '\0', *Len);
-  return (USBD_OK);
+	USB_CDC_RxHandler(UserRxBufferFS, *Len);
+	USBD_CDC_SetRxBuffer(&hUsbDeviceFS, &Buf[0]);
+	USBD_CDC_ReceivePacket(&hUsbDeviceFS);
+
+	memset(UserRxBufferFS, '\0', *Len);
+	return (USBD_OK);
   /* USER CODE END 6 */
 }
 

@@ -113,6 +113,11 @@ int main(void)
   Generate_Pulse_Lenght();
   HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_1);
   HAL_TIM_Base_Start(&htim2);
+  int delay = 200;
+  Led_Blick(GPIOB, GPIO_PIN_6, delay);
+  Led_Blick(GPIOB, GPIO_PIN_7, delay);
+  Led_Blick(GPIOA, GPIO_PIN_8, delay);
+  Led_Blick(GPIOA, GPIO_PIN_9, delay);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -120,11 +125,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-    int delay = 200;
-	  Led_Blick(GPIOB, GPIO_PIN_6, delay);
-	  Led_Blick(GPIOB, GPIO_PIN_7, delay);
-	  Led_Blick(GPIOA, GPIO_PIN_8, delay);
-	  Led_Blick(GPIOA, GPIO_PIN_9, delay);
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -439,7 +440,55 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
 	}
 }
 void USB_CDC_RxHandler(uint8_t* Buf, uint32_t Len){
+	uint8_t* tmpBuf = Buf;
+	Serial_Command_Handler(tmpBuf);
 
+}
+void Serial_Command_Handler(uint8_t* Buf){
+	char * type = strtok((char*)Buf, "-");
+	char * payload =  strtok(NULL, "-");
+	if (strcmp(type, "L") == 0) {
+		Led_Handler(payload);
+	    }else if (strcmp(type, "U") == 0)  {
+	    	UART_Handler(payload);
+	    }else if (strcmp(type, "T") == 0){
+	    	Timer_Starter();
+	    	HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_7);
+	    }else {
+	    	CDC_Transmit_FS(Buf, strlen((char*)Buf));
+	    }
+
+
+
+	    }
+void Led_Handler(char* Buf){
+	if (strcmp(Buf, "G1ON") == 0) {
+		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_7, GPIO_PIN_SET);
+		    } else if (strcmp(Buf, "R1ON") == 0) {
+		        HAL_GPIO_WritePin(GPIOB, GPIO_PIN_6, GPIO_PIN_SET);
+		    } else if (strcmp(Buf, "G2ON") == 0) {
+		        HAL_GPIO_WritePin(GPIOA, GPIO_PIN_9, GPIO_PIN_SET);
+		    } else if (strcmp (Buf, "R2ON") == 0) {
+		        HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, GPIO_PIN_SET);
+		    } else if (strcmp(Buf, "G1OFF") == 0) {
+		        HAL_GPIO_WritePin(GPIOB, GPIO_PIN_7, GPIO_PIN_RESET);
+		    } else if (strcmp(Buf, "R1OFF") == 0) {
+		        HAL_GPIO_WritePin(GPIOB, GPIO_PIN_6, GPIO_PIN_RESET);
+		    } else if (strcmp(Buf, "G2OFF") == 0) {
+		        HAL_GPIO_WritePin(GPIOA, GPIO_PIN_9, GPIO_PIN_RESET);
+		    } else if (strcmp(Buf, "R2OFF") == 0) {
+		        HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, GPIO_PIN_RESET);
+		    }
+}
+void UART_Handler(char* payload){
+	uint8_t msg[29];
+	memcpy(msg, payload, strlen(payload) + 1);
+	HAL_UART_Transmit(&huart3, msg, sizeof(msg), 100);
+	CDC_Transmit_FS(msg, strlen((char*)msg));
+}
+void Timer_Starter(){
+	HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_1);
+	HAL_TIM_Base_Start(&htim2);
 }
 /* USER CODE END 4 */
 
