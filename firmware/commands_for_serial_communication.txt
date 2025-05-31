@@ -1,5 +1,0 @@
-Commands for serial communication over USB with UACS-Reader
-=======
-Leds (prefix L-):
-Color number on/off - G1ON, R2OFF
-
