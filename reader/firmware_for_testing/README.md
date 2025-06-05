@@ -1,4 +1,7 @@
 ### Deployment:
+Deployment proces is a bit clunky, but it is reliable way to replicate this project
+
+
 
 1. In STM32cubeIDE import project from .ioc file
 2. Use .ioc file in this repo
