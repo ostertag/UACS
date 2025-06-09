@@ -568,7 +568,7 @@ void Serial_Command_Handler(char * Buf){
 
 	switch (currentMenu){
 	case MENU_MAIN:
-		if (strcmp(Buf, "L") == 0) {
+		if (strcmp(Buf, "T") == 0) {
 			Led_Menu();
 			currentMenu = MENU_LED;
 		}else if (strcmp(Buf, "B") == 0){
