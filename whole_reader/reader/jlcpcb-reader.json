@@ -1,0 +1,53 @@
+{
+    "layout": {
+        "hspace": "2mm",
+        "vspace": "2mm",
+        "rows": "2",
+        "cols": "3"
+    },
+    "source": {
+        "tolerance": "10mm"
+    },
+    "tabs": {
+        "type": "fixed",
+        "vwidth": "2mm",
+        "hwidth": "2mm",
+        "vcount": "2",
+        "hcount": "2"
+    },
+    "cuts": {
+        "type": "mousebites",
+        "offset": "-0.25mm",
+        "prolong": "0.9mm"
+    },
+    "framing": {
+        "type": "frame",
+        "width": "6mm",
+        "mintotalheight": "70mm",
+        "mintotalwidth": "70mm",
+        "maxtotalheight": "200m",
+        "maxtotalwidth": "200m",
+        "fillet": "5mm"
+    },
+    "tooling": {
+        "type": "4hole",
+        "hoffset": "11.5mm",
+        "voffset": "4mm",
+        "size": "1.152mm",
+        "soldermaskmargin": "1.3mm"
+    },
+    "fiducials": {
+        "type": "4fid",
+        "hoffset": "33mm",
+        "voffset": "4.2mm",
+        "opening": "2mm"
+    },
+    "text": {
+        "type": "simple",
+        "voffset": "3mm",
+        "text": "UACS Reader 1.0 2025/04"
+    },
+    "post": {
+        "millradius": "0.5mm"
+    }
+}
