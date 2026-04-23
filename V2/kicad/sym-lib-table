@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "easyeda2kicad")(type "KiCad")(uri "${KIPRJMOD}/easyeda2kicad.kicad_sym")(options "")(descr ""))
+  (lib (name "STM32H523CET6")(type "KiCad")(uri "${KIPRJMOD}/STM32H523CET6.kicad_sym")(options "")(descr ""))
+)

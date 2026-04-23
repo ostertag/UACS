@@ -499,38 +499,6 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 8
-      },
-      {
-        "bus_width": 16,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Ground",
-        "pcb_color": "rgba(0, 255, 0, 0.502)",
-        "priority": 0,
-        "schematic_color": "rgb(0, 255, 0)",
-        "track_width": 0.3,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 8
-      },
-      {
-        "bus_width": 16,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Power",
-        "pcb_color": "rgba(194, 0, 194, 0.502)",
-        "priority": 1,
-        "schematic_color": "rgb(194, 0, 194)",
-        "track_width": 0.3,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 8
       }
     ],
     "meta": {
@@ -540,19 +508,19 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Power",
+        "netclass": "Default",
         "pattern": "*V"
       },
       {
-        "netclass": "Power",
+        "netclass": "Default",
         "pattern": "*VA"
       },
       {
-        "netclass": "Power",
+        "netclass": "Default",
         "pattern": "V+"
       },
       {
-        "netclass": "Ground",
+        "netclass": "Default",
         "pattern": "GND"
       }
     ]
