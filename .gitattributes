@@ -1,0 +1,17 @@
+# KiCad files — normalize to LF everywhere
+*.kicad_pro    text eol=lf
+*.kicad_sch    text eol=lf
+*.kicad_pcb    text eol=lf
+*.kicad_sym    text eol=lf
+*.kicad_mod    text eol=lf
+*.kicad_wks    text eol=lf
+*.kicad_dru    text eol=lf
+*.kicad_prl    text eol=lf
+
+# Gerbers and other outputs
+*.gbr          text eol=lf
+*.drl          text eol=lf
+
+# General
+*.md           text eol=lf
+*.json         text eol=lf
