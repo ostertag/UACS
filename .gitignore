@@ -29,7 +29,5 @@ fp-info-cache
 *.csv
 
 
-*/*/*/.history
-*/*/.history
-*/.history
-
+V2/kicad/.history
+/reader/hardware/.history
