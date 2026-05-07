@@ -695,8 +695,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "Value"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -747,7 +747,7 @@
         "uuid": "6275a1a7-d424-4390-b849-2e49b1a9780b"
       }
     ],
-    "used_designators": "R20,#PWR39,C23",
+    "used_designators": "C2-3,C13,R17-18,D9-10",
     "variants": []
   },
   "sheets": [
