@@ -2135,4 +2135,960 @@
       )
     )
   )
+
+  (symbol "CC0603JRX7R9BB472"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "C"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "CC0603JRX7R9BB472"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "easyeda2kicad:C0603"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/New-Arrivals_YAGEO-CC0603JRX7R9BB472_C115060.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "YAGEO(国巨)"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "MPN"
+      "CC0603JRX7R9BB472"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C115060"
+      (id 6)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_keywords"
+      "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+      (id 8)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "CC0603JRX7R9BB472_0_1"
+      (polyline
+        (pts
+          (xy -0.51 -2.03) (xy -0.51 2.03)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54 -0.00) (xy 0.51 -0.00)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.51 2.03) (xy 0.51 -2.03)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.51 -0.00) (xy -2.54 -0.00)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at -5.08 -0.00 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 5.08 -0.00 180)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+  (symbol "AC0805FR-7W120RL"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "R"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "AC0805FR-7W120RL"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "easyeda2kicad:R0805"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-AC0805FR-7W120RL_C727984.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "YAGEO(国巨)"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "MPN"
+      "AC0805FR-7W120RL"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C727984"
+      (id 6)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_keywords"
+      "Resistors"
+      (id 8)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "AC0805FR-7W120RL_0_1"
+      (rectangle
+        (start -2.54 1.27)
+        (end 2.54 -1.27)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (pin unspecified line
+        (at 5.08 -0.00 180)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -5.08 -0.00 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+  (symbol "ESD2CAN24-ES"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 0 7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "ESD2CAN24-ES"
+      (id 1)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "easyeda2kicad:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+      (id 2)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://www.lcsc.com/datasheet/C19170841.pdf"
+      (id 3)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ElecSuper(静芯微)"
+      (id 4)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "MPN"
+      "ESD2CAN24-ES"
+      (id 5)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C19170841"
+      (id 6)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_keywords"
+      "TVS"
+      (id 8)
+      (at 0 -22.86 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "ESD2CAN24-ES_0_1"
+      (rectangle
+        (start -5.08 6.35)
+        (end 5.08 -6.35)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (circle
+        (center -2.54 5.08)
+        (radius 0.38)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.00 0.76) (xy 2.54 2.54) (xy 0.00 4.32) (xy 0.00 0.76)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy 0.00 -4.32) (xy 2.54 -2.54) (xy 0.00 -0.76) (xy 0.00 -4.32)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -1.27 4.32) (xy -3.81 2.54) (xy -1.27 0.76) (xy -1.27 4.32)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -1.27 -0.76) (xy -3.81 -2.54) (xy -1.27 -4.32) (xy -1.27 -0.76)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy 2.54 2.54) (xy 3.81 2.54)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 2.54) (xy 0.00 2.54)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.03 4.57) (xy 2.54 4.06) (xy 2.54 1.02) (xy 3.05 0.51)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.03 -0.51) (xy 2.54 -1.02) (xy 2.54 -4.06) (xy 3.05 -4.57)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 -2.54) (xy 0.00 -2.54)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54 -2.54) (xy 3.81 -2.54)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.81 2.54) (xy -5.08 2.54)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.00 2.54) (xy -1.27 2.54)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.30 0.51) (xy -3.81 1.02) (xy -3.81 4.06) (xy -4.32 4.57)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.30 -4.57) (xy -3.81 -4.06) (xy -3.81 -1.02) (xy -4.32 -0.51)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.00 -2.54) (xy -1.27 -2.54)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.81 -2.54) (xy -5.08 -2.54)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.81 2.54) (xy 3.81 -2.54)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.81 -0.00) (xy 5.08 -0.00)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at -7.62 -2.54 0)
+        (length 2.54)
+        (name "IO" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 2.54 0)
+        (length 2.54)
+        (name "IO" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 -0.00 180)
+        (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+  (symbol "PESD5V0U1BA-N"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "D"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "PESD5V0U1BA-N"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-BI"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Diodes-ESD_Bourne-Semicon-Shenzhen-PESD5V0U1BA-N_C406223.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "BORN(伯恩半导体)"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "MPN"
+      "PESD5V0U1BA-N"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C406223"
+      (id 6)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_keywords"
+      "ESD Protection Devices"
+      (id 8)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "PESD5V0U1BA-N_0_1"
+      (polyline
+        (pts
+          (xy -0.51 2.03) (xy -0.51 2.03) (xy 0.00 1.52) (xy 0.00 -1.52) (xy 0.25 -1.78) (xy 0.51 -2.03)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54 1.27) (xy 0.00 -0.00) (xy 2.54 -1.27) (xy 2.54 1.27)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -2.54 1.27) (xy 0.00 -0.00) (xy -2.54 -1.27) (xy -2.54 1.27)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (pin unspecified line
+        (at -5.08 -0.00 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 5.08 -0.00 180)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+  (symbol "PESD5V0U1BA,115"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "D"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "PESD5V0U1BA,115"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-BI"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/presales_Nexperia-PESD5V0U1BA-115_C552574.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "Nexperia(安世)"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "MPN"
+      "PESD5V0U1BA,115"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C552574"
+      (id 6)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_keywords"
+      "ESD Protection Devices"
+      (id 8)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "PESD5V0U1BA,115_0_1"
+      (polyline
+        (pts
+          (xy 2.54 1.78) (xy 0.00 -0.00) (xy 2.54 -1.78) (xy 2.54 1.78)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -1.78) (xy 0.00 -0.00) (xy -2.54 1.78) (xy -2.54 -1.78)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -0.76 2.03) (xy 0.00 1.52) (xy 0.00 -1.52) (xy 0.76 -2.03)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.81 -0.00) (xy 2.54 -0.00)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -0.00) (xy -3.81 -0.00)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at 6.35 -0.00 180)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -6.35 -0.00 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+  (symbol "RC0805FR-07634KL"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "R"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "RC0805FR-07634KL"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "easyeda2kicad:R0805"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/New-Arrivals_YAGEO-RC0805FR-07634KL_C483209.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "YAGEO(国巨)"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "MPN"
+      "RC0805FR-07634KL"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C483209"
+      (id 6)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_keywords"
+      "Resistors"
+      (id 8)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "RC0805FR-07634KL_0_1"
+      (rectangle
+        (start -2.54 1.27)
+        (end 2.54 -1.27)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (pin unspecified line
+        (at 5.08 -0.00 180)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -5.08 -0.00 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+  (symbol "DSIC03LS-P"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "SW"
+      (id 0)
+      (at 0 12.70 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "DSIC03LS-P"
+      (id 1)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "easyeda2kicad:SW-SMD_6P-L8.6-W6.2-P2.54-LS9.8"
+      (id 2)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/DIP-Switches_XKB-Enterprise-DSIC03LS-P_C319040.html"
+      (id 3)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "XKB Connection(中国星坤)"
+      (id 4)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "MPN"
+      "DSIC03LS-P"
+      (id 5)
+      (at 0 -22.86 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C319040"
+      (id 6)
+      (at 0 -25.40 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_keywords"
+      "DIP Switches"
+      (id 8)
+      (at 0 -27.94 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "DSIC03LS-P_0_1"
+      (rectangle
+        (start -5.08 5.08)
+        (end 5.08 -5.08)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (rectangle
+        (start -0.64 2.54)
+        (end 0.64 -2.54)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (rectangle
+        (start 1.91 2.54)
+        (end 3.17 -2.54)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (rectangle
+        (start -3.17 2.54)
+        (end -1.90 -2.54)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (circle
+        (center -3.81 -3.81)
+        (radius 0.38)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.64 -0.00) (xy 0.64 -0.00)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.91 -0.00) (xy 3.17 -0.00)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.17 -0.00) (xy -1.91 -0.00)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (text "1"
+        (at -4.96 2.05 0)
+        (effects (font (size 3.17 3.17)))
+      )
+      (pin unspecified line
+        (at -2.54 -7.62 90)
+        (length 2.54)
+        (name "PIN1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 0.00 -7.62 90)
+        (length 2.54)
+        (name "PIN2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 2.54 -7.62 90)
+        (length 2.54)
+        (name "PIN3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 2.54 7.62 270)
+        (length 2.54)
+        (name "PIN4" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 0.00 7.62 270)
+        (length 2.54)
+        (name "PIN5" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -2.54 7.62 270)
+        (length 2.54)
+        (name "PIN6" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+  (symbol "SS13D07VG4"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "SW"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "SS13D07VG4"
+      (id 1)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "easyeda2kicad:SW-TH_SS13D07VG4"
+      (id 2)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://www.lcsc.com/datasheet/C2681578.pdf"
+      (id 3)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "SHOU HAN(首韩)"
+      (id 4)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "MPN"
+      "SS13D07VG4"
+      (id 5)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2681578"
+      (id 6)
+      (at 0 -22.86 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_keywords"
+      "Slide Switches"
+      (id 8)
+      (at 0 -25.40 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "SS13D07VG4_0_1"
+      (rectangle
+        (start -7.62 2.54)
+        (end 7.62 -2.54)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -5.08 2.54) (xy -5.08 5.08) (xy -2.54 5.08) (xy -2.54 2.54)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at 10.16 -0.00 180)
+        (length 2.54)
+        (name "5" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -10.16 -0.00 0)
+        (length 2.54)
+        (name "6" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 5.08 -5.08 90)
+        (length 2.54)
+        (name "4" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 2.54 -5.08 90)
+        (length 2.54)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 0.00 -5.08 90)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -5.08 -5.08 90)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
 )
