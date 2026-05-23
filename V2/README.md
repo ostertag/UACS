@@ -6,8 +6,6 @@
   * Description - kde budú uvedené ďalšie parametre ako (napr. 50V X7R type)
   * JLCPCB linku - na stránku s komponentom (aby sa dalo overiť či je extended)
   * Datasheet - ak nefunguje linka z LCSC (nie je po EN alebo je prázdne PDF), tak na datasheet zo stránky výrobcu
-* Pre MAX98357AETE+T:
-  * Pridať konektor pre speaker
 
 
 ---
@@ -54,6 +52,7 @@ FDCAN_OFF should be set low by default.
   * `LOGICKÁ 1` ($3.3\text{ V}$) na GPIO zapne zosilňovač do Mono Mix režimu.
   * `LOGICKÁ 0` ($0\text{ V}$) na GPIO kompletne uspí čip (Mute / Deep Sleep).
 * **Decoupling:** 100nf + 10uf
+* **Connector:** 1.25mm, right angle - C505099 
 
 ### Testovacie body
 * Pridané testovacie body pre digitálne audio linky: **BCLK**, **LRCLK** a **DIN**.
