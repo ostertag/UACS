@@ -9498,16 +9498,6 @@
 		)
 		(uuid "712965bc-8d21-4d4a-be30-b7e4219aac48")
 	)
-	(text "Warning: No net found for component SW1 pad 5 (no pin 5 in symbol).\nWarning: No net found for component USB-C1 pad B8 (no pin B8 in symbol).\nWarning: No net found for component SW1 pad 7 (no pin 7 in symbol).\nWarning: No net found for component SW1 pad 6 (no pin 6 in symbol).\nWarning: No net found for component SW1 pad 8 (no pin 8 in symbol).\nWarning: No net found for component USB-C1 pad A8 (no pin A8 in symbol)."
-		(exclude_from_sim no)
-		(at 471.17 79.502 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "77fd0d75-463c-4b57-8247-e95c403c6112")
-	)
 	(text "TIA/EIA-568-B.1-2001 \nT568B Wiring"
 		(exclude_from_sim no)
 		(at 342.392 146.304 0)
@@ -9829,12 +9819,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80ce3bd7-a130-478a-9732-8e6c83238219")
-	)
-	(junction
-		(at 204.47 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81bdc311-a94d-4d52-a275-a2d19a0c46da")
 	)
 	(junction
 		(at 226.06 229.87)
@@ -10536,16 +10520,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 121.92) (xy 204.47 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17afdd7f-ab20-4b6c-ae96-95fff58511d6")
-	)
-	(wire
-		(pts
 			(xy 165.1 160.02) (xy 165.1 154.94)
 		)
 		(stroke
@@ -11073,6 +11047,16 @@
 			(type default)
 		)
 		(uuid "46bc2a19-9008-4869-a61f-8ef228540af6")
+	)
+	(wire
+		(pts
+			(xy 184.15 121.92) (xy 204.47 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48d03fbd-b7e5-4b9a-a404-fdc03f030257")
 	)
 	(wire
 		(pts
@@ -12433,16 +12417,6 @@
 			(type default)
 		)
 		(uuid "a8759b33-19ca-4d2a-9d29-cc82ac697752")
-	)
-	(wire
-		(pts
-			(xy 184.15 121.92) (xy 204.47 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a998dbbb-e81f-44ce-8abe-8ab0c22d15fd")
 	)
 	(wire
 		(pts
@@ -18038,6 +18012,16 @@
 		)
 		(uuid "05c93095-314f-4732-9f5d-9aab98114695")
 	)
+	(label "LED_G1"
+		(at 165.1 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "156829e3-1a06-4513-956b-3c6a34d19cd0")
+	)
 	(label "SWCLK"
 		(at 165.1 99.06 0)
 		(effects
@@ -18059,7 +18043,7 @@
 		(uuid "1f04aef8-d49d-44bc-9bdb-dbd446513367")
 	)
 	(label "LED_R2"
-		(at 165.1 101.6 0)
+		(at 165.1 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18139,7 +18123,7 @@
 		(uuid "3d63b7c3-0fae-459f-b911-f31db126e81d")
 	)
 	(label "LED_G2"
-		(at 165.1 116.84 0)
+		(at 165.1 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18217,6 +18201,16 @@
 			(justify right bottom)
 		)
 		(uuid "59eb0c7e-77ce-4f7a-b501-77d24b08c39e")
+	)
+	(label "FDCAN_TX"
+		(at 204.47 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5d532dbb-e56f-4c2f-810c-ec7322cd55d5")
 	)
 	(label "SD_DETECTED"
 		(at 218.44 83.82 180)
@@ -18298,6 +18292,16 @@
 		)
 		(uuid "84a1a9fd-a98c-4fff-b647-c65f84541380")
 	)
+	(label "LED_R1"
+		(at 165.1 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8add4508-5e9c-4fda-a860-bdd75781ada4")
+	)
 	(label "I2S_SDO"
 		(at 165.1 139.7 0)
 		(effects
@@ -18328,16 +18332,6 @@
 		)
 		(uuid "99d8efa8-2549-45cd-b4a7-f577ae8e7763")
 	)
-	(label "LED_G1"
-		(at 165.1 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a7aeea19-e143-45fb-900a-33b51127f084")
-	)
 	(label "SPI_SCK"
 		(at 213.36 177.8 180)
 		(effects
@@ -18357,16 +18351,6 @@
 			(justify right bottom)
 		)
 		(uuid "a9a2ac4d-a945-44db-b30c-cc1d2df2b800")
-	)
-	(label "LED_R1"
-		(at 165.1 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "abbd043f-8be4-4311-9478-fa39f1cdd1cd")
 	)
 	(label "~{SPEAKER_ON{slash}OFF}"
 		(at 165.1 73.66 0)
@@ -18477,16 +18461,6 @@
 			(justify right bottom)
 		)
 		(uuid "d3a6e032-2b51-4c5a-9b35-956271ae48ee")
-	)
-	(label "FDCAN_TX"
-		(at 204.47 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dbe50ebe-3d5a-4a2e-b08a-a5a36d0980cb")
 	)
 	(label "NRST"
 		(at 101.6 261.62 0)
@@ -19063,7 +19037,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -19091,7 +19065,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+		(property "Footprint" "UACS:TestPoint_Drill-1mm"
 			(at 298.45 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -19113,7 +19087,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 293.37 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -19191,7 +19165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "UACS:TestPoint_Drill-1mm"
 			(at 365.76 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -19213,7 +19187,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 360.68 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -19513,6 +19487,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 60.96 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "59068e37-7825-4030-8b52-b5c2b7fda3c7")
 		)
@@ -19705,6 +19690,61 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 217.17 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 217.17 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/28187-2_54_1_8P/C27438"
+			(at 217.17 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C27438"
+			(at 217.17 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" ""
+			(at 217.17 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5328e673-417e-4fe1-83f2-545831a87267")
 		)
@@ -19811,6 +19851,115 @@
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 137.16 186.69 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1d05d109-ec67-4240-b875-6932a0b17cc0")
+		(property "Reference" "H4"
+			(at 134.62 185.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 134.62 187.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
+			(at 137.16 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 137.16 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" ""
+			(at 137.16 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 137.16 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 137.16 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "reader"
+				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -20168,6 +20317,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 226.06 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5bb59bdc-9623-45ca-97cb-94b283d5e347")
 		)
@@ -20294,6 +20454,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 260.35 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 260.35 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -21097,6 +21268,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 21.59 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2c8d9954-5099-42e9-8a1a-a976221e72ac")
 		)
@@ -21576,6 +21758,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 271.78 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b0cfd97b-982a-4f7c-8fa7-47e115da1a24")
 		)
@@ -21871,6 +22064,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 30.48 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "63991871-bc97-4748-ad5d-bba38befcdb0")
 		)
@@ -22139,6 +22343,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 33.02 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c61b1bf5-5c62-4a2e-ae60-5059db92f2dd")
 		)
@@ -22379,6 +22594,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 276.86 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 276.86 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -22716,6 +22942,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 289.56 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bb0fee54-bef9-4229-aea5-3010051249d7")
 		)
@@ -23033,6 +23270,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 30.48 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 30.48 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -23370,6 +23618,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 82.55 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "96b6a89f-4f22-4dc3-b5a4-39dd57612d8f")
 		)
@@ -23391,7 +23650,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -23419,7 +23678,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+		(property "Footprint" "UACS:TestPoint_Drill-1mm"
 			(at 243.84 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -23441,7 +23700,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 238.76 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -23818,6 +24077,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 276.86 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 276.86 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -24230,7 +24500,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -24258,7 +24528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+		(property "Footprint" "UACS:TestPoint_Drill-1mm"
 			(at 254 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -24280,7 +24550,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 248.92 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -24748,6 +25018,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 39.37 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "20000bad-eb98-4e18-bfb5-8c4b84851597")
 		)
@@ -24955,6 +25236,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 26.67 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 26.67 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -25306,7 +25598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "UACS:TestPoint_Drill-1mm"
 			(at 304.8 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -25328,7 +25620,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 309.88 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -25462,6 +25754,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 264.16 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 264.16 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -25709,6 +26012,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 91.44 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "crystal_resonator_oscillator"
 			(at 91.44 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -26081,6 +26395,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 49.784 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "11635fce-bf12-4cb2-ad92-5b1dfecaa936")
 		)
@@ -26421,6 +26746,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 63.5 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c19e015e-096a-4468-96d7-5bd4161cbbe5")
 		)
@@ -26626,6 +26962,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 281.94 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 281.94 254 0)
 			(hide yes)
 			(show_name no)
@@ -27442,6 +27789,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 198.12 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3e56fd50-7d39-44c3-9433-0be7c9d08f5b")
 		)
@@ -27566,6 +27924,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 33.02 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 33.02 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -27726,7 +28095,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b6aac7d-b7d9-4df9-b055-525fa0062da8")
-		(property "Reference" "SP_Conn1"
+		(property "Reference" "SP_Con1"
 			(at 354.33 69.596 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27823,7 +28192,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "SP_Conn1")
+					(reference "SP_Con1")
 					(unit 1)
 				)
 			)
@@ -27884,6 +28253,17 @@
 			)
 		)
 		(property "Description" "Switch, three position, single pole triple throw, 3 position switch, SP3T"
+			(at 309.88 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C160878"
 			(at 309.88 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -28035,6 +28415,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 62.23 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fe94b84e-2ad5-4ff8-b794-0430cb29e84e")
 		)
@@ -28084,7 +28475,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "UACS:TestPoint_Drill-1mm"
 			(at 314.96 127 0)
 			(hide yes)
 			(show_name no)
@@ -28106,7 +28497,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 309.88 127 0)
 			(hide yes)
 			(show_name no)
@@ -28241,6 +28632,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 147.32 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 147.32 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -28388,6 +28790,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 40.64 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8b7edddd-0820-4399-888f-b4fc5835f70a")
 		)
@@ -28437,7 +28850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "UACS:TestPoint_Drill-1mm"
 			(at 365.76 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -28459,7 +28872,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 360.68 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -28792,6 +29205,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 245.11 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "212f1ee4-c72d-4d64-891f-ff78cf198d7d")
 		)
@@ -29020,6 +29444,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 160.02 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "83563227-470f-4899-8160-c6f53c9ba69e")
 		)
@@ -29147,6 +29582,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 40.64 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 40.64 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -29541,7 +29987,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -29568,7 +30014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+		(property "Footprint" "UACS:TestPoint_Drill-1mm"
 			(at 233.68 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -29590,7 +30036,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 228.6 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -29754,6 +30200,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 232.41 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cd6f5296-6762-4b72-8ee2-e065c1a9a201")
 		)
@@ -29802,7 +30259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "UACS:TestPoint_Drill-1mm"
 			(at 311.15 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -29824,7 +30281,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 306.07 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -29969,6 +30426,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 171.45 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a2d7134c-9cc8-4380-a110-b0f99ad6155d")
 		)
@@ -29996,7 +30464,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf005276-f862-404a-bcdf-21688c1c98da")
-		(property "Reference" "BOOT2"
+		(property "Reference" "BOOT1"
 			(at 61.214 104.902 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30116,7 +30584,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "BOOT2")
+					(reference "BOOT1")
 					(unit 1)
 				)
 			)
@@ -30433,6 +30901,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 194.31 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "108294f4-4821-4e81-918c-7af32d08145e")
 		)
@@ -30557,6 +31036,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 214.63 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 214.63 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -30695,6 +31185,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 50.8 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 50.8 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -31021,6 +31522,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 45.72 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "71f71617-492e-41b4-acb4-54ce10f58fde")
 		)
@@ -31226,6 +31738,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 281.94 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 281.94 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -32087,6 +32610,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 50.8 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5da8f0e4-7efd-45d3-b7c7-147e75a93bd1")
 		)
@@ -32449,6 +32983,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 71.12 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1a800950-737b-4197-ba90-9b5ea5559b84")
 		)
@@ -32576,6 +33121,17 @@
 			)
 		)
 		(property "Field6" ""
+			(at 99.06 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 99.06 45.72 0)
 			(hide yes)
 			(show_name no)
