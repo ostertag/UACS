@@ -11,441 +11,6 @@
 		(comment 2 "                         github.com/${github}")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x08_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x08_Socket"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x08, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x08_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 7.62) (xy -0.508 7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy -0.508 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -7.62) (xy -0.508 -7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -10.16) (xy -0.508 -10.16)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 7.112)
-					(mid -0.5058 7.62)
-					(end 0 8.128)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 4.572)
-					(mid -0.5058 5.08)
-					(end 0 5.588)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.032)
-					(mid -0.5058 2.54)
-					(end 0 3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -5.588)
-					(mid -0.5058 -5.08)
-					(end 0 -4.572)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -8.128)
-					(mid -0.5058 -7.62)
-					(end 0 -7.112)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -10.668)
-					(mid -0.5058 -10.16)
-					(end 0 -9.652)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 7.62 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -10.16 0)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -578,27 +143,29 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 22.225 0)
+			(property "Reference" "USB-C1"
+				(at -0.254 11.684 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
 			(property "Value" "USB_C_Receptacle_USB2.0_14P"
-				(at 0 19.685 0)
+				(at -13.208 14.986 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 				(at 3.81 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -609,7 +176,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588920841703079936"
 				(at 3.81 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -621,6 +188,61 @@
 				)
 			)
 			(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Note" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB" "https://jlcpcb.com/partdetail/ShouHan-TYPE_C_16PIN_2MD_073/C2765186"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C2765186"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field5" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field6" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -962,6 +584,9 @@
 							)
 						)
 					)
+					(alternate "A12" passive line)
+					(alternate "B1" passive line)
+					(alternate "B12" passive line)
 				)
 				(pin passive line
 					(at 15.24 15.24 180)
@@ -1028,6 +653,24 @@
 						)
 					)
 					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -10.16 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1165,6 +808,24 @@
 						)
 					)
 				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 15.24 15.24 180)
 					(length 5.08)
@@ -1213,7 +874,7 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5578,6 +5239,171 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:0530470210"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CN"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0530470210"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:CONN-TH_0530470210"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Connectors_MOLEX_0530470210_Connectors-2P-1-25mm-Straight-line-1_C114130.html"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "MOLEX"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "530470210"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C114130"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Wire To Board / Wire To Wire Connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0530470210_0_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -0.51 3.05)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda2kicad:0805W8F1200T5E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5719,171 +5545,6 @@
 					(at 5.08 0 180)
 					(length 2.54)
 					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "easyeda2kicad:530480210"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "CN"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "530480210"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:CONN-TH_530480210"
-				(at 0 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_MOLEX-530480210_C505099.html"
-				(at 0 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "MOLEX"
-				(at 0 -13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "530480210"
-				(at 0 -16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C505099"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Wire To Board / Wire To Wire Connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "530480210_0_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 3.81 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 0 2.54)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -3.81 1.27 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -3.81 -1.27 0)
-					(length 2.54)
-					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6675,6 +6336,268 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda2kicad:HXPM2.54-1X8PZCH11"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HX PM2.54-1X8P ZC H11"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:HDR-TH_8P-P2.54-V-F"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C41427523.pdf"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "hanxia(韩下)"
+				(at 0 -21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "HX PM2.54-1x8P ZC H11"
+				(at 0 -24.13 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C41427523"
+				(at 0 -26.67 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "HXPM2.54-1X8PZCH11_0_1"
+				(rectangle
+					(start -1.27 11.43)
+					(end 3.81 -11.43)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 10.16)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 8.89 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 6.35 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 3.81 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 -3.81 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 -6.35 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 -8.89 0)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9575,6 +9498,16 @@
 		)
 		(uuid "712965bc-8d21-4d4a-be30-b7e4219aac48")
 	)
+	(text "Warning: No net found for component SW1 pad 5 (no pin 5 in symbol).\nWarning: No net found for component USB-C1 pad B8 (no pin B8 in symbol).\nWarning: No net found for component SW1 pad 7 (no pin 7 in symbol).\nWarning: No net found for component SW1 pad 6 (no pin 6 in symbol).\nWarning: No net found for component SW1 pad 8 (no pin 8 in symbol).\nWarning: No net found for component USB-C1 pad A8 (no pin A8 in symbol)."
+		(exclude_from_sim no)
+		(at 471.17 79.502 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "77fd0d75-463c-4b57-8247-e95c403c6112")
+	)
 	(text "TIA/EIA-568-B.1-2001 \nT568B Wiring"
 		(exclude_from_sim no)
 		(at 342.392 146.304 0)
@@ -9772,6 +9705,12 @@
 		(uuid "43f8ec87-8cbe-4be9-8d0b-f1340e8772f1")
 	)
 	(junction
+		(at 351.79 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "449bcd04-8ba1-480b-b45a-d4990ba89bbb")
+	)
+	(junction
 		(at 40.64 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9830,12 +9769,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5cda2e65-358e-499b-aeb7-f9b4b5e5062f")
-	)
-	(junction
-		(at 353.06 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e90d037-af2d-4d73-b74b-ed1625534a8b")
 	)
 	(junction
 		(at 289.56 219.71)
@@ -10012,6 +9945,12 @@
 		(uuid "a3f56e5f-4625-448f-b6ac-db2129341e88")
 	)
 	(junction
+		(at 351.79 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a604cdaf-f083-4720-8e7a-0f9269871db1")
+	)
+	(junction
 		(at 320.04 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10058,12 +9997,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bff2dbc4-78fa-41cd-9dd0-acca55ae86cd")
-	)
-	(junction
-		(at 353.06 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c04ec3cf-3ff0-47ba-9e9b-65e4f23ab1fb")
 	)
 	(junction
 		(at 72.39 99.06)
@@ -10323,7 +10256,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 76.2) (xy 360.68 76.2)
+			(xy 341.63 76.2) (xy 351.79 76.2)
 		)
 		(stroke
 			(width 0)
@@ -11153,16 +11086,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 73.66) (xy 360.68 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a2646f2-d063-4006-91ff-fa7a64950404")
-	)
-	(wire
-		(pts
 			(xy 181.61 273.05) (xy 191.77 273.05)
 		)
 		(stroke
@@ -11540,6 +11463,16 @@
 			(type default)
 		)
 		(uuid "6289cdf5-1e6b-40f0-b160-52b36162f417")
+	)
+	(wire
+		(pts
+			(xy 351.79 76.2) (xy 360.68 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "631f4f2b-899d-4d79-a062-c138db14a113")
 	)
 	(wire
 		(pts
@@ -12393,16 +12326,6 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 76.2) (xy 353.06 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a19e7cf7-5d8e-45be-b36a-eaab4e4f035a")
-	)
-	(wire
-		(pts
 			(xy 240.03 111.76) (xy 247.65 111.76)
 		)
 		(stroke
@@ -12953,7 +12876,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 73.66) (xy 353.06 73.66)
+			(xy 341.63 73.66) (xy 351.79 73.66)
 		)
 		(stroke
 			(width 0)
@@ -13290,6 +13213,16 @@
 			(type default)
 		)
 		(uuid "e03accdd-0bc1-4d7e-9f4e-81d961818f11")
+	)
+	(wire
+		(pts
+			(xy 351.79 73.66) (xy 360.68 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1462133-3807-4b94-bf65-9ff9d588aaa4")
 	)
 	(wire
 		(pts
@@ -18105,16 +18038,6 @@
 		)
 		(uuid "05c93095-314f-4732-9f5d-9aab98114695")
 	)
-	(label "RFID_RST"
-		(at 165.1 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0863df11-c75a-44ed-bbd2-d5d532c7239b")
-	)
 	(label "SWCLK"
 		(at 165.1 99.06 0)
 		(effects
@@ -18124,6 +18047,26 @@
 			(justify left bottom)
 		)
 		(uuid "17d3f7a3-dfea-48f5-8250-5528689e8505")
+	)
+	(label "RFID_RST"
+		(at 165.1 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f04aef8-d49d-44bc-9bdb-dbd446513367")
+	)
+	(label "LED_R2"
+		(at 165.1 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25dd1053-77ce-4f75-96aa-675a1e0c6507")
 	)
 	(label "USB_D-"
 		(at 165.1 93.98 0)
@@ -18196,14 +18139,14 @@
 		(uuid "3d63b7c3-0fae-459f-b911-f31db126e81d")
 	)
 	(label "LED_G2"
-		(at 165.1 121.92 0)
+		(at 165.1 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "42e8b5a8-561a-4988-b29f-b3245353e554")
+		(uuid "4349efce-81ab-49f3-bc27-f96211f7ec94")
 	)
 	(label "LED_R2"
 		(at 45.72 232.41 90)
@@ -18384,16 +18327,6 @@
 			(justify left bottom)
 		)
 		(uuid "99d8efa8-2549-45cd-b4a7-f577ae8e7763")
-	)
-	(label "LED_R2"
-		(at 165.1 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a47063fa-ad7d-43d6-8cc5-aed747988c36")
 	)
 	(label "LED_G1"
 		(at 165.1 68.58 0)
@@ -18656,7 +18589,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0258c6cf-3af6-48a9-bf65-0e80e8b58f51")
-		(property "Reference" "D3"
+		(property "Reference" "D6"
 			(at 263.398 221.742 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18795,7 +18728,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "D3")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -18922,7 +18855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "046d9a17-3d1b-478c-a676-491bc87fd903")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR028"
 			(at 226.06 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -18982,7 +18915,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR012")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -18999,7 +18932,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0921a703-45f8-4f0a-88a9-40c58c2d2ddf")
-		(property "Reference" "D2"
+		(property "Reference" "D9"
 			(at 259.842 234.696 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19118,7 +19051,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "D2")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -19136,7 +19069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09c6eaa3-6f6f-4acb-9a63-b00512302c18")
-		(property "Reference" "TP1"
+		(property "Reference" "TP7"
 			(at 295.91 226.5679 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19219,7 +19152,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "TP1")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -19236,7 +19169,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b219c21-6b76-4f63-a1b9-a2458252043a")
-		(property "Reference" "TP7"
+		(property "Reference" "TP2"
 			(at 363.22 53.8479 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19297,7 +19230,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "TP7")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -19315,7 +19248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "168b2f3a-f4c2-43e2-ac3a-b654e00764ab")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR029"
 			(at 289.56 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -19375,7 +19308,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR027")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -19392,7 +19325,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18fd15c0-7a26-46b0-bfaa-b5ecc4c94aba")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR017"
 			(at 194.31 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -19452,7 +19385,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR011")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -19470,7 +19403,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "199c0265-46b1-4052-b0de-cc0ac421241f")
-		(property "Reference" "C29"
+		(property "Reference" "C11"
 			(at 59.436 127.254 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19589,7 +19522,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "C29")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -19606,7 +19539,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1ac24e98-eeed-4e65-aa6f-851916b35903")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR01"
 			(at 354.33 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -19666,7 +19599,140 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR07")
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:HXPM2.54-1X8PZCH11")
+		(at 217.17 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ad9f505-a0d5-452f-bdc1-17cf3a5e1c3c")
+		(property "Reference" "RC1"
+			(at 222.25 170.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RFID RC522"
+			(at 222.25 172.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UACS:PinSocket_1x08_P2.54mm_Vertical"
+			(at 217.17 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C41427523.pdf"
+			(at 217.17 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "hanxia(韩下)"
+			(at 217.17 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "HX PM2.54-1x8P ZC H11"
+			(at 217.17 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C41427523"
+			(at 217.17 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5328e673-417e-4fe1-83f2-545831a87267")
+		)
+		(pin "7"
+			(uuid "4b94ce58-22ed-4e37-be21-c5f0e5dc107b")
+		)
+		(pin "8"
+			(uuid "c57e690c-3e49-4df0-a9c7-a63e304b9d0e")
+		)
+		(pin "4"
+			(uuid "6949b198-f3e3-428f-b916-760601951ae6")
+		)
+		(pin "5"
+			(uuid "d418d7f5-d0f1-4810-bedc-104e66bb95de")
+		)
+		(pin "1"
+			(uuid "5532a816-7d18-44ca-bf33-b3fc0f3518ae")
+		)
+		(pin "3"
+			(uuid "0503a9d9-a192-4bd3-a8aa-82bfe0847068")
+		)
+		(pin "6"
+			(uuid "09499b06-a8f3-4b18-82b5-b62b165c9b97")
+		)
+		(instances
+			(project "reader"
+				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
+					(reference "RC1")
 					(unit 1)
 				)
 			)
@@ -19684,7 +19750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cc4d49f-4e8a-46de-8fd0-2bb52c2640a0")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR039"
 			(at 24.13 278.13 0)
 			(hide yes)
 			(show_name no)
@@ -19744,7 +19810,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR019")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -19761,7 +19827,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f09800a-4563-456c-8ab4-1158f112cc28")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR013"
 			(at 187.96 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -19821,7 +19887,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR017")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -19838,7 +19904,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f77842d-4163-4fbb-bc8d-8bc3cfedf947")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR020"
 			(at 320.04 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -19898,162 +19964,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x08_Socket")
-		(at 218.44 170.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1f83d7a1-9ec7-4d49-8fdf-7674099b36a3")
-		(property "Reference" "RC522"
-			(at 219.71 170.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RFID RC522"
-			(at 219.71 172.7199 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "UACS:PinSocket_1x08_P2.54mm_Vertical"
-			(at 218.44 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8576018131540119552"
-			(at 218.44 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 218.44 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Note" ""
-			(at 218.44 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB" "https://jlcpcb.com/partdetail/28187-2_54_1_8P/C27438"
-			(at 218.44 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C27438"
-			(at 218.44 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" ""
-			(at 218.44 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
-			(at 218.44 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "9af1c131-4b45-4ea9-9006-4bf9f5830a5d")
-		)
-		(pin "6"
-			(uuid "f21a2d93-fee5-4e53-b218-540daa05e659")
-		)
-		(pin "1"
-			(uuid "fc350c9a-4553-4169-8efe-fa7c73dc4e01")
-		)
-		(pin "3"
-			(uuid "b0501401-1edc-4815-b25e-b0fa6f899f8f")
-		)
-		(pin "2"
-			(uuid "2bc37725-715c-40e9-a34f-ce12863a1512")
-		)
-		(pin "7"
-			(uuid "541a2988-7083-4ff3-bd5b-e8e3a8bcf7c1")
-		)
-		(pin "5"
-			(uuid "6ee977a6-3138-42ec-ba3c-5345b292d384")
-		)
-		(pin "8"
-			(uuid "ccdcfbc7-f462-4b57-bc56-24abd27c4c15")
-		)
-		(instances
-			(project "reader"
-				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "RC522")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -20070,7 +19981,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2241a58c-9c9b-40a9-b55d-3dc467b779a3")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR04"
 			(at 204.47 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -20130,7 +20041,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR010")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -20147,7 +20058,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "227e4bfd-dfd8-4aba-8f0e-a8868ed50f61")
-		(property "Reference" "C12"
+		(property "Reference" "C23"
 			(at 229.87 236.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20266,7 +20177,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "C12")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -20283,7 +20194,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "245c97b7-2e73-4e6e-a13b-4440ddcfaeaf")
-		(property "Reference" "C14"
+		(property "Reference" "C22"
 			(at 256.032 225.806 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20402,7 +20313,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "C14")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -20533,7 +20444,7 @@
 		(pin "B12"
 			(uuid "6ffe6efc-44a5-4228-b18a-64786531aced")
 		)
-		(pin "S1"
+		(pin "SH"
 			(uuid "4b497573-02f7-4ac8-aeb2-09914b656ca4")
 		)
 		(pin "B9"
@@ -20575,6 +20486,12 @@
 		(pin "B7"
 			(uuid "d45b7cd2-ae88-4951-9624-38a08d5233d5")
 		)
+		(pin "A8"
+			(uuid "8b7b018c-b632-4d39-9bfe-566cbdc40291")
+		)
+		(pin "B8"
+			(uuid "2cd28245-c4cd-419b-88a4-ecc45ff543ee")
+		)
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
@@ -20595,7 +20512,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24d598c2-beb6-4f17-957c-4ef57a787bc2")
-		(property "Reference" "D4"
+		(property "Reference" "D8"
 			(at 163.576 232.156 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20701,7 +20618,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "D4")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -20719,7 +20636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2532e467-226d-450d-a476-bf3c1397d83a")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR041"
 			(at 281.94 279.4 0)
 			(hide yes)
 			(show_name no)
@@ -20779,7 +20696,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR025")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -20955,7 +20872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "280ada10-9f9e-4520-a55c-1c7610be2352")
-		(property "Reference" "U7"
+		(property "Reference" "U5"
 			(at 293.37 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21053,7 +20970,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "U7")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -21070,7 +20987,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "284d6382-bdae-4ed7-923d-eb0a85f6d56a")
-		(property "Reference" "R4"
+		(property "Reference" "R14"
 			(at 18.796 247.904 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21189,7 +21106,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "R4")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -21316,7 +21233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "289d58d1-990c-4cc9-bd70-d3f7ce42847e")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 252.73 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -21377,7 +21294,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -21394,7 +21311,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28c03a55-109c-43b6-8907-c0e520fade7e")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR036"
 			(at 271.78 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -21454,7 +21371,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR022")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -21472,7 +21389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28feffce-8981-473a-9318-b9759cfd297b")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR030"
 			(at 160.02 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -21532,7 +21449,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR023")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -21549,7 +21466,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2931c5c1-1a0b-48f9-9dc9-c9b5de40d1ac")
-		(property "Reference" "C17"
+		(property "Reference" "C25"
 			(at 273.05 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21668,7 +21585,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "C17")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -21686,7 +21603,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a93fecd-06f8-4d0e-8ec0-b85ff82ecc04")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG01"
 			(at 83.185 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -21747,7 +21664,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#FLG04")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -21765,7 +21682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2dffb69e-c618-4c46-9e7b-32d677498872")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR02"
 			(at 354.33 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -21825,7 +21742,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR029")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -21844,7 +21761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e42eb7d-11c7-40b4-a558-29d2f2f70bb0")
-		(property "Reference" "C35"
+		(property "Reference" "C18"
 			(at 26.67 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21963,7 +21880,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "C35")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -22114,7 +22031,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2fedd4fd-7a89-4b9f-af7b-050132e835ca")
-		(property "Reference" "R15"
+		(property "Reference" "R5"
 			(at 35.306 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22231,7 +22148,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "R15")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -22250,7 +22167,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3259fcbb-0214-430e-b81b-606b80a76598")
-		(property "Reference" "C37"
+		(property "Reference" "C15"
 			(at 107.95 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22345,7 +22262,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "C37")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -22363,7 +22280,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3470700c-9c82-4df3-a481-e933e9352d1a")
-		(property "Reference" "C8"
+		(property "Reference" "C6"
 			(at 279.4 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22481,7 +22398,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "C8")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -22499,7 +22416,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3550c016-577f-4647-95d6-165f46c527a0")
-		(property "Reference" "R21"
+		(property "Reference" "R8"
 			(at 242.57 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22593,7 +22510,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "R21")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -22612,7 +22529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "395d88f7-97eb-442a-a8dc-61d72a4dcf09")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR023"
 			(at 165.1 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -22672,7 +22589,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR042")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -22689,7 +22606,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c920db2-0121-4bdf-85d3-e9d6c335bf22")
-		(property "Reference" "C13"
+		(property "Reference" "C5"
 			(at 288.29 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22808,7 +22725,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "C13")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -22825,7 +22742,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e4a9cc9-0457-4286-b102-d932220a9a44")
-		(property "Reference" "C5"
+		(property "Reference" "C7"
 			(at 264.16 120.142 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22919,7 +22836,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "C5")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -22937,7 +22854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f1457ad-3a99-4052-867c-33d4139e2036")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG02"
 			(at 292.735 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -22998,7 +22915,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#FLG01")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -23016,7 +22933,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47a44c1e-7fea-4288-8338-f48ae5512927")
-		(property "Reference" "C32"
+		(property "Reference" "C8"
 			(at 28.956 127.508 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23135,7 +23052,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "C32")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -23152,7 +23069,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "481b304c-88f9-48f6-ac65-a25c9dc04cf4")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR012"
 			(at 40.64 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -23212,7 +23129,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR028")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -23230,7 +23147,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "48cc331a-cfb8-43f4-ba1a-8e18235390ea")
-		(property "Reference" "C36"
+		(property "Reference" "C14"
 			(at 90.17 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23325,7 +23242,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "C36")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -23480,7 +23397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4acf26b0-e273-4cd6-876c-3321d851bd75")
-		(property "Reference" "TP4"
+		(property "Reference" "TP8"
 			(at 241.3 255.7779 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23563,7 +23480,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "TP4")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -23580,7 +23497,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b299a45-0f0b-4573-bd2e-a9b51da92fa9")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 354.33 105.156 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23707,7 +23624,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "U5")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -23724,7 +23641,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b89b195-e225-4b65-a90e-4dead78aaebe")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR014"
 			(at 229.87 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -23784,7 +23701,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR016")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -23802,7 +23719,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c8049b3-9977-4969-b78a-7f82485906a6")
-		(property "Reference" "C7"
+		(property "Reference" "C13"
 			(at 279.4 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23920,7 +23837,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "C7")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -23937,7 +23854,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c810c17-35f8-4eb7-9c8c-c757ee524698")
-		(property "Reference" "D6"
+		(property "Reference" "D2"
 			(at 341.63 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24032,7 +23949,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "D6")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -24050,7 +23967,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "516bb0f0-98c2-46a4-9980-f84ef0eb3135")
-		(property "Reference" "C3"
+		(property "Reference" "C16"
 			(at 191.262 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24145,7 +24062,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "C3")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -24163,7 +24080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "525abb1b-7563-4053-b79f-ccdb6075eddd")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR08"
 			(at 325.12 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -24223,7 +24140,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR05")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -24241,7 +24158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "531062a5-9db2-4bc0-b979-add2858249d7")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR032"
 			(at 257.81 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -24301,7 +24218,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR020")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -24319,7 +24236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56058a99-f567-4556-8e91-aba30e0d6553")
-		(property "Reference" "TP5"
+		(property "Reference" "TP9"
 			(at 251.46 265.9379 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24402,7 +24319,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "TP5")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -24420,7 +24337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "586bab62-b8ac-4852-864a-711e88a5f51d")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR035"
 			(at 80.01 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -24481,7 +24398,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR031")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -24498,7 +24415,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a38376a-0ddb-4b7b-8184-3800cfcc70dc")
-		(property "Reference" "R17"
+		(property "Reference" "R1"
 			(at 322.58 27.686 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24593,7 +24510,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "R17")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -24610,7 +24527,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b10dbb5-7f9f-4226-8104-77cac8dd1fbe")
-		(property "Reference" "C2"
+		(property "Reference" "C17"
 			(at 221.996 139.446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24705,7 +24622,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "C2")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -24723,7 +24640,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e4c1711-a075-4360-8163-e72551675970")
-		(property "Reference" "FB2"
+		(property "Reference" "FB1"
 			(at 41.656 149.606 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24840,7 +24757,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "FB2")
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -24859,7 +24776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f299a1d-e30e-4ea7-930d-921d896e7bd2")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR042"
 			(at 181.61 280.67 0)
 			(hide yes)
 			(show_name no)
@@ -24920,7 +24837,144 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR035")
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 26.67 245.11 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "676e6173-c525-43bb-ba99-2e151c4632b9")
+		(property "Reference" "R15"
+			(at 29.464 247.904 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560 R"
+			(at 29.464 243.586 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 28.448 245.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8586178278474862592-C25126.pdf?response-content-disposition=attachment%3B%20filename%3DC25126.pdf%3B%20filename%2A%3DUTF-8%27%27C25126.pdf&x-oss-date=20260603T141942Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rYAPaHqJFCjrvadU%2FFs1YWQtlZrr3lsTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qeAa7RNB4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWhqDHsNdntHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIe8fo%2BKKWD5sagAFAjLTD0371Sd2gSdBnykA7MII9CzBs0TEnncOuMMFpZ7eWxtofkMZUw83MXKFT3yGfjS9fIlx%2Bre7vtwbXSVmucxBbZSJldeqhHVomhZC6FwsraIa5cFo%2FJ2rvy%2BYXQ1kdyLEoPt0fplni6hRiSJOL598AUZr9EPV4uuEaQBdebyAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYmKL3ENc9y1witWVCNVuAxNS%2F20260603%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=d1629a371fbf831c62f9f7f4032d37edb65e47d37709e76674d141769ad7b5bf"
+			(at 26.67 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 26.67 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" ""
+			(at 26.67 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/C25126"
+			(at 26.67 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25126"
+			(at 26.67 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 26.67 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 26.67 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34c36e5a-4028-4103-b700-2868943f2054")
+		)
+		(pin "2"
+			(uuid "b47bc31e-d5f7-4df2-a82a-ce757a9b0713")
+		)
+		(instances
+			(project "reader"
+				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -24937,7 +24991,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "697345a5-35c6-4145-830a-7cf06f2ea45d")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR03"
 			(at 289.56 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -24997,7 +25051,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR06")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -25014,7 +25068,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a92be4e-6a95-4b0b-b62a-932ceb0c761e")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR011"
 			(at 33.02 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -25074,7 +25128,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR057")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -25091,8 +25145,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c828bb3-2521-4bbf-bbb4-3407cb44c148")
-		(property "Reference" "BOOT2"
-			(at 336.55 36.322 0)
+		(property "Reference" "SW2"
+			(at 336.55 24.384 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25102,7 +25156,7 @@
 				)
 			)
 		)
-		(property "Value" "SW2"
+		(property "Value" "SW_src"
 			(at 336.55 24.892 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25212,7 +25266,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "BOOT2")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -25230,7 +25284,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75e5cf35-9313-4a86-9147-c2e697242a95")
-		(property "Reference" "TP6"
+		(property "Reference" "TP4"
 			(at 309.88 115.824 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25291,7 +25345,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "TP6")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -25308,7 +25362,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "791ef636-0fd6-4c27-b7c2-38ee98dc28c9")
-		(property "Reference" "C15"
+		(property "Reference" "C24"
 			(at 259.842 249.682 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25427,7 +25481,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "C15")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -25444,7 +25498,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7953d592-380c-4897-b3af-4cf05ba81ca5")
-		(property "Reference" "D5"
+		(property "Reference" "D7"
 			(at 173.99 222.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25539,7 +25593,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "D5")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -25700,7 +25754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cd58fdb-23b1-4aa8-977f-ea1665a3ef96")
-		(property "Reference" "U6"
+		(property "Reference" "U1"
 			(at 134.62 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25720,7 +25774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LQFP48_STM"
+		(property "Footprint" "STM32H523CET6:LQFP48_STM"
 			(at 165.1 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -25902,7 +25956,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "U6")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -25919,7 +25973,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f52f89c-8d02-430a-a61d-3908055e8efb")
-		(property "Reference" "R10"
+		(property "Reference" "R7"
 			(at 49.784 94.234 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26036,7 +26090,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "R10")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -26054,7 +26108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8128d74b-d679-4741-99df-b24a23de1226")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR033"
 			(at 226.06 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -26114,7 +26168,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR015")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -26131,7 +26185,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85ac8102-efa1-452d-acfc-3d7b43f93b3f")
-		(property "Reference" "D10"
+		(property "Reference" "D3"
 			(at 328.422 122.428 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26238,7 +26292,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "D10")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -26257,7 +26311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85f90269-265a-4b6e-b75d-88126a82f061")
-		(property "Reference" "C33"
+		(property "Reference" "C20"
 			(at 59.69 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26376,7 +26430,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "C33")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -26395,7 +26449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86316dc2-113c-4bb3-81da-17264e7b53a2")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR022"
 			(at 30.48 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -26455,7 +26509,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR046")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -26472,7 +26526,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "87b70f1d-cdc5-401f-86fe-5818cd6c9372")
-		(property "Reference" "R8"
+		(property "Reference" "R18"
 			(at 284.48 252.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26591,7 +26645,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "R8")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -26608,7 +26662,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8888bdcf-fb52-440d-8c68-2a47d6b1fefa")
-		(property "Reference" "D7"
+		(property "Reference" "D1"
 			(at 325.12 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26717,7 +26771,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "D7")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -26734,7 +26788,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89248f4f-36eb-45db-9afb-6af229d6fa8a")
-		(property "Reference" "R22"
+		(property "Reference" "R9"
 			(at 257.81 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26828,7 +26882,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "R22")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -26980,7 +27034,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f76d04e-20dd-4263-ae8c-1a9ae0d61486")
-		(property "Reference" "R24"
+		(property "Reference" "R11"
 			(at 257.81 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27074,7 +27128,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "R24")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -27092,7 +27146,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "901a96c4-f135-4c90-a215-d97abb4cee7a")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR031"
 			(at 147.32 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -27153,7 +27207,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR032")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -27280,7 +27334,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93cab349-c274-4984-b9f1-ff53d4addd55")
-		(property "Reference" "R20"
+		(property "Reference" "R2"
 			(at 198.12 57.404 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27397,7 +27451,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "R20")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -27414,7 +27468,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "979f88b6-240b-48e9-b231-d181a1b51b2b")
-		(property "Reference" "R16"
+		(property "Reference" "R6"
 			(at 35.306 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27531,7 +27585,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "R16")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -27548,7 +27602,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99570767-26e8-452c-bc5a-c94601d1f92e")
-		(property "Reference" "D9"
+		(property "Reference" "D4"
 			(at 329.184 130.302 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27655,7 +27709,121 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "D9")
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:0530470210")
+		(at 355.6 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9b6aac7d-b7d9-4df9-b055-525fa0062da8")
+		(property "Reference" "SP_Conn1"
+			(at 354.33 69.596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P=1.25mm"
+			(at 354.33 80.264 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CONN-TH_0530470210"
+			(at 355.6 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Connectors_MOLEX_0530470210_Connectors-2P-1-25mm-Straight-line-1_C114130.html"
+			(at 355.6 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 355.6 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "MOLEX"
+			(at 355.6 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "530470210"
+			(at 355.6 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C114130"
+			(at 355.6 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5681bbe9-5af7-46a2-9455-ce0386ac0546")
+		)
+		(pin "2"
+			(uuid "d6c9d8ef-08cf-4e5a-978c-132d35860082")
+		)
+		(instances
+			(project "reader"
+				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
+					(reference "SP_Conn1")
 					(unit 1)
 				)
 			)
@@ -27674,6 +27842,7 @@
 		(uuid "9d76858b-a32e-4494-8d13-065690975bd0")
 		(property "Reference" "SW1"
 			(at 309.626 24.638 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27682,9 +27851,8 @@
 				)
 			)
 		)
-		(property "Value" "SSSS812201"
+		(property "Value" "SW_Rezistance"
 			(at 309.88 24.13 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27759,7 +27927,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9de47fb0-7876-4de8-838f-549262d1b130")
-		(property "Reference" "C16"
+		(property "Reference" "C3"
 			(at 62.23 77.216 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27876,7 +28044,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "C16")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -27894,7 +28062,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e92b387-5495-462f-a127-90c3e1cf1d14")
-		(property "Reference" "TP3"
+		(property "Reference" "TP5"
 			(at 310.134 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27955,7 +28123,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "TP3")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -27973,7 +28141,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a140fc9a-e62c-4479-9d69-ff56bd8c0f35")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 149.86 241.3001 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28092,7 +28260,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -28110,7 +28278,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1d29ad2-3356-4a8d-9abe-baf2a4c05f27")
-		(property "Reference" "C31"
+		(property "Reference" "C9"
 			(at 38.608 127.508 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28229,7 +28397,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "C31")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -28247,8 +28415,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4028012-999f-471a-ab47-ee03dbdfa265")
-		(property "Reference" "WS"
-			(at 363.22 68.0721 0)
+		(property "Reference" "TP3"
+			(at 363.474 62.992 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28258,7 +28426,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "WS"
 			(at 363.22 65.5321 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28308,7 +28476,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "WS")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -28325,7 +28493,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a64dffa5-7d5c-4996-85ba-023779106b45")
-		(property "Reference" "R14"
+		(property "Reference" "R4"
 			(at 281.94 63.246 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28420,7 +28588,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "R14")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -28437,7 +28605,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a66d8f3f-2a7c-48d8-b057-d5f524d1791a")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR015"
 			(at 71.12 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -28497,7 +28665,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR043")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -28515,7 +28683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7f17d0a-82f8-4b9c-b28a-ca1539c2ad23")
-		(property "Reference" "U3"
+		(property "Reference" "U7"
 			(at 245.11 222.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28645,7 +28813,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "U3")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -28663,7 +28831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad5bd3de-6875-46c2-9b0b-6144772c6ed0")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR021"
 			(at 99.06 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -28724,7 +28892,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR049")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -28742,7 +28910,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae462c9b-3bdd-442d-b654-4938a8f204b2")
-		(property "Reference" "R12"
+		(property "Reference" "R19"
 			(at 160.528 269.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28861,119 +29029,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:530480210")
-		(at 356.87 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b41cb3a1-45cc-444d-82d5-600b6bc29a8b")
-		(property "Reference" "SP_Conn1"
-			(at 356.87 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "P=1.25mm"
-			(at 356.87 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:CONN-TH_530480210"
-			(at 356.87 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_MOLEX-530480210_C505099.html"
-			(at 356.87 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 356.87 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "MOLEX"
-			(at 356.87 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "530480210"
-			(at 356.87 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C505099"
-			(at 356.87 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2ed7b47d-26ee-4807-96c5-7b6cd84819ce")
-		)
-		(pin "2"
-			(uuid "ef378f84-378e-410a-b7de-5ddbc7dfaf35")
-		)
-		(instances
-			(project "reader"
-				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "SP_Conn1")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -28991,7 +29047,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b69b24b0-9b50-4c2a-a532-2682c2746aae")
-		(property "Reference" "R6"
+		(property "Reference" "R16"
 			(at 37.846 247.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29110,7 +29166,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "R6")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -29127,7 +29183,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbedc9fb-6e7b-4ce2-8304-eee69b7f4b3f")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR018"
 			(at 232.41 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -29187,7 +29243,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR021")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -29490,7 +29546,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5e75acb-0cde-492b-8a43-75e1675e42aa")
-		(property "Reference" "TP2"
+		(property "Reference" "TP6"
 			(at 231.14 206.248 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29573,7 +29629,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "TP2")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -29590,7 +29646,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c6e23cc8-2d7b-4c4c-a20c-d9e495eefb24")
-		(property "Reference" "R26"
+		(property "Reference" "R12"
 			(at 234.696 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29707,7 +29763,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "R26")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -29724,7 +29780,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "caf32133-af60-434e-9d30-7fc5a4bf0167")
-		(property "Reference" "TP9"
+		(property "Reference" "TP1"
 			(at 308.61 44.9579 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29785,7 +29841,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "TP9")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -29803,7 +29859,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc8d0168-7295-4e14-9d0a-6297e2eb6891")
-		(property "Reference" "R13"
+		(property "Reference" "R20"
 			(at 171.958 269.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29922,7 +29978,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "R13")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -29940,7 +29996,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf005276-f862-404a-bcdf-21688c1c98da")
-		(property "Reference" "BOOT1"
+		(property "Reference" "BOOT2"
 			(at 61.214 104.902 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30060,7 +30116,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "BOOT1")
+					(reference "BOOT2")
 					(unit 1)
 				)
 			)
@@ -30078,7 +30134,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d04aba8d-eac4-4668-bc96-b3134c1c2754")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR024"
 			(at 194.31 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -30138,7 +30194,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR041")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -30156,7 +30212,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1c043dc-7a0e-45db-abdf-e9bf91ed7041")
-		(property "Reference" "R23"
+		(property "Reference" "R10"
 			(at 242.57 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30250,7 +30306,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "R23")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -30267,7 +30323,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d46be2c9-b440-4606-acc6-16287732aa92")
-		(property "Reference" "C23"
+		(property "Reference" "C21"
 			(at 187.706 163.322 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30386,7 +30442,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "C23")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -30403,7 +30459,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d4b9ba2f-dcc6-4e46-ba09-74df8a7d936b")
-		(property "Reference" "R19"
+		(property "Reference" "R3"
 			(at 214.63 57.404 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30520,7 +30576,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "R19")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -30539,7 +30595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da23e298-4133-4717-8a11-1468846d1234")
-		(property "Reference" "C34"
+		(property "Reference" "C19"
 			(at 46.99 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30658,7 +30714,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "C34")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -30675,7 +30731,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dbb778c4-0881-4139-96a8-dc7d8913b375")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR010"
 			(at 322.58 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -30735,7 +30791,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR024")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -30855,7 +30911,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de8d1a18-e484-42f8-9103-0ee05b0ccadb")
-		(property "Reference" "R7"
+		(property "Reference" "R17"
 			(at 48.768 247.904 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30974,7 +31030,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "R7")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -30992,7 +31048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3d8e95d-af34-486b-beca-2ff39828d848")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR037"
 			(at 238.76 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -31052,7 +31108,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR036")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -31070,7 +31126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e48f5fe4-f90e-4349-93e5-221875b28607")
-		(property "Reference" "R9"
+		(property "Reference" "R21"
 			(at 284.48 266.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31189,7 +31245,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "R9")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -31365,7 +31421,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e762fa85-4e0e-4ffd-a5c3-01446a48e826")
-		(property "Reference" "C6"
+		(property "Reference" "C4"
 			(at 294.386 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31460,7 +31516,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -31478,7 +31534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7ca8ff4-a57e-4131-bf20-4b7ec4a9dcf0")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR027"
 			(at 194.31 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -31538,7 +31594,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR039")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -31633,7 +31689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e86ff19a-c0cd-43ad-b059-c0d5d5625e56")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR034"
 			(at 245.11 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -31693,7 +31749,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR018")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -31843,7 +31899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9bb0566-f817-4a50-8eec-2d3c03995ccf")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR026"
 			(at 50.8 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -31903,7 +31959,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR047")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -31921,7 +31977,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec3e7263-3cce-40c4-87a8-2c4c91398a1b")
-		(property "Reference" "C30"
+		(property "Reference" "C10"
 			(at 49.53 127.254 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32040,7 +32096,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "C30")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -32059,7 +32115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed5f2984-c1f1-4116-bc6d-86dfb577a822")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR025"
 			(at 30.48 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -32119,7 +32175,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR048")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -32137,7 +32193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eff9fa93-ceca-42bf-be93-236e28124f4c")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 232.41 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32265,7 +32321,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "U1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -32283,7 +32339,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0d87d50-2ea6-4f9f-8feb-c559d5218203")
-		(property "Reference" "C28"
+		(property "Reference" "C12"
 			(at 69.342 127.254 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32402,143 +32458,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 26.67 245.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f47c9b2c-e1db-4aba-9880-1bc66be619ae")
-		(property "Reference" "R5"
-			(at 29.464 247.904 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "560 R"
-			(at 29.21 243.586 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 24.892 245.11 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706294262939648"
-			(at 26.67 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 26.67 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Note" ""
-			(at 26.67 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB" "https://jlcpcb.com/partdetail/23931-0603WAF5600T5E/C23204"
-			(at 26.67 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C23204"
-			(at 26.67 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" ""
-			(at 26.67 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
-			(at 26.67 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "77a44f04-8c15-4f4f-a778-2ebce05e343c")
-		)
-		(pin "2"
-			(uuid "0c11b9a4-c431-4a28-8547-f19958d2c459")
-		)
-		(instances
-			(project "reader"
-				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "R5")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -32556,7 +32476,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4bad991-6216-48e1-9311-597d1d0a4268")
-		(property "Reference" "C4"
+		(property "Reference" "C2"
 			(at 100.33 48.514 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32675,7 +32595,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "C4")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -32693,7 +32613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6b3c2e3-5c19-480f-91fe-873844e90bee")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR040"
 			(at 43.18 278.13 0)
 			(hide yes)
 			(show_name no)
@@ -32753,7 +32673,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR014")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -32771,7 +32691,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f78bd3dc-b008-44e5-bd44-5593a92e5aa6")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR06"
 			(at 33.02 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -32831,7 +32751,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR056")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -32848,7 +32768,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f86e5d64-4380-46b6-b075-9d24691df35e")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR05"
 			(at 73.66 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -32908,7 +32828,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR026")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -32926,7 +32846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "faf14626-cc8d-49a8-bfef-74919b50bef5")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR038"
 			(at 80.01 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -32986,7 +32906,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR033")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -33003,7 +32923,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd1b8e33-7478-49e3-bc57-8c64c57fca24")
-		(property "Reference" "D1"
+		(property "Reference" "D5"
 			(at 249.936 214.884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33109,7 +33029,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "D1")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -33128,7 +33048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fea5de6e-45ff-4677-b449-bf73291920a6")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR016"
 			(at 30.48 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -33188,7 +33108,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR044")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -33205,7 +33125,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fefce591-7816-4f32-9a56-7bc1a32ff73b")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR019"
 			(at 271.78 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -33265,7 +33185,7 @@
 		(instances
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "#PWR013")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
