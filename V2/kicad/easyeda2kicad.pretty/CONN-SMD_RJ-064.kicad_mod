@@ -47,7 +47,7 @@
 	(fp_line (start -7.37 -4.72) (end 7.37 -4.72) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 7.37 -4.72) (end 7.37 10.58) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 7.37 10.58) (end -7.37 10.58) (layer F.CrtYd) (width 0.05))
-	(model "C:/Users/UserName/any/school/rp/UACS/V2/kicad/easyeda2kicad.3dshapes/RJ45-SMD_RJ-064.wrl"
+	(model "C:/.willkove/university/RP/UACS/V2/kicad/easyeda2kicad.3dshapes/RJ45-SMD_RJ-064.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))
