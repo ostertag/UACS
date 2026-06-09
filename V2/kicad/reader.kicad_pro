@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.5,
-          "width": 0.7
+          "drill": 0.71,
+          "height": 1.0,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -70,7 +70,7 @@
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "error",
+        "annular_width": "ignore",
         "clearance": "error",
         "connection_width": "ignore",
         "copper_edge_clearance": "error",
@@ -754,7 +754,7 @@
         "uuid": "6275a1a7-d424-4390-b849-2e49b1a9780b"
       }
     ],
-    "used_designators": "H4,CN1,U8",
+    "used_designators": "H1-4,CN1,U1-8,IDC1,BOOT1,R1-21,#FLG1-2,#PWR1-42,C1-25,D1-9,FB1,L1,LED1-2,Speaker1-2,RC1,RESET1,SW1-2,SWD1,TP1-9,USB\\-C1,Y1",
     "variants": []
   },
   "sheets": [
