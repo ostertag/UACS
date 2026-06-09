@@ -9734,16 +9734,16 @@
 		(uuid "790bcf5f-a18c-400e-baa7-061ce4996181")
 	)
 	(junction
-		(at 327.66 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "80ce3bd7-a130-478a-9732-8e6c83238219")
-	)
-	(junction
 		(at 226.06 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82a1f5b4-c8c7-4350-b585-15d1e047aa19")
+	)
+	(junction
+		(at 327.66 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82a1ff7e-bb3a-4e92-9cde-e9e6d8e54766")
 	)
 	(junction
 		(at 194.31 144.78)
@@ -10070,6 +10070,10 @@
 		(uuid "fc1cddbc-c155-4841-87cd-22a2666c10d2")
 	)
 	(no_connect
+		(at 314.96 30.48)
+		(uuid "02f52711-048d-4c58-a668-5b34f89b8af5")
+	)
+	(no_connect
 		(at 88.9 259.08)
 		(uuid "0595133b-01c0-4643-bcec-dfe6f0672615")
 	)
@@ -10080,10 +10084,6 @@
 	(no_connect
 		(at 341.63 68.58)
 		(uuid "19d800e9-9877-42b8-b042-08cbd27b6322")
-	)
-	(no_connect
-		(at 314.96 27.94)
-		(uuid "50184a7f-f5db-401c-8423-3c01fee1cbaf")
 	)
 	(no_connect
 		(at 308.61 68.58)
@@ -10386,6 +10386,16 @@
 			(type default)
 		)
 		(uuid "13177803-6d0c-4e0b-8721-794c7480300b")
+	)
+	(wire
+		(pts
+			(xy 327.66 27.94) (xy 327.66 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "134fb1ab-e220-4c54-87f9-c347846af82e")
 	)
 	(wire
 		(pts
@@ -12459,16 +12469,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 30.48) (xy 314.96 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b167a4d3-691e-469b-89a6-7506fb36fd2a")
-	)
-	(wire
-		(pts
 			(xy 194.31 124.46) (xy 204.47 124.46)
 		)
 		(stroke
@@ -13486,6 +13486,16 @@
 			(type default)
 		)
 		(uuid "feadc704-0483-4644-9ae8-e362d6e065dc")
+	)
+	(wire
+		(pts
+			(xy 317.5 27.94) (xy 314.96 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff31abf6-1f75-4c6b-928e-f2f7b7740a2c")
 	)
 	(wire
 		(pts
@@ -24624,7 +24634,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:RC1206JR-07100KL")
-		(at 322.58 30.48 0)
+		(at 322.58 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24634,7 +24644,7 @@
 		(dnp no)
 		(uuid "5a38376a-0ddb-4b7b-8184-3800cfcc70dc")
 		(property "Reference" "R1"
-			(at 322.58 27.686 0)
+			(at 322.58 25.146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24644,7 +24654,7 @@
 			)
 		)
 		(property "Value" "RC1206JR-07100KL"
-			(at 322.58 26.924 0)
+			(at 322.58 24.384 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24655,7 +24665,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:R1206"
-			(at 322.58 38.1 0)
+			(at 322.58 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24666,7 +24676,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_100KR-104-5_C136470.html"
-			(at 322.58 40.64 0)
+			(at 322.58 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24677,7 +24687,7 @@
 			)
 		)
 		(property "Description" "100k"
-			(at 322.58 30.48 0)
+			(at 322.58 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24687,7 +24697,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 322.58 43.18 0)
+			(at 322.58 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24698,7 +24708,7 @@
 			)
 		)
 		(property "MPN" "RC1206JR-07100KL"
-			(at 322.58 45.72 0)
+			(at 322.58 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24709,7 +24719,7 @@
 			)
 		)
 		(property "LCSC Part" "C136470"
-			(at 322.58 48.26 0)
+			(at 322.58 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
