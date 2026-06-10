@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.7,
-          "width": 1.5
+          "height": 1.461999,
+          "width": 0.2794
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -695,6 +695,12 @@
           "group_by": false,
           "label": "Manufacturer",
           "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KiLib_Generator",
+          "name": "KiLib_Generator",
           "show": false
         }
       ],
