@@ -10949,7 +10949,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 35.56) (xy 354.33 33.02)
+			(xy 342.9 35.56) (xy 342.9 33.02)
 		)
 		(stroke
 			(width 0)
@@ -11819,7 +11819,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 27.94) (xy 354.33 27.94)
+			(xy 341.63 27.94) (xy 342.9 27.94)
 		)
 		(stroke
 			(width 0)
@@ -11969,7 +11969,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 26.67) (xy 354.33 27.94)
+			(xy 342.9 26.67) (xy 342.9 27.94)
 		)
 		(stroke
 			(width 0)
@@ -12899,7 +12899,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 33.02) (xy 341.63 33.02)
+			(xy 342.9 33.02) (xy 341.63 33.02)
 		)
 		(stroke
 			(width 0)
@@ -17593,7 +17593,7 @@
 				)
 				(uuid "fc203f02-f5df-484f-a719-df8f8fa8119a")
 			)
-			(table_cell "2"
+			(table_cell "1"
 				(exclude_from_sim no)
 				(at 285.242 22.352 0)
 				(size 4.826 2.54)
@@ -17675,7 +17675,7 @@
 				)
 				(uuid "89720dba-e870-4d86-b9ac-a57820a04593")
 			)
-			(table_cell "3"
+			(table_cell "1"
 				(exclude_from_sim no)
 				(at 290.068 24.892 0)
 				(size 4.826 2.54)
@@ -17725,7 +17725,7 @@
 				)
 				(uuid "055be961-10f0-4895-a5ff-2abc4aa9130c")
 			)
-			(table_cell "1"
+			(table_cell "2"
 				(exclude_from_sim no)
 				(at 285.242 27.432 0)
 				(size 4.826 2.54)
@@ -17857,7 +17857,7 @@
 				)
 				(uuid "e5e9206d-2d48-4507-8c84-83571eb01ec0")
 			)
-			(table_cell "2"
+			(table_cell "1"
 				(exclude_from_sim no)
 				(at 285.242 32.512 0)
 				(size 4.826 2.54)
@@ -17873,7 +17873,7 @@
 				)
 				(uuid "8137bc8c-d3e6-4a4f-bafd-2da423d5d797")
 			)
-			(table_cell "1"
+			(table_cell "3"
 				(exclude_from_sim no)
 				(at 290.068 32.512 0)
 				(size 4.826 2.54)
@@ -19424,7 +19424,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 354.33 26.67 0)
+		(at 342.9 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19434,7 +19434,7 @@
 		(dnp no)
 		(uuid "1ac24e98-eeed-4e65-aa6f-851916b35903")
 		(property "Reference" "#PWR01"
-			(at 354.33 30.48 0)
+			(at 342.9 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19445,7 +19445,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 354.33 22.098 0)
+			(at 342.9 22.098 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19455,7 +19455,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 354.33 26.67 0)
+			(at 342.9 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19466,7 +19466,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 354.33 26.67 0)
+			(at 342.9 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19477,7 +19477,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 354.33 26.67 0)
+			(at 342.9 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21666,7 +21666,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 354.33 35.56 0)
+		(at 342.9 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21677,7 +21677,7 @@
 		(fields_autoplaced yes)
 		(uuid "2dffb69e-c618-4c46-9e7b-32d677498872")
 		(property "Reference" "#PWR02"
-			(at 354.33 41.91 0)
+			(at 342.9 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21688,7 +21688,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 354.33 40.64 0)
+			(at 342.9 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21698,7 +21698,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 354.33 35.56 0)
+			(at 342.9 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21709,7 +21709,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 354.33 35.56 0)
+			(at 342.9 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21720,7 +21720,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 354.33 35.56 0)
+			(at 342.9 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29679,7 +29679,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590908716709863424"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C6465979.pdf?spm=wm.sxq.inf.ggs&lcsc_vid=FVRbUlZVElUKAldUT1FbAVZWElcMUlFXR1FXBgVQElUxVlNeRlBeXl1SQlVfVzsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
 			(at 24.13 261.112 0)
 			(hide yes)
 			(show_name no)
@@ -29822,7 +29822,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590902847586181120"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5553822.pdf"
 			(at 43.18 261.112 0)
 			(hide yes)
 			(show_name no)
