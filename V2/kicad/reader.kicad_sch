@@ -18061,7 +18061,7 @@
 		)
 		(uuid "4a64aea6-12fb-49e6-8375-e22bb1333a3c")
 	)
-	(label "VDDA"
+	(label "Net-(U1-VDDA)"
 		(at 73.66 157.48 0)
 		(effects
 			(font
@@ -18963,7 +18963,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "+3.3 V"
+		(property "Value" "3V3"
 			(at 295.91 229.1079 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20313,7 +20313,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0_14P"
+		(property "Value" "USB-C"
 			(at 204.978 235.204 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22538,6 +22538,149 @@
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Dual_AKKA")
+		(at 43.18 260.35 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "37410c4a-d0ca-47c8-bf8c-8c67995663c4")
+		(property "Reference" "LED2"
+			(at 49.53 260.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APHBM2012LSURKZGKC"
+			(at 50.8 261.4929 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UACS:LED_Kingbright_APHBM2012_2x1.25mm"
+			(at 43.18 261.112 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590908716709863424"
+			(at 43.18 261.112 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual LED, cathodes on pins 2 and 3"
+			(at 43.18 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/Kingbright-APHBM2012LSURKZGKC/C6465979"
+			(at 43.18 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6465979"
+			(at 43.18 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "2mA Red, Emerald, 120°, SMD-4P, 2 x 1.3 mm"
+			(at 43.18 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 43.18 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 43.18 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "257d7b1e-0cb3-4168-bec3-227828349b57")
+		)
+		(pin "4"
+			(uuid "edc95d24-d223-440b-b42b-0eaf38d09f22")
+		)
+		(pin "1"
+			(uuid "eb64e33b-612e-4bba-b8c6-3d0ff3f419ae")
+		)
+		(pin "3"
+			(uuid "03850254-cbcc-401a-bd45-076d9d811347")
+		)
+		(instances
+			(project "reader"
+				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -27196,7 +27339,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "RESET"
 			(at 45.72 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28778,7 +28921,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WS"
+		(property "Value" "LRCLK"
 			(at 363.22 65.5321 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29024,6 +29167,153 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 40.64 245.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a7bd390b-7eec-4f52-a1ed-e6934ad316ee")
+		(property "Reference" "R16"
+			(at 37.846 247.904 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330 R"
+			(at 37.846 243.586 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 38.862 245.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706017514917888"
+			(at 40.64 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 40.64 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" ""
+			(at 40.64 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/25847-0402WGF3300TCE/C25104"
+			(at 40.64 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25104"
+			(at 40.64 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 40.64 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 40.64 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 40.64 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0f08bbb-37b9-41f9-b094-600e048b8f86")
+		)
+		(pin "2"
+			(uuid "494c2fd6-ce00-4bf3-a643-96d3c0de1c61")
+		)
+		(instances
+			(project "reader"
+				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Switching:MCP16301Hx-xCH")
 		(at 245.11 232.41 0)
 		(unit 1)
@@ -29177,6 +29467,154 @@
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 45.72 245.11 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a9d14ce9-da9a-4e3d-8f05-e2af7f052bca")
+		(property "Reference" "R17"
+			(at 48.514 247.904 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560 R"
+			(at 48.514 243.586 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 47.498 245.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8586178278474862592-C25126.pdf?response-content-disposition=attachment%3B%20filename%3DC25126.pdf%3B%20filename%2A%3DUTF-8%27%27C25126.pdf&x-oss-date=20260603T141942Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rYAPaHqJFCjrvadU%2FFs1YWQtlZrr3lsTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qeAa7RNB4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWhqDHsNdntHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIe8fo%2BKKWD5sagAFAjLTD0371Sd2gSdBnykA7MII9CzBs0TEnncOuMMFpZ7eWxtofkMZUw83MXKFT3yGfjS9fIlx%2Bre7vtwbXSVmucxBbZSJldeqhHVomhZC6FwsraIa5cFo%2FJ2rvy%2BYXQ1kdyLEoPt0fplni6hRiSJOL598AUZr9EPV4uuEaQBdebyAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYmKL3ENc9y1witWVCNVuAxNS%2F20260603%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=d1629a371fbf831c62f9f7f4032d37edb65e47d37709e76674d141769ad7b5bf"
+			(at 45.72 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" ""
+			(at 45.72 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/C25126"
+			(at 45.72 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25126"
+			(at 45.72 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 45.72 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 45.72 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 45.72 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92c38852-164b-4cdc-8890-f1f850773d59")
+		)
+		(pin "2"
+			(uuid "2191e9df-963e-4658-af6a-e992c038ac63")
+		)
+		(instances
+			(project "reader"
+				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -29410,154 +29848,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 40.64 245.11 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b69b24b0-9b50-4c2a-a532-2682c2746aae")
-		(property "Reference" "R16"
-			(at 37.846 247.65 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "56 R"
-			(at 37.846 243.332 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 42.418 245.11 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586178279397068800"
-			(at 40.64 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 40.64 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Note" ""
-			(at 40.64 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB" "https://jlcpcb.com/partdetail/25870-0402WGF560JTCE/C25127"
-			(at 40.64 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25127"
-			(at 40.64 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" ""
-			(at 40.64 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
-			(at 40.64 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 40.64 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4a161718-ae87-43db-b341-4e26b14e74dc")
-		)
-		(pin "2"
-			(uuid "f4b3edd0-9d55-470e-aef4-420087b8ac0f")
-		)
-		(instances
-			(project "reader"
-				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 232.41 144.78 0)
 		(unit 1)
@@ -29679,7 +29969,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C6465979.pdf?spm=wm.sxq.inf.ggs&lcsc_vid=FVRbUlZVElUKAldUT1FbAVZWElcMUlFXR1FXBgVQElUxVlNeRlBeXl1SQlVfVzsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590908716709863424"
 			(at 24.13 261.112 0)
 			(hide yes)
 			(show_name no)
@@ -29772,149 +30062,6 @@
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
 					(reference "LED1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Dual_AKKA")
-		(at 43.18 260.35 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c0f8becb-e2b9-454f-aa83-066b8130b804")
-		(property "Reference" "LED2"
-			(at 49.022 260.35 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "APHBM2012SURKCGKC"
-			(at 50.8 261.4929 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "UACS:LED_Kingbright_APHBM2012_2x1.25mm"
-			(at 43.18 261.112 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5553822.pdf"
-			(at 43.18 261.112 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual LED, cathodes on pins 2 and 3"
-			(at 43.18 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB" "https://jlcpcb.com/partdetail/Kingbright-APHBM2012SURKCGKC/C5553822"
-			(at 43.18 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C5553822"
-			(at 43.18 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Note" "20mA, Red, Emerald, 120°, SMD-4P, 2 x 1.3 mm"
-			(at 43.18 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" ""
-			(at 43.18 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
-			(at 43.18 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fe377358-5446-4da9-aa18-c70a4ebc4f11")
-		)
-		(pin "4"
-			(uuid "c2cd7971-47ac-4e36-8cd2-f923c356928b")
-		)
-		(pin "1"
-			(uuid "24c4e074-fd79-4233-9468-6f666bd75633")
-		)
-		(pin "3"
-			(uuid "de9087b0-02c5-4661-bd2f-377d462ce824")
-		)
-		(instances
-			(project "reader"
-				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -30413,7 +30560,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPDT"
+		(property "Value" "BOOT"
 			(at 61.214 93.472 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31335,153 +31482,6 @@
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
 					(reference "Speaker1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 45.72 245.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "de8d1a18-e484-42f8-9103-0ee05b0ccadb")
-		(property "Reference" "R17"
-			(at 48.768 247.904 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "68 R"
-			(at 48.768 243.586 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 43.942 245.11 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588908782960693248"
-			(at 45.72 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 45.72 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Note" ""
-			(at 45.72 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB" "https://jlcpcb.com/partdetail/Yageo-RC0402FR0768RL/C163455"
-			(at 45.72 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C163455"
-			(at 45.72 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" ""
-			(at 45.72 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
-			(at 45.72 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 45.72 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "71f71617-492e-41b4-acb4-54ce10f58fde")
-		)
-		(pin "2"
-			(uuid "4fb33d07-d751-4afa-bc17-7d3e858c672b")
-		)
-		(instances
-			(project "reader"
-				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "R17")
 					(unit 1)
 				)
 			)

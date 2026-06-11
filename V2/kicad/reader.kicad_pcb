@@ -3876,7 +3876,7 @@
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U1-VDDA)")
+			(net "/Net-(U1-VDDA)")
 			(pintype "passive")
 			(uuid "1ff58135-e567-4e19-881c-2a58e99c3c6f")
 		)
@@ -3920,7 +3920,7 @@
 				)
 			)
 		)
-		(property "Value" "68 R"
+		(property "Value" "560 R"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "88dd0938-2f02-4a39-bdd8-a2d17acad3e8")
@@ -3931,7 +3931,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588908782960693248"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8586178278474862592-C25126.pdf?response-content-disposition=attachment%3B%20filename%3DC25126.pdf%3B%20filename%2A%3DUTF-8%27%27C25126.pdf&x-oss-date=20260603T141942Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rYAPaHqJFCjrvadU%2FFs1YWQtlZrr3lsTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qeAa7RNB4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWhqDHsNdntHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIe8fo%2BKKWD5sagAFAjLTD0371Sd2gSdBnykA7MII9CzBs0TEnncOuMMFpZ7eWxtofkMZUw83MXKFT3yGfjS9fIlx%2Bre7vtwbXSVmucxBbZSJldeqhHVomhZC6FwsraIa5cFo%2FJ2rvy%2BYXQ1kdyLEoPt0fplni6hRiSJOL598AUZr9EPV4uuEaQBdebyAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYmKL3ENc9y1witWVCNVuAxNS%2F20260603%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=d1629a371fbf831c62f9f7f4032d37edb65e47d37709e76674d141769ad7b5bf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3978,7 +3978,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "https://jlcpcb.com/partdetail/Yageo-RC0402FR0768RL/C163455"
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/C25126"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3991,7 +3991,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C163455"
+		(property "LCSC" "C25126"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4031,7 +4031,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/de8d1a18-e484-42f8-9103-0ee05b0ccadb")
+		(path "/a9d14ce9-da9a-4e3d-8f05-e2af7f052bca")
 		(sheetname "/")
 		(sheetfile "reader.kicad_sch")
 		(units
@@ -9954,7 +9954,7 @@
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U1-VDDA)")
+			(net "/Net-(U1-VDDA)")
 			(pintype "passive")
 			(uuid "35198cad-db2d-4b80-9724-90ffd539a4a6")
 		)
@@ -10756,7 +10756,7 @@
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U1-VDDA)")
+			(net "/Net-(U1-VDDA)")
 			(pintype "passive")
 			(uuid "ef4b3898-5bd1-4a0d-bec5-7d2aad41f69f")
 		)
@@ -13537,14 +13537,14 @@
 	(footprint "MountingHole:ToolingHole_1.152mm"
 		(layer "F.Cu")
 		(uuid "8caa1293-6680-474e-b7bd-10f6a3b12120")
-		(at 137.14 55.269 180)
+		(at 138.98 55.23 180)
 		(descr "Tooling Hole 1.152mm, 1.3mm solder mask, JLCPCB specification, https://jlcpcb.com/help/article/How-to-add-tooling-holes-for-PCB-assembly-order")
 		(tags "mounting")
 		(property "Reference" "H1"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b5afcb0d-1d3f-4a10-a166-a9248857792a")
+			(uuid "ee0e6dcb-0f23-4a8f-ab0e-60f4945edebb")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -13555,7 +13555,7 @@
 		(property "Value" "ToolingHole"
 			(at 0 1.6 0)
 			(layer "F.Fab")
-			(uuid "224845e7-467c-41d0-937c-7e5411454a57")
+			(uuid "d0e09cf8-adac-45b4-8145-017d883b2f39")
 			(effects
 				(font
 					(size 1 1)
@@ -13568,7 +13568,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c064d41c-646b-4582-b0b1-23f2eb9be973")
+			(uuid "d99ad7b6-e7b5-4578-893a-e38242c1e213")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13581,7 +13581,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fe3e3fa5-fc28-40d3-a1ad-02c14dc8a460")
+			(uuid "da2d6816-971c-4b9d-9142-aebbfff112bd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13696,13 +13696,13 @@
 			)
 			(polygon
 				(pts
-					(xy 136.44 55.269) (xy 136.460341 55.436521) (xy 136.520181 55.594306) (xy 136.616042 55.733186)
-					(xy 136.742355 55.845089) (xy 136.891777 55.923511) (xy 137.055624 55.963896) (xy 137.224376 55.963896)
-					(xy 137.388223 55.923511) (xy 137.537645 55.845089) (xy 137.663958 55.733186) (xy 137.759819 55.594306)
-					(xy 137.819659 55.436521) (xy 137.84 55.269) (xy 137.819659 55.101479) (xy 137.759819 54.943694)
-					(xy 137.663958 54.804814) (xy 137.537645 54.692911) (xy 137.388223 54.614489) (xy 137.224376 54.574104)
-					(xy 137.055624 54.574104) (xy 136.891777 54.614489) (xy 136.742355 54.692911) (xy 136.616042 54.804814)
-					(xy 136.520181 54.943694) (xy 136.460341 55.101479)
+					(xy 138.28 55.23) (xy 138.300341 55.397521) (xy 138.360181 55.555306) (xy 138.456042 55.694186)
+					(xy 138.582355 55.806089) (xy 138.731777 55.884511) (xy 138.895624 55.924896) (xy 139.064376 55.924896)
+					(xy 139.228223 55.884511) (xy 139.377645 55.806089) (xy 139.503958 55.694186) (xy 139.599819 55.555306)
+					(xy 139.659659 55.397521) (xy 139.68 55.23) (xy 139.659659 55.062479) (xy 139.599819 54.904694)
+					(xy 139.503958 54.765814) (xy 139.377645 54.653911) (xy 139.228223 54.575489) (xy 139.064376 54.535104)
+					(xy 138.895624 54.535104) (xy 138.731777 54.575489) (xy 138.582355 54.653911) (xy 138.456042 54.765814)
+					(xy 138.360181 54.904694) (xy 138.300341 55.062479)
 				)
 			)
 		)
@@ -14581,6 +14581,7 @@
 			)
 		)
 		(property ki_fp_filters "SW* SP3T*")
+		(path "/9d76858b-a32e-4494-8d13-065690975bd0")
 		(sheetname "/")
 		(sheetfile "reader.kicad_sch")
 		(units
@@ -18135,7 +18136,7 @@
 			(at -4.2164 1.25 90)
 			(size 0.2794 1.461999)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U1-VDDA)")
+			(net "/Net-(U1-VDDA)")
 			(pinfunction "VDDA_9")
 			(pintype "power_in")
 			(uuid "72c8aaa4-aa9b-48c7-9fc8-38ad87b14a41")
@@ -23253,6 +23254,12 @@
 		(path "/6c828bb3-2521-4bbf-bbb4-3407cb44c148")
 		(sheetname "/")
 		(sheetfile "reader.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24991,7 +24998,7 @@
 				)
 			)
 		)
-		(property "Value" "APHBM2012SURKCGKC"
+		(property "Value" "APHBM2012LSURKZGKC"
 			(at -0.05 2.6 0)
 			(layer "F.Fab")
 			(uuid "ddaa298c-17a6-487e-9b49-b80d09e89613")
@@ -25002,7 +25009,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590902847586181120"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590908716709863424"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25028,7 +25035,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "https://jlcpcb.com/partdetail/Kingbright-APHBM2012SURKCGKC/C5553822"
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/Kingbright-APHBM2012LSURKZGKC/C6465979"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25041,7 +25048,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5553822"
+		(property "LCSC" "C6465979"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25054,7 +25061,7 @@
 				)
 			)
 		)
-		(property "Note" "20mA, Red, Emerald, 120°, SMD-4P, 2 x 1.3 mm"
+		(property "Note" "2mA Red, Emerald, 120°, SMD-4P, 2 x 1.3 mm"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25094,7 +25101,7 @@
 			)
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/c0f8becb-e2b9-454f-aa83-066b8130b804")
+		(path "/37410c4a-d0ca-47c8-bf8c-8c67995663c4")
 		(sheetname "/")
 		(sheetfile "reader.kicad_sch")
 		(units
@@ -25332,7 +25339,7 @@
 				)
 			)
 		)
-		(property "Value" "56 R"
+		(property "Value" "330 R"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "92894966-6749-4446-9233-1d9393a0a99f")
@@ -25343,7 +25350,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586178279397068800"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706017514917888"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -25390,7 +25397,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "https://jlcpcb.com/partdetail/25870-0402WGF560JTCE/C25127"
+		(property "JLCPCB" "https://jlcpcb.com/partdetail/25847-0402WGF3300TCE/C25104"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25403,7 +25410,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25127"
+		(property "LCSC" "C25104"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25443,7 +25450,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/b69b24b0-9b50-4c2a-a532-2682c2746aae")
+		(path "/a7bd390b-7eec-4f52-a1ed-e6934ad316ee")
 		(sheetname "/")
 		(sheetfile "reader.kicad_sch")
 		(units
@@ -26373,7 +26380,7 @@
 	(footprint "LOGO"
 		(layer "B.Cu")
 		(uuid "0ed1f4e5-17f7-4a8e-b893-388ca0d44ff5")
-		(at 162.05 74.826807 -90)
+		(at 162.05 72.326807 -90)
 		(property "Reference" "G***"
 			(at 0 0 90)
 			(layer "B.SilkS")
@@ -27134,12 +27141,12 @@
 	(footprint "LOGO"
 		(layer "B.Cu")
 		(uuid "729a6187-cb91-4b80-8f70-1c16202714cf")
-		(at 138.07 56.5 90)
+		(at 138.07 54 -90)
 		(property "Reference" "G***"
 			(at 0 0 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "5514891f-7a02-460d-b6ce-4a3ffc2beceb")
+			(uuid "e9e29c6e-5f25-4325-9ce8-08edef97fa7c")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -27152,7 +27159,7 @@
 			(at 0.75 0 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "4b283c6b-d9b5-4842-bc29-2286087e845f")
+			(uuid "009803bf-e399-4bd5-a7f1-e7d27153900e")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -27165,7 +27172,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "64b5fa0b-5af5-49aa-9c53-a6e9ff159204")
+			(uuid "94e59edb-35e2-4f0a-aa47-81e82da86183")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27178,7 +27185,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e63e3672-9bc6-4971-8f4a-02e61ef5df80")
+			(uuid "034fdd62-80f2-461f-9d6f-3a32b5bc6e6c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27659,12 +27666,12 @@
 	(footprint "LOGO"
 		(layer "B.Cu")
 		(uuid "f72c96f1-1ec1-4175-94f4-bfd912aeded0")
-		(at 147.65 65.85 -90)
+		(at 147.65 63.35 -90)
 		(property "Reference" "G***"
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e363f885-0fae-4b61-ae3a-35993bbe5981")
+			(uuid "524afc51-800c-49e6-8f97-60ea78ad7820")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -27676,7 +27683,7 @@
 			(at 0.75 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "dd68fa3b-405e-4ad0-9f95-3c75772c2f5e")
+			(uuid "4e410d9c-eb67-4230-85b3-59ee612ae22b")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -27688,7 +27695,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3bdaa137-4e8d-48b4-8bb6-2e75dae8832b")
+			(uuid "606eeaad-1b93-4abc-92c7-7d9d999dbe00")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27700,7 +27707,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f55112cd-e172-4b02-91f9-9bcb73fa2af2")
+			(uuid "84eb3549-2482-4b03-a3bf-ee8954cd984c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28364,8 +28371,8 @@
 		(uuid "4e31ee32-5b7d-4ccb-b8f0-2c8d890d312c")
 	)
 	(gr_rect
-		(start 136.36 63.09)
-		(end 136.84 73.86)
+		(start 136.36 60.59)
+		(end 136.84 71.36)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -28375,8 +28382,8 @@
 		(uuid "4ad1dc3f-b294-442b-aadb-e1d8b2fc51e0")
 	)
 	(gr_rect
-		(start 136.36 63.09)
-		(end 141.21 63.35)
+		(start 136.36 60.59)
+		(end 141.21 60.85)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -28386,8 +28393,8 @@
 		(uuid "49129ac9-65ec-4889-bdcb-37039c4d4833")
 	)
 	(gr_rect
-		(start 136.36 63.09)
-		(end 141.36 73.84)
+		(start 136.36 60.59)
+		(end 141.36 71.34)
 		(stroke
 			(width 0.5)
 			(type solid)
@@ -28397,8 +28404,8 @@
 		(uuid "84c63da1-051a-4535-9ac9-b6db7a3ec522")
 	)
 	(gr_rect
-		(start 138.24 63.04)
-		(end 139.21 73.84)
+		(start 138.24 60.54)
+		(end 139.21 71.34)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -28419,8 +28426,8 @@
 		(uuid "d5030325-6be7-41e1-abab-efabac68ea25")
 	)
 	(gr_rect
-		(start 138.99 63)
-		(end 141.3 63.5)
+		(start 138.99 60.5)
+		(end 141.3 61)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -28430,8 +28437,8 @@
 		(uuid "532c9412-cd72-449f-8709-222c55101eea")
 	)
 	(gr_rect
-		(start 138.99 73.46)
-		(end 141.3 73.96)
+		(start 138.99 70.96)
+		(end 141.3 71.46)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -28441,8 +28448,8 @@
 		(uuid "2a376eef-d1a4-4743-90fb-4533c6b1cda5")
 	)
 	(gr_rect
-		(start 140.87 63.07)
-		(end 141.35 73.84)
+		(start 140.87 60.57)
+		(end 141.35 71.34)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -28555,7 +28562,7 @@
 		)
 	)
 	(gr_text "https://github.com/ostertag/UACS"
-		(at 154.469519 65.849997 90)
+		(at 154.469519 63.349997 90)
 		(layer "B.SilkS")
 		(uuid "823d4207-d58a-4d49-b6a4-5843ad56e6a6")
 		(effects
@@ -28566,7 +28573,7 @@
 		)
 	)
 	(gr_text "UACS-Reader"
-		(at 137.01 68.465 90)
+		(at 137.01 65.965 90)
 		(layer "B.SilkS" knockout)
 		(uuid "27d0f09b-52ab-496e-b2be-1ec64263cb25")
 		(effects
@@ -28579,7 +28586,7 @@
 		)
 	)
 	(gr_text "2.0 2026/06"
-		(at 140.01 68.465 90)
+		(at 140.01 65.965 90)
 		(layer "B.SilkS" knockout)
 		(uuid "121b90c0-34b1-461e-a80f-af1d68cb4cef")
 		(effects
@@ -32935,70 +32942,6 @@
 		(uuid "6ff34fb8-8d0b-4c97-98dc-82aea1075c81")
 	)
 	(segment
-		(start 138.01 74.95)
-		(end 136.54 74.95)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(U1-VDDA)")
-		(uuid "21d0ae80-ff4c-4e52-bb2a-057aa67812a4")
-	)
-	(segment
-		(start 138.65 75.59)
-		(end 138.01 74.95)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(U1-VDDA)")
-		(uuid "3939c2c5-aa98-4c1c-be5e-33ae91b66fdb")
-	)
-	(segment
-		(start 139.43595 73.28595)
-		(end 139.43595 75.00095)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "Net-(U1-VDDA)")
-		(uuid "3e63bf37-45d6-44fc-bd20-1e4befc78531")
-	)
-	(segment
-		(start 139.7329 72.989)
-		(end 139.43595 73.28595)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "Net-(U1-VDDA)")
-		(uuid "48fad4cc-c783-4d5b-bdbc-52dbf3dc4d91")
-	)
-	(segment
-		(start 140.8036 72.989)
-		(end 139.7329 72.989)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "Net-(U1-VDDA)")
-		(uuid "76fedb78-3252-4eb6-8f93-cecd0453b1e1")
-	)
-	(segment
-		(start 139.43595 75.00095)
-		(end 140.21 75.775)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "Net-(U1-VDDA)")
-		(uuid "a61e3a29-5e16-4d65-a767-9b0337596892")
-	)
-	(segment
-		(start 138.65 75.59)
-		(end 138.8469 75.59)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(U1-VDDA)")
-		(uuid "c392f1ce-2e93-4b79-9f26-590cab6754a3")
-	)
-	(segment
-		(start 138.8469 75.59)
-		(end 139.43595 75.00095)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(U1-VDDA)")
-		(uuid "ea0ab13e-f854-49d8-b115-761e99f0f1cb")
-	)
-	(segment
 		(start 164.51 35.63)
 		(end 164.51 35.314)
 		(width 0.2)
@@ -35533,6 +35476,70 @@
 		(layer "F.Cu")
 		(net "Net-(LED2-A2)")
 		(uuid "81c67b12-e916-4089-be83-c37b923e16cb")
+	)
+	(segment
+		(start 138.01 74.95)
+		(end 136.54 74.95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Net-(U1-VDDA)")
+		(uuid "21d0ae80-ff4c-4e52-bb2a-057aa67812a4")
+	)
+	(segment
+		(start 138.65 75.59)
+		(end 138.01 74.95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Net-(U1-VDDA)")
+		(uuid "3939c2c5-aa98-4c1c-be5e-33ae91b66fdb")
+	)
+	(segment
+		(start 139.43595 73.28595)
+		(end 139.43595 75.00095)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/Net-(U1-VDDA)")
+		(uuid "3e63bf37-45d6-44fc-bd20-1e4befc78531")
+	)
+	(segment
+		(start 139.7329 72.989)
+		(end 139.43595 73.28595)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/Net-(U1-VDDA)")
+		(uuid "48fad4cc-c783-4d5b-bdbc-52dbf3dc4d91")
+	)
+	(segment
+		(start 140.8036 72.989)
+		(end 139.7329 72.989)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/Net-(U1-VDDA)")
+		(uuid "76fedb78-3252-4eb6-8f93-cecd0453b1e1")
+	)
+	(segment
+		(start 139.43595 75.00095)
+		(end 140.21 75.775)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/Net-(U1-VDDA)")
+		(uuid "a61e3a29-5e16-4d65-a767-9b0337596892")
+	)
+	(segment
+		(start 138.65 75.59)
+		(end 138.8469 75.59)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Net-(U1-VDDA)")
+		(uuid "c392f1ce-2e93-4b79-9f26-590cab6754a3")
+	)
+	(segment
+		(start 138.8469 75.59)
+		(end 139.43595 75.00095)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Net-(U1-VDDA)")
+		(uuid "ea0ab13e-f854-49d8-b115-761e99f0f1cb")
 	)
 	(zone
 		(net "GND")
