@@ -3920,7 +3920,7 @@
 				)
 			)
 		)
-		(property "Value" "560 R"
+		(property "Value" "787 R"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "88dd0938-2f02-4a39-bdd8-a2d17acad3e8")
@@ -3931,7 +3931,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8586178278474862592-C25126.pdf?response-content-disposition=attachment%3B%20filename%3DC25126.pdf%3B%20filename%2A%3DUTF-8%27%27C25126.pdf&x-oss-date=20260603T141942Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rYAPaHqJFCjrvadU%2FFs1YWQtlZrr3lsTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qeAa7RNB4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWhqDHsNdntHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIe8fo%2BKKWD5sagAFAjLTD0371Sd2gSdBnykA7MII9CzBs0TEnncOuMMFpZ7eWxtofkMZUw83MXKFT3yGfjS9fIlx%2Bre7vtwbXSVmucxBbZSJldeqhHVomhZC6FwsraIa5cFo%2FJ2rvy%2BYXQ1kdyLEoPt0fplni6hRiSJOL598AUZr9EPV4uuEaQBdebyAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYmKL3ENc9y1witWVCNVuAxNS%2F20260603%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=d1629a371fbf831c62f9f7f4032d37edb65e47d37709e76674d141769ad7b5bf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C270582.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=FVRbUlZVElUKAldUT1FbAVZWElcMUlFXR1FXBgVQElUxVlNeRlNeUVRXQFhZVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3978,7 +3978,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "https://jlcpcb.com/partdetail/C25126"
+		(property "JLCPCB" "https://www.lcsc.com/product-detail/C270582.html"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3991,7 +3991,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25126"
+		(property "LCSC" "C270582"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4031,7 +4031,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/a9d14ce9-da9a-4e3d-8f05-e2af7f052bca")
+		(path "/a1c1c51f-07a0-4665-acf5-e19cd83186f3")
 		(sheetname "/")
 		(sheetfile "reader.kicad_sch")
 		(units
@@ -14913,6 +14913,7 @@
 			(at -1.5 -1.43 180)
 			(size 1.5 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(SW1-Pad2)")
 			(pinfunction "2_2")
 			(pintype "passive+no_connect")
 			(uuid "e59cd59e-1c60-4a21-b8ba-5c6b96d21129")
@@ -22473,7 +22474,7 @@
 				)
 			)
 		)
-		(property "Value" "560 R"
+		(property "Value" "787 R"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "f27f638c-bb1c-4ce9-9f90-fc7014cd9add")
@@ -22484,7 +22485,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8586178278474862592-C25126.pdf?response-content-disposition=attachment%3B%20filename%3DC25126.pdf%3B%20filename%2A%3DUTF-8%27%27C25126.pdf&x-oss-date=20260603T141942Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rYAPaHqJFCjrvadU%2FFs1YWQtlZrr3lsTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qeAa7RNB4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWhqDHsNdntHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIe8fo%2BKKWD5sagAFAjLTD0371Sd2gSdBnykA7MII9CzBs0TEnncOuMMFpZ7eWxtofkMZUw83MXKFT3yGfjS9fIlx%2Bre7vtwbXSVmucxBbZSJldeqhHVomhZC6FwsraIa5cFo%2FJ2rvy%2BYXQ1kdyLEoPt0fplni6hRiSJOL598AUZr9EPV4uuEaQBdebyAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYmKL3ENc9y1witWVCNVuAxNS%2F20260603%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=d1629a371fbf831c62f9f7f4032d37edb65e47d37709e76674d141769ad7b5bf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C270582.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=FVRbUlZVElUKAldUT1FbAVZWElcMUlFXR1FXBgVQElUxVlNeRlNeUVRXQFhZVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -22531,7 +22532,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "https://jlcpcb.com/partdetail/C25126"
+		(property "JLCPCB" "https://www.lcsc.com/product-detail/C270582.html"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22544,7 +22545,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25126"
+		(property "LCSC" "C270582"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32942,6 +32943,70 @@
 		(uuid "6ff34fb8-8d0b-4c97-98dc-82aea1075c81")
 	)
 	(segment
+		(start 138.01 74.95)
+		(end 136.54 74.95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Net-(U1-VDDA)")
+		(uuid "21d0ae80-ff4c-4e52-bb2a-057aa67812a4")
+	)
+	(segment
+		(start 138.65 75.59)
+		(end 138.01 74.95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Net-(U1-VDDA)")
+		(uuid "3939c2c5-aa98-4c1c-be5e-33ae91b66fdb")
+	)
+	(segment
+		(start 139.43595 73.28595)
+		(end 139.43595 75.00095)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/Net-(U1-VDDA)")
+		(uuid "3e63bf37-45d6-44fc-bd20-1e4befc78531")
+	)
+	(segment
+		(start 139.7329 72.989)
+		(end 139.43595 73.28595)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/Net-(U1-VDDA)")
+		(uuid "48fad4cc-c783-4d5b-bdbc-52dbf3dc4d91")
+	)
+	(segment
+		(start 140.8036 72.989)
+		(end 139.7329 72.989)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/Net-(U1-VDDA)")
+		(uuid "76fedb78-3252-4eb6-8f93-cecd0453b1e1")
+	)
+	(segment
+		(start 139.43595 75.00095)
+		(end 140.21 75.775)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/Net-(U1-VDDA)")
+		(uuid "a61e3a29-5e16-4d65-a767-9b0337596892")
+	)
+	(segment
+		(start 138.65 75.59)
+		(end 138.8469 75.59)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Net-(U1-VDDA)")
+		(uuid "c392f1ce-2e93-4b79-9f26-590cab6754a3")
+	)
+	(segment
+		(start 138.8469 75.59)
+		(end 139.43595 75.00095)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Net-(U1-VDDA)")
+		(uuid "ea0ab13e-f854-49d8-b115-761e99f0f1cb")
+	)
+	(segment
 		(start 164.51 35.63)
 		(end 164.51 35.314)
 		(width 0.2)
@@ -35476,70 +35541,6 @@
 		(layer "F.Cu")
 		(net "Net-(LED2-A2)")
 		(uuid "81c67b12-e916-4089-be83-c37b923e16cb")
-	)
-	(segment
-		(start 138.01 74.95)
-		(end 136.54 74.95)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Net-(U1-VDDA)")
-		(uuid "21d0ae80-ff4c-4e52-bb2a-057aa67812a4")
-	)
-	(segment
-		(start 138.65 75.59)
-		(end 138.01 74.95)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Net-(U1-VDDA)")
-		(uuid "3939c2c5-aa98-4c1c-be5e-33ae91b66fdb")
-	)
-	(segment
-		(start 139.43595 73.28595)
-		(end 139.43595 75.00095)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/Net-(U1-VDDA)")
-		(uuid "3e63bf37-45d6-44fc-bd20-1e4befc78531")
-	)
-	(segment
-		(start 139.7329 72.989)
-		(end 139.43595 73.28595)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/Net-(U1-VDDA)")
-		(uuid "48fad4cc-c783-4d5b-bdbc-52dbf3dc4d91")
-	)
-	(segment
-		(start 140.8036 72.989)
-		(end 139.7329 72.989)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/Net-(U1-VDDA)")
-		(uuid "76fedb78-3252-4eb6-8f93-cecd0453b1e1")
-	)
-	(segment
-		(start 139.43595 75.00095)
-		(end 140.21 75.775)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/Net-(U1-VDDA)")
-		(uuid "a61e3a29-5e16-4d65-a767-9b0337596892")
-	)
-	(segment
-		(start 138.65 75.59)
-		(end 138.8469 75.59)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Net-(U1-VDDA)")
-		(uuid "c392f1ce-2e93-4b79-9f26-590cab6754a3")
-	)
-	(segment
-		(start 138.8469 75.59)
-		(end 139.43595 75.00095)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Net-(U1-VDDA)")
-		(uuid "ea0ab13e-f854-49d8-b115-761e99f0f1cb")
 	)
 	(zone
 		(net "GND")

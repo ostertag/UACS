@@ -25229,7 +25229,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "560 R"
+		(property "Value" "787 R"
 			(at 29.464 243.586 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25251,7 +25251,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8586178278474862592-C25126.pdf?response-content-disposition=attachment%3B%20filename%3DC25126.pdf%3B%20filename%2A%3DUTF-8%27%27C25126.pdf&x-oss-date=20260603T141942Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rYAPaHqJFCjrvadU%2FFs1YWQtlZrr3lsTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qeAa7RNB4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWhqDHsNdntHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIe8fo%2BKKWD5sagAFAjLTD0371Sd2gSdBnykA7MII9CzBs0TEnncOuMMFpZ7eWxtofkMZUw83MXKFT3yGfjS9fIlx%2Bre7vtwbXSVmucxBbZSJldeqhHVomhZC6FwsraIa5cFo%2FJ2rvy%2BYXQ1kdyLEoPt0fplni6hRiSJOL598AUZr9EPV4uuEaQBdebyAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYmKL3ENc9y1witWVCNVuAxNS%2F20260603%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=d1629a371fbf831c62f9f7f4032d37edb65e47d37709e76674d141769ad7b5bf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C270582.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=FVRbUlZVElUKAldUT1FbAVZWElcMUlFXR1FXBgVQElUxVlNeRlNeUVRXQFhZVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D"
 			(at 26.67 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -25284,7 +25284,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "https://jlcpcb.com/partdetail/C25126"
+		(property "JLCPCB" "https://www.lcsc.com/product-detail/C270582.html"
 			(at 26.67 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -25295,7 +25295,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25126"
+		(property "LCSC" "C270582"
 			(at 26.67 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -28751,6 +28751,154 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 45.72 245.11 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1c1c51f-07a0-4665-acf5-e19cd83186f3")
+		(property "Reference" "R17"
+			(at 48.514 247.904 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "787 R"
+			(at 48.514 243.586 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 47.498 245.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C270582.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=FVRbUlZVElUKAldUT1FbAVZWElcMUlFXR1FXBgVQElUxVlNeRlNeUVRXQFhZVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D"
+			(at 45.72 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" ""
+			(at 45.72 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "https://www.lcsc.com/product-detail/C270582.html"
+			(at 45.72 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C270582"
+			(at 45.72 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 45.72 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 45.72 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 45.72 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1de6899f-0e0a-46d3-9248-4f54247d9087")
+		)
+		(pin "2"
+			(uuid "d6226ace-3535-4bff-97af-56614756f3f7")
+		)
+		(instances
+			(project "reader"
+				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 40.64 129.54 0)
 		(mirror y)
@@ -29467,154 +29615,6 @@
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
 					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 45.72 245.11 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a9d14ce9-da9a-4e3d-8f05-e2af7f052bca")
-		(property "Reference" "R17"
-			(at 48.514 247.904 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "560 R"
-			(at 48.514 243.586 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 47.498 245.11 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8586178278474862592-C25126.pdf?response-content-disposition=attachment%3B%20filename%3DC25126.pdf%3B%20filename%2A%3DUTF-8%27%27C25126.pdf&x-oss-date=20260603T141942Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rYAPaHqJFCjrvadU%2FFs1YWQtlZrr3lsTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qeAa7RNB4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWhqDHsNdntHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIe8fo%2BKKWD5sagAFAjLTD0371Sd2gSdBnykA7MII9CzBs0TEnncOuMMFpZ7eWxtofkMZUw83MXKFT3yGfjS9fIlx%2Bre7vtwbXSVmucxBbZSJldeqhHVomhZC6FwsraIa5cFo%2FJ2rvy%2BYXQ1kdyLEoPt0fplni6hRiSJOL598AUZr9EPV4uuEaQBdebyAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYmKL3ENc9y1witWVCNVuAxNS%2F20260603%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=d1629a371fbf831c62f9f7f4032d37edb65e47d37709e76674d141769ad7b5bf"
-			(at 45.72 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 45.72 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Note" ""
-			(at 45.72 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB" "https://jlcpcb.com/partdetail/C25126"
-			(at 45.72 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25126"
-			(at 45.72 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" ""
-			(at 45.72 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
-			(at 45.72 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 45.72 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "92c38852-164b-4cdc-8890-f1f850773d59")
-		)
-		(pin "2"
-			(uuid "2191e9df-963e-4658-af6a-e992c038ac63")
-		)
-		(instances
-			(project "reader"
-				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "R17")
 					(unit 1)
 				)
 			)
