@@ -1,0 +1,160 @@
+\begin{thebibliography}{10}
+
+\bibitem{ref20}
+{All About Circuits}.
+\newblock {X7R}, {X5R}, {C0G}{\ldots}: A concise guide to ceramic capacitor
+  types.
+\newblock
+  \url{https://www.allaboutcircuits.com/technical-articles/x7r-x5r-c0g...-a-concise-guide-to-ceramic-capacitor-types/},
+  2020.
+
+\bibitem{ref21}
+{Analog Devices}.
+\newblock {AN-1368}: Ferrite bead demystified.
+\newblock Technical report, Analog Devices, 2014.
+\newblock Available at
+  \url{https://www.analog.com/en/resources/app-notes/an-1368.html}.
+
+\bibitem{ref6}
+{Analog Devices (Maxim Integrated)}.
+\newblock {\em {MAX98357A/MAX98357B} Datasheet, Rev.~16}, 2022.
+\newblock Available at
+  \url{https://www.analog.com/media/en/technical-documentation/data-sheets/MAX98357A-MAX98357B.pdf}.
+
+\bibitem{ref12}
+{Arm Limited}.
+\newblock {ARM} debug interface architecture specification ({ADIv5}).
+\newblock Technical report, Arm Limited, 2020.
+\newblock Available at
+  \url{https://developer.arm.com/documentation/ihi0031/latest/}.
+
+\bibitem{ref17}
+{CAN Bus Debugger}.
+\newblock {CAN} bus termination explained.
+\newblock \url{https://www.canbusdebugger.com/articles/can-bus-termination},
+  2022.
+
+\bibitem{refpredecessor}
+{Deadlock Project Team}.
+\newblock Previous {UACS}/deadlock project documentation (predecessor board
+  revision), 2024.
+\newblock Internal project documentation.
+
+\bibitem{ref11}
+{ElecSuper}.
+\newblock {\em {ESD2CAN24-ES} Normal Capacitance {ESD} Protection Datasheet,
+  Rev.~1.5}, 2022.
+\newblock Available at \url{https://www.lcsc.com/datasheet/C19170841.pdf}.
+
+\bibitem{ref16}
+Eric Hackett.
+\newblock Overcoming {CAN} design challenges: How to easily terminate {CAN}
+  signals.
+\newblock All About Circuits,
+  \url{https://www.allaboutcircuits.com/industry-articles/overcoming-can-design-challenges-can-signal-termination-made-easy/},
+  2021.
+
+\bibitem{ref22}
+{Infineon Technologies}.
+\newblock {USB} {Type-C} connector: {Rp}, {Rd}, and {Ra} termination resistors
+  ({KBA97180}).
+\newblock
+  \url{https://community.infineon.com/t5/Knowledge-Base-Articles/USB-Type-C-connector-Rp-Rd-and-Ra-termination-resistors/ta-p/253544},
+  2021.
+
+\bibitem{ref5}
+{Kingbright}.
+\newblock {\em {APHBM2012LSURKZGKC} Datasheet (Dual-Colour {SMD} {LED},
+  2\,mA)}, 2022.
+\newblock Available at \url{https://www.lcsc.com/datasheet/C6465979.pdf}.
+
+\bibitem{ref19}
+{Knowles Capacitors}.
+\newblock Capacitor fundamentals part~8: Dielectric classifications.
+\newblock
+  \url{https://blog.knowlescapacitors.com/blog/capacitor-fundamentals-part-8-dielectric-classifications},
+  2021.
+
+\bibitem{ref14}
+{Kvaser}.
+\newblock {CAN FD} protocol tutorial.
+\newblock \url{https://kvaser.com/can-fd-protocol-tutorial/}, 2022.
+
+\bibitem{ref2}
+{Microchip Technology}.
+\newblock {\em {MCP16301/H} High-Voltage Input Integrated Switch Step-Down
+  Regulator ({DS20005004D})}, 2014.
+\newblock Available at
+  \url{http://ww1.microchip.com/downloads/en/DeviceDoc/20005004D.pdf}.
+
+\bibitem{ref23}
+{Microchip Technology}.
+\newblock Introduction to {USB} {Type-C} ({DS00001953A}).
+\newblock Technical report, Microchip Technology, 2018.
+\newblock Available at
+  \url{https://ww1.microchip.com/downloads/en/AppNotes/00001953A.pdf}.
+
+\bibitem{ref15}
+{National Instruments (NI)}.
+\newblock Understanding {CAN} with flexible data-rate ({CAN FD}).
+\newblock
+  \url{https://www.ni.com/en-us/innovations/white-papers/14/understanding-can-with-flexible-data-rate--can-fd-.html},
+  2019.
+
+\bibitem{ref9}
+{Nexperia}.
+\newblock {\em {PMEG2010ER} Datasheet}, 2021.
+\newblock Available at
+  \url{https://assets.nexperia.com/documents/data-sheet/PMEG2010ER.pdf}.
+
+\bibitem{ref10}
+{Nexperia}.
+\newblock {\em {PESD5V0U1BA} Low-Capacitance Bidirectional {ESD} Protection
+  Diode Datasheet, v.2}, 2023.
+\newblock Available at \url{https://www.lcsc.com/datasheet/C552574.pdf}.
+
+\bibitem{ref3}
+{NXP Semiconductors}.
+\newblock {\em {MFRC522} Standard Performance {MIFARE} and {NTAG} Frontend,
+  Rev.~3.9}, 2016.
+\newblock Available at
+  \url{https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf}.
+
+\bibitem{ref8}
+{Shenzhen Minlianda Technology Co., Ltd.}
+\newblock {\em {MLD-TF PUSH-H18} Micro-{SD} Push-Push Slot Mechanical Drawing
+  (DWG No.~MLD-2509031032, Rev.~A/0)}, 2023.
+\newblock Available at \url{https://www.lcsc.com/datasheet/C52750848.pdf}.
+
+\bibitem{ref13}
+{SparkFun Electronics}.
+\newblock {ARM} programming: {JTAG} and {SWD}.
+\newblock
+  \url{https://learn.sparkfun.com/tutorials/arm-programming/jtag-and-swd},
+  2020.
+
+\bibitem{ref4}
+{STMicroelectronics}.
+\newblock {\em {STLINK-V3PWR} Product Page}, 2023.
+\newblock Available at
+  \url{https://www.st.com/en/development-tools/stlink-v3pwr.html}.
+
+\bibitem{ref1}
+{STMicroelectronics}.
+\newblock {\em {STM32H523xx} Datasheet ({DS14540})}, 2023.
+\newblock Available at
+  \url{https://www.st.com/resource/en/datasheet/stm32h523ce.pdf}.
+
+\bibitem{ref18}
+{Texas Instruments}.
+\newblock How termination {CAN} improve {EMC} performance in a {CAN}
+  transceiver ({SSZTAM0}).
+\newblock \url{https://www.ti.com/document-viewer/lit/html/SSZTAM0}, 2020.
+
+\bibitem{ref7}
+{Texas Instruments}.
+\newblock {\em {TCAN1057A-Q1} / {TCAN1057AV-Q1} Automotive {CAN FD} Transceiver
+  Datasheet ({ZHCSN36B})}, 2021.
+\newblock Available at \url{https://www.lcsc.com/datasheet/C3235000.pdf}.
+
+\end{thebibliography}

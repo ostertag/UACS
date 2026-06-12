@@ -9762,12 +9762,6 @@
 		(uuid "2a38b05c-48a9-41e8-b7db-0b4142f8480b")
 	)
 	(junction
-		(at 299.72 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2cecd3d5-31c4-4309-8bb8-cfbe6427e22e")
-	)
-	(junction
 		(at 252.73 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9808,6 +9802,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c20a504-d2e7-4b29-8708-868bafb8ab46")
+	)
+	(junction
+		(at 298.45 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c9839e0-e5ff-44d6-b666-739d55a42bef")
 	)
 	(junction
 		(at 300.99 123.19)
@@ -10080,12 +10080,6 @@
 		(uuid "b4dc6584-bfc3-4c13-90ca-723aa27b976e")
 	)
 	(junction
-		(at 299.72 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4ec3712-9f7d-4b69-b37a-7e937d954498")
-	)
-	(junction
 		(at 232.41 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10210,6 +10204,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebb0fcfa-8daa-42c6-9009-184115423fe0")
+	)
+	(junction
+		(at 298.45 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee47faa4-3896-44dc-ba02-4d0a54cb4018")
 	)
 	(junction
 		(at 304.8 83.82)
@@ -10721,16 +10721,6 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 73.66) (xy 308.61 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d2dce0a-9692-4fc5-a278-9047620dceec")
-	)
-	(wire
-		(pts
 			(xy 232.41 247.65) (xy 232.41 250.19)
 		)
 		(stroke
@@ -10961,7 +10951,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 83.82) (xy 304.8 83.82)
+			(xy 289.56 83.82) (xy 298.45 83.82)
 		)
 		(stroke
 			(width 0)
@@ -11278,16 +11268,6 @@
 			(type default)
 		)
 		(uuid "4dde8e07-9fb0-45e2-81ef-a8adcc2b4b21")
-	)
-	(wire
-		(pts
-			(xy 289.56 83.82) (xy 299.72 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e5d0a68-b44e-40d8-860f-f99e930c6470")
 	)
 	(wire
 		(pts
@@ -12121,6 +12101,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 73.66) (xy 308.61 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a4e004d-24fb-4f52-a799-354f73ca6bbc")
+	)
+	(wire
+		(pts
 			(xy 247.65 113.03) (xy 247.65 111.76)
 		)
 		(stroke
@@ -12141,7 +12131,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 73.66) (xy 299.72 73.66)
+			(xy 289.56 73.66) (xy 298.45 73.66)
 		)
 		(stroke
 			(width 0)
@@ -13658,6 +13648,16 @@
 			(type default)
 		)
 		(uuid "feadc704-0483-4644-9ae8-e362d6e065dc")
+	)
+	(wire
+		(pts
+			(xy 298.45 83.82) (xy 304.8 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff0a78b4-6db1-4c6f-af13-54f3a6370c10")
 	)
 	(wire
 		(pts
@@ -22474,154 +22474,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 54.61 243.84 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "31262206-fb0e-4301-8fb2-f243d0e4dece")
-		(property "Reference" "R17"
-			(at 57.404 246.634 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "787 R"
-			(at 57.404 242.316 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 56.388 243.84 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2077114.pdf"
-			(at 54.61 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 54.61 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Note" ""
-			(at 54.61 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB" "https://www.lcsc.com/product-detail/C270582.html"
-			(at 54.61 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C270582"
-			(at 54.61 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" ""
-			(at 54.61 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
-			(at 54.61 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 54.61 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ffc5d384-c0a2-4e91-806b-6f0b0eeb6c1e")
-		)
-		(pin "2"
-			(uuid "270da05f-7483-469d-afff-f82e7146c02c")
-		)
-		(instances
-			(project "reader"
-				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GRM155C80J225KE95D_1")
 		(lib_id "easyeda2kicad:GRM155C80J225KE95D")
 		(at 101.6 135.89 90)
@@ -24642,7 +24494,7 @@
 				)
 			)
 		)
-		(property "Value" "CL10B104KC8NNNC"
+		(property "Value" "CC0603KRX7R9BB104"
 			(at 191.77 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -24664,7 +24516,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10B104KC8NNNC_100nF-104-10-100V_C15725.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C14663.pdf"
 			(at 177.8 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -24685,7 +24537,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "YAGEO"
 			(at 175.26 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -24696,7 +24548,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B104KC8NNNC"
+		(property "MPN" "CC0603KRX7R9BB104"
 			(at 172.72 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -24707,7 +24559,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C15725"
+		(property "LCSC Part" "C14663"
 			(at 170.18 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -25228,7 +25080,7 @@
 				)
 			)
 		)
-		(property "Value" "RC1206JR-07100KL"
+		(property "Value" "0603WAF1003T5E"
 			(at 322.58 24.384 0)
 			(hide yes)
 			(show_name no)
@@ -25239,7 +25091,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:R1206"
+		(property "Footprint" "easyeda2kicad:R0603"
 			(at 322.58 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -25250,7 +25102,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_100KR-104-5_C136470.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25803.pdf"
 			(at 322.58 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -25271,7 +25123,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO(国巨)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 322.58 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -25282,7 +25134,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC1206JR-07100KL"
+		(property "MPN" "0603WAF1003T5E"
 			(at 322.58 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -25293,7 +25145,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C136470"
+		(property "LCSC Part" "C25803"
 			(at 322.58 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -25314,118 +25166,6 @@
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:CL10B104KC8NNNC")
-		(at 227.33 139.7 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5b10dbb5-7f9f-4226-8104-77cac8dd1fbe")
-		(property "Reference" "C17"
-			(at 221.996 139.446 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CL10B104KC8NNNC"
-			(at 231.14 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0603"
-			(at 219.71 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10B104KC8NNNC_100nF-104-10-100V_C15725.html"
-			(at 217.17 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100nF"
-			(at 223.774 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 214.63 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL10B104KC8NNNC"
-			(at 212.09 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C15725"
-			(at 209.55 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8a3d05ef-0106-44bd-b60a-a874430d2c54")
-		)
-		(pin "1"
-			(uuid "673bd6dc-d4ae-468d-9366-096047c73305")
-		)
-		(instances
-			(project "reader"
-				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -25702,7 +25442,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2077114.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C4109.pdf"
 			(at 35.56 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -25735,7 +25475,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "https://www.lcsc.com/product-detail/C270582.html"
+		(property "JLCPCB" "https://www.lcsc.com/product-detail/C4109.html"
 			(at 35.56 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -25746,7 +25486,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C270582"
+		(property "LCSC" "C4109"
 			(at 35.56 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -26092,6 +25832,119 @@
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:CL10B104KC8NNNC")
+		(at 227.33 139.7 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6f7ea517-c16b-4c50-9648-19e2679171c4")
+		(property "Reference" "C17"
+			(at 230.632 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CC0603KRX7R9BB104"
+			(at 231.14 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0603"
+			(at 219.71 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C14663.pdf"
+			(at 217.17 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100nF"
+			(at 223.774 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 214.63 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 212.09 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C14663"
+			(at 209.55 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bfa2255a-6c8a-4bb4-8785-0ec5002d7bac")
+		)
+		(pin "1"
+			(uuid "295799c9-bfbf-4f32-8c4e-85ccdd399156")
+		)
+		(instances
+			(project "reader"
+				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -27027,6 +26880,154 @@
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 54.61 243.84 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "84304fa2-b059-4ae5-bd76-19cc78fc2cdc")
+		(property "Reference" "R17"
+			(at 57.404 246.634 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "787 R"
+			(at 57.404 242.316 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 56.388 243.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C4109.pdf"
+			(at 54.61 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 54.61 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" ""
+			(at 54.61 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "https://www.lcsc.com/product-detail/C4109.html"
+			(at 54.61 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C4109"
+			(at 54.61 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 54.61 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 54.61 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 54.61 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82bd26cb-5b00-4fef-8128-fb171c08508b")
+		)
+		(pin "2"
+			(uuid "048df9e3-254c-49c6-a920-823cb3b0b95f")
+		)
+		(instances
+			(project "reader"
+				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -29227,7 +29228,7 @@
 				)
 			)
 		)
-		(property "Value" "RC0805FR-07634KL"
+		(property "Value" "0805W8F1501T5E"
 			(at 281.94 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -29249,7 +29250,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C228942.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C4310.pdf"
 			(at 281.94 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -29270,7 +29271,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO(国巨)"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 281.94 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -29281,7 +29282,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0805FR-07634KL"
+		(property "MPN" "0805W8F1501T5E"
 			(at 281.94 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -29292,7 +29293,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C483209"
+		(property "LCSC Part" "C4310"
 			(at 281.94 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -31906,118 +31907,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:CL10B104KC8NNNC")
-		(at 299.72 78.74 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e762fa85-4e0e-4ffd-a5c3-01446a48e826")
-		(property "Reference" "C4"
-			(at 294.386 78.486 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CL10B104KC8NNNC"
-			(at 303.53 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0603"
-			(at 292.1 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10B104KC8NNNC_100nF-104-10-100V_C15725.html"
-			(at 289.56 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100nF"
-			(at 296.164 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 287.02 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL10B104KC8NNNC"
-			(at 284.48 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C15725"
-			(at 281.94 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "672cd298-0286-4191-8f03-b92d4fabe908")
-		)
-		(pin "1"
-			(uuid "6c7ec28f-f9da-4c57-9c97-3350d3a3828e")
-		)
-		(instances
-			(project "reader"
-				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 194.31 182.88 0)
 		(unit 1)
@@ -32682,6 +32571,119 @@
 			(project "reader"
 				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:CL10B104KC8NNNC")
+		(at 298.45 78.74 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eee1fedc-492b-41a0-af05-891b86e72289")
+		(property "Reference" "C4"
+			(at 301.752 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CC0603KRX7R9BB104"
+			(at 302.26 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0603"
+			(at 290.83 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C14663.pdf"
+			(at 288.29 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100nF"
+			(at 294.894 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 285.75 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 283.21 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C14663"
+			(at 280.67 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "953083fb-91f7-47fc-97b3-fa0000a31956")
+		)
+		(pin "1"
+			(uuid "b25c374d-047d-4d4d-8847-934f85883c2e")
+		)
+		(instances
+			(project "reader"
+				(path "/6275a1a7-d424-4390-b849-2e49b1a9780b"
+					(reference "C4")
 					(unit 1)
 				)
 			)

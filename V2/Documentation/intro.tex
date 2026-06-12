@@ -1,0 +1,62 @@
+\chapter*{Introduction}
+\addcontentsline{toc}{chapter}{Introduction}
+\markboth{Introduction}{Introduction}
+
+\section*{Project: UACS (RFID Audio CAN Node)}
+
+\noindent
+\textbf{Repository:} \url{https://github.com/ostertag/UACS}\\
+\textbf{Microcontroller:} STM32H523CET6 (Arm Cortex-M33, LQFP-48)\\
+\textbf{EDA tools:} KiCad (schematic + PCB), STM32CubeMX (pin/peripheral assignment)\\
+\textbf{Debug hardware:} STLINK-V3PWR\\
+\textbf{Component sourcing:} LCSC / JLCPCB
+
+\section*{Overview}
+
+UACS is a custom-designed printed circuit board that integrates contactless RFID reading,
+audio feedback through a loudspeaker, CAN~FD communication, and SD-card audio storage,
+built around an STM32H523CET6 microcontroller. The board communicates over a CAN~FD link,
+carried over standard RJ45/Cat5 cabling, to a host computer (a Raspberry Pi).
+
+The STM32H523xx is a high-performance microcontroller built on the Arm Cortex-M33 32-bit
+core, operating at up to \SI{250}{\mega\hertz}, with a single-precision FPU and TrustZone
+security extension~\cite{ref1}.
+
+\section*{System Architecture}
+
+The system is a single-board reader node whose main functional blocks are:
+
+\begin{itemize}
+  \item \textbf{Microcontroller} --- STM32H523CET6 (Cortex-M33, \SI{250}{\mega\hertz},
+        LQFP-48), central coordinator of all peripherals.
+  \item \textbf{RFID reader} --- RC522 module (NXP MFRC522), reads ISO/IEC~14443~A\,/\,MIFARE
+        cards and tags over SPI.
+  \item \textbf{Audio amplifier} --- MAX98357A, digital Class~D amplifier with
+        I\textsuperscript{2}S input; drives the loudspeaker directly.
+  \item \textbf{SD card} --- micro-SD slot for audio file storage, connected over SPI.
+  \item \textbf{CAN~FD transceiver} --- TCAN1057A, links the board to the host over
+        Cat5/RJ45 cabling.
+  \item \textbf{Power supply} --- dual \SI{5}{\volt} input (USB-C and RJ45), stepped down
+        to \SI{3.3}{\volt} by an MCP16301H buck converter.
+  \item \textbf{USB-C interface} --- USB~2.0 full-speed device, used for firmware
+        flashing (DFU) and debugging.
+  \item \textbf{Indicator LEDs} --- two dual-colour (red/green) SMD LEDs for user
+        feedback.
+\end{itemize}
+
+\section*{Scope and Goal of This Work}
+
+This work continues the UACS project previously developed in the Deadlock project
+series~\cite{refpredecessor}. The principal goal is a thoroughly documented hardware
+design that can be reliably reproduced. In particular:
+
+\begin{itemize}
+  \item \textbf{Reproducibility} --- every component value is either calculated from
+        first principles or traced to a specific datasheet reference, so the design can
+        be rebuilt without reliance on undocumented institutional knowledge.
+  \item \textbf{Availability} --- components are sourced from LCSC/JLCPCB and selected
+        for availability, good documentation, and competitive cost.
+  \item \textbf{Robustness} --- the dual power input, remote reset, and remote
+        bootloader-entry capability allow firmware updates and recovery without physical
+        access to a deployed board.
+\end{itemize}

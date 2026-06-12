@@ -1,0 +1,114 @@
+\chapter{Resistor Value Summary}
+
+The following table lists all resistors on the UACS board. Every value is either
+calculated from first principles or traced to a specific datasheet reference. This table
+is intended as a quick-reference companion to Chapter~\ref{kap:design}.
+
+\begin{longtable}{p{0.12\textwidth} p{0.14\textwidth} p{0.66\textwidth}}
+  \caption{UACS resistor value summary.}
+  \label{tab:resistors} \\
+  \toprule
+  \textbf{Ref(s)} & \textbf{Value} & \textbf{Basis / Derivation} \\
+  \midrule
+  \endfirsthead
+
+  \multicolumn{3}{c}{\textit{(Table~\ref{tab:resistors} continued)}} \\
+  \toprule
+  \textbf{Ref(s)} & \textbf{Value} & \textbf{Basis / Derivation} \\
+  \midrule
+  \endhead
+
+  \bottomrule
+  \endlastfoot
+
+  R1
+    & \SI{100}{\kilo\ohm}
+    & MAX98357A GAIN\_SLOT setting resistor; value taken directly from
+      datasheet Table~8~\cite{ref6}. \\[4pt]
+
+  R2, R3
+    & \SI{10}{\kilo\ohm}
+    & SD SPI-mode pull-ups on DAT1 and DAT2; lines unused in SPI mode,
+      pull-ups prevent floating (standard practice). \\[4pt]
+
+  R4
+    & \SI{634}{\kilo\ohm}
+    & MAX98357A SD\_MODE mono-mix resistor;
+      $R = 222.2 \times V_\mathrm{DDIO} - 100 = 222.2 \times 3.3 - 100
+      \approx \SI{634}{\kilo\ohm}$~\cite{ref6}. \\[4pt]
+
+  R5
+    & \SI{10}{\kilo\ohm}
+    & NRST pull-up; prevents line floating; value per ST
+      recommendation~\cite{ref1}. \\[4pt]
+
+  R6
+    & \SI{10}{\kilo\ohm}
+    & BOOT0 pull-down; holds BOOT0 low (user-flash boot) during normal
+      operation~\cite{ref1}. \\[4pt]
+
+  R7
+    & \SI{10}{\kilo\ohm}
+    & BOOT0 series resistor; limits current and isolates pull-down
+      from BOOT1 switch. \\[4pt]
+
+  R8, R9
+    & \SI{120}{\ohm}
+    & CAN split termination CANH side; $R8 \parallel R9 = \SI{60}{\ohm}$;
+      two \SI{120}{\ohm} in parallel preferred over one
+      \SI{60}{\ohm}~\cite{ref16,ref17}. \\[4pt]
+
+  R10, R11
+    & \SI{120}{\ohm}
+    & CAN split termination CANL side; same rationale as
+      R8/R9~\cite{ref16,ref17}. \\[4pt]
+
+  R12
+    & \SI{10}{\kilo\ohm}
+    & TCAN1057A S-pin pull-down; places transceiver in Normal Mode
+      permanently~\cite{ref7}. \\[4pt]
+
+  R13
+    & \SI{1.5}{\kilo\ohm}
+    & USB VBUS sense resistor from \SI{3.3}{\volt} rail to VBUS. \\[4pt]
+
+  R14
+    & \SI{330}{\ohm}
+    & LED1 green current-limiting resistor;
+      $R = (3.3 - 2.65)\,/\,0.002 = \SI{325}{\ohm}$,
+      nearest E-series value \SI{330}{\ohm}~\cite{ref5}. \\[4pt]
+
+  R15
+    & \SI{787}{\ohm}
+    & LED1 red current-limiting resistor;
+      $R = (3.3 - 1.75)\,/\,0.002 = \SI{775}{\ohm}$,
+      nearest E-series value \SI{787}{\ohm}~\cite{ref5}. \\[4pt]
+
+  R16
+    & \SI{330}{\ohm}
+    & LED2 green current-limiting resistor; same derivation as
+      R14~\cite{ref5}. \\[4pt]
+
+  R17
+    & \SI{787}{\ohm}
+    & LED2 red current-limiting resistor; same derivation as
+      R15~\cite{ref5}. \\[4pt]
+
+  R18
+    & \SI{75}{\kilo\ohm}
+    & MCP16301H feedback divider top resistor ($R_\mathrm{TOP}$);
+      together with R21 sets output to \SI{3.3}{\volt}:
+      $V_\mathrm{OUT} = 0.8 \times (1 + 75/24) \approx \SI{3.30}{\volt}$;
+      values carried over from predecessor design~\cite{ref2}. \\[4pt]
+
+  R19, R20
+    & \SI{5.1}{\kilo\ohm}
+    & USB-C CC1 and CC2 Rd pull-downs; mandated by USB Type-C
+      specification for UFP (device) role~\cite{ref22,ref23}. \\[4pt]
+
+  R21
+    & \SI{24}{\kilo\ohm}
+    & MCP16301H feedback divider bottom resistor ($R_\mathrm{BOT}$);
+      see R18~\cite{ref2}. \\
+
+\end{longtable}

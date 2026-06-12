@@ -1,0 +1,119 @@
+\chapter{Summary of Design Decisions}
+\label{kap:decisions}
+
+This chapter summarises the key design decisions made during the development of the UACS
+board and provides the technical reasoning behind each choice. The goal is to make the
+design intent transparent so that future maintainers can understand not only \emph{what}
+was chosen, but \emph{why}.
+
+\begin{longtable}{p{0.35\textwidth} p{0.57\textwidth}}
+  \caption{Design decisions and their rationale.}
+  \label{tab:decisions} \\
+  \toprule
+  \textbf{Decision} & \textbf{Reasoning} \\
+  \midrule
+  \endfirsthead
+
+  \multicolumn{2}{c}{\textit{(Table~\ref{tab:decisions} continued)}} \\
+  \toprule
+  \textbf{Decision} & \textbf{Reasoning} \\
+  \midrule
+  \endhead
+
+  \bottomrule
+  \endlastfoot
+
+  STM32H523CET6 (LQFP-48)
+    & Cortex-M33 at \SI{250}{\mega\hertz}; central controller with
+      all required peripherals (SPI, I\textsuperscript{2}S, FDCAN, USB)
+      in a compact 48-pin package~\cite{ref1}. \\[4pt]
+
+  SWD debug interface (not JTAG)
+    & Two-signal interface (SWDIO, SWCLK) provides equivalent debug
+      capability while freeing TDI, TDO, and nTRST pins for other
+      functions --- a meaningful saving on a pin-limited
+      LQFP-48~\cite{ref12,ref13}. \\[4pt]
+
+  SPI for SD card (not SDMMC)
+    & The SDMMC peripheral requires pins that are not bonded out on the
+      LQFP-48 package; SPI is the only physically available
+      option~\cite{ref1}. Package constraint, not design preference. \\[4pt]
+
+  RC522 RFID module
+    & Carried over from the predecessor design; existing firmware and
+      proven compatibility reduce integration risk~\cite{ref3}. \\[4pt]
+
+  MAX98357A audio amplifier
+    & Integrates I\textsuperscript{2}S receiver, Class~D amplifier, and
+      direct speaker drive in one device, eliminating a separate DAC,
+      amplifier, and output filter. Hardware-selectable gain via
+      GAIN\_SLOT~\cite{ref6}. \\[4pt]
+
+  \SI{8}{\ohm} speaker (not \SI{4}{\ohm})
+    & Halves the output current relative to a \SI{4}{\ohm} load, keeping
+      peak current within the \SI{1}{\ampere} budget of the single buck
+      regulator that supplies the entire board. \\[4pt]
+
+  MCP16301H buck converter
+    & Carried over from the predecessor design; UACS follows the
+      datasheet \SI{3.3}{\volt} reference design closely for a
+      known-good result~\cite{ref2}. \\[4pt]
+
+  Dual power input (USB-C + RJ45)
+    & RJ45 powers the board during normal deployment from the CAN
+      infrastructure; USB-C powers it during development and firmware
+      flashing without requiring the full CAN harness. Diode OR-ing
+      allows simultaneous connection. \\[4pt]
+
+  TCAN1057A CAN~FD transceiver
+    & Meets parameters including CAN~FD support; higher data rate
+      (up to 5\,Mbit/s data phase) and 64-byte payload compared with
+      classical CAN~\cite{ref14,ref15}. \\[4pt]
+
+  Split CAN termination
+    & Maintains \SI{120}{\ohm} differential impedance while adding a
+      midpoint capacitor that provides a low-impedance path to ground
+      for common-mode noise, improving EMC on a board with a switching
+      regulator and long cable run~\cite{ref16,ref17,ref18}. \\[4pt]
+
+  Two \SI{120}{\ohm} resistors in parallel per CAN side
+    & \SI{60}{\ohm} resistors in 0805 are costly and less commonly
+      stocked; \SI{120}{\ohm} is a standard value and two in parallel
+      give exactly \SI{60}{\ohm}. Power dissipation is also split
+      between two components. \\[4pt]
+
+  C0G capacitors on CAN bus lines and crystal circuit
+    & C0G (Class~1) capacitance is stable with voltage and temperature
+      ($\pm30$\,ppm/°C), unlike Class~2 (X7R) which varies with both.
+      Stability is critical for oscillator load and for preserving fast
+      CAN~FD signal edges~\cite{ref19,ref20}. \\[4pt]
+
+  Ferrite-bead VDDA filter
+    & Isolates the MCU analog supply from digital switching noise,
+      protecting the ADC reference and internal oscillator. A ferrite
+      bead + decoupling capacitor network forms a low-pass filter that
+      dissipates high-frequency noise as heat~\cite{ref21}. \\[4pt]
+
+  USB~2.0 device only (no USB~3.x)
+    & Carried over from the predecessor design; USB~2.0 full-speed is
+      sufficient for DFU firmware flashing and debugging. No higher
+      transfer rate is required in this application. \\[4pt]
+
+  External \SI{16}{\mega\hertz} crystal
+    & USB full-speed and CAN~FD require a frequency accuracy that the
+      internal \SI{64}{\mega\hertz} HSI RC oscillator cannot
+      guarantee. An external crystal provides the necessary
+      stability~\cite{ref1}. \\[4pt]
+
+  VCAP \SI{2.2}{\micro\farad} capacitors
+    & Mandated by the STM32H5 datasheet for stability of the internal
+      LDO voltage regulator (\SI{3.3}{\volt}~$\rightarrow$~\SI{1.2}{\volt}
+      core); placement and value are part of the regulator's stability
+      requirement~\cite{ref1}. \\[4pt]
+
+  LED resistor values from formula
+    & $R = (V_\mathrm{DD} - V_f) / I_f$, nearest standard E-series
+      value selected, traceable to forward-voltage data in the Kingbright
+      datasheet~\cite{ref5}. \\
+
+\end{longtable}

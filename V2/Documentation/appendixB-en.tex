@@ -1,0 +1,28 @@
+\chapter{Source Repository and Electronic Attachment}
+
+The electronic attachment to this thesis contains the following materials:
+
+\begin{itemize}
+  \item \textbf{KiCad project files} --- full schematic and PCB layout source files
+        (\texttt{*.kicad\_sch}, \texttt{*.kicad\_pcb}, \texttt{*.kicad\_pro}).
+  \item \textbf{Schematic PDF} --- a generated PDF export of the complete schematic for
+        easy reference.
+  \item \textbf{Gerber files} --- fabrication outputs ready for submission to a PCB
+        manufacturer (e.g.\ JLCPCB).
+  \item \textbf{Bill of Materials (BOM)} --- a CSV export listing all components with
+        LCSC part numbers, values, and footprints.
+  \item \textbf{STM32CubeMX project} --- the \texttt{*.ioc} configuration file
+        documenting pin and peripheral assignments.
+\end{itemize}
+
+The KiCad project source is also publicly available at:
+\url{https://github.com/ostertag/UACS}
+
+% TODO: Add user manual / firmware flashing guide once firmware is complete.
+% If a firmware flashing guide exists, document the DFU procedure here:
+%   1. Connect USB-C to PC
+%   2. Set BOOT1 switch to 3.3V (bootloader entry)
+%   3. Press and release RESET button
+%   4. Flash using dfu-util or STM32CubeProgrammer
+%   5. Return BOOT1 switch to GND (normal boot)
+%   6. Press RESET to start application firmware
