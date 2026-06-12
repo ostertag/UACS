@@ -776,7 +776,7 @@
         "uuid": "6275a1a7-d424-4390-b849-2e49b1a9780b"
       }
     ],
-    "used_designators": "SW3,LED2-4,R16-17,R22",
+    "used_designators": "SW3,LED2-4,R9-11,R16-17,R22",
     "variants": []
   },
   "sheets": [
