@@ -95,7 +95,7 @@ No 32.768 kHz crystal is fitted; the LSE pins (PC14/PC15) are left unconnected a
 
 #### Capacitors C1 and C2
 
-Per the AN2867 oscillator load model *[24]*, the two external capacitors $C_{L1}$ and $C_{L2}$ together with PCB stray capacitance $C_S$ must present the crystal's specified load $C_L$:
+Per the AN2867 oscillator load model *[24]*, the two external capacitors $C_{L1}$ and $C_{L2}$ together with PCB stray capacitance $C_S$ must equal the crystal's specified load $C_L$:
 
 $$C_L = \frac{C_{L1} \cdot C_{L2}}{C_{L1} + C_{L2}} + C_S$$
 
