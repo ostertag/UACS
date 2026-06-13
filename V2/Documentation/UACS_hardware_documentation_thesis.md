@@ -138,7 +138,8 @@ A 10 µF local bypass capacitor is placed on the module VCC pin. VCC connects di
 
 The micro-SD slot (U3) stores the audio files played back through the amplifier.
 
-The preferred interface would have been the dedicated SDMMC peripheral, which provides higher throughput than SPI. However, the SDMMC peripheral on the STM32H523 is only available on larger packages; on the LQFP-48 the required pins are not bonded out, so SDMMC is physically unavailable and SPI is the only option. *[1]* This is a package constraint, not a design preference.
+SPI was chosen over SDMMC for three reasons: the application does not require SDMMC's higher throughput; SPI was already in use for the RFID reader, reducing the number of active interfaces and occupied pins; and while this STM32 series supports SDMMC, it is only available on larger packages.
+
 
 The SD card shares SPI1 with the RC522 reader, with its own software chip select on PB0 (SD_SS). In SPI mode, the card's CD/DAT3 pin (slot pin 2) functions as the active-low chip select; this is confirmed by the slot's pin table, which labels pin 2 as CD/DAT3 with I/O type PP. *[8]*
 
@@ -484,7 +485,7 @@ In both cases the nearest standard resistor value was selected.
 |----------|-----------|
 | STM32H523CET6 (LQFP-48) | Cortex-M33 at 250 MHz; central controller *[1]* |
 | SWD debug (not JTAG) | Two-signal interface, frees pins on LQFP-48 *[12][13]* |
-| SPI for SD card (not SDMMC) | SDMMC pins unavailable on LQFP-48 — package constraint *[1]* |
+| SPI for SD card (not SDMMC) | Throughput sufficient; SPI already in use for RFID reader (fewer interfaces, fewer pins); SDMMC unavailable on LQFP-48 *[1]* |
 | RC522 RFID module | Carried over from predecessor; known design *[3]* |
 | MAX98357A amplifier | I²S receiver + Class D amp + direct drive in one device; settable gain; reputable vendor |
 | 8 Ω speaker (not 4 Ω) | Keeps peak current within the 1 A regulator budget |

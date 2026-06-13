@@ -35,9 +35,9 @@ was chosen, but \emph{why}.
       LQFP-48~\cite{ref12,ref13}. \\[4pt]
 
   SPI for SD card (not SDMMC)
-    & The SDMMC peripheral requires pins that are not bonded out on the
-      LQFP-48 package; SPI is the only physically available
-      option~\cite{ref1}. Package constraint, not design preference. \\[4pt]
+    & Throughput sufficient; SPI already in use for the RFID reader,
+      reducing active interfaces and occupied pins; SDMMC unavailable
+      on LQFP-48~\cite{ref1}. \\[4pt]
 
   RC522 RFID module
     & Carried over from the predecessor design; existing firmware and

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.13)  13 JUN 2026 18:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.13)  13 JUN 2026 20:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -613,44 +613,39 @@ Overfull \hbox (8.9695pt too wide) in paragraph at lines 174--177
 \T1/cmr/m/n/12 falling-edge in-ter-rupts, en-abling interrupt-driven card de-tec-tion rather than polling. 
  []
 
-
-Overfull \hbox (19.04791pt too wide) in paragraph at lines 197--202
-\T1/cmr/m/n/12 pro-vides higher through-put than SPI. How-ever, the SD-MMC pe-riph-eral on the STM32H523
- []
-
 [7] [8]
-Overfull \hbox (7.08109pt too wide) in paragraph at lines 325--328
+Overfull \hbox (7.08109pt too wide) in paragraph at lines 324--327
  []\T1/cmr/bx/n/12 Feedback Di-vider (R18 and R21) --- Out-put Volt-age Set-ting.[] \T1/cmr/m/n/12 The MCP16301H
  []
 
 [9] [10]
-Overfull \hbox (8.90524pt too wide) in paragraph at lines 406--408
+Overfull \hbox (8.90524pt too wide) in paragraph at lines 405--407
  []\T1/cmr/bx/n/12 Capacitors C16 and C17.[] \T1/cmr/m/n/12 Two $\OT1/cmr/m/n/12 100$$[]$ \T1/cmr/m/n/12 by-pass ca-pac-i-tors are placed on the transceiver
  []
 
 [11]
-Overfull \hbox (8.30858pt too wide) in paragraph at lines 450--452
+Overfull \hbox (8.30858pt too wide) in paragraph at lines 449--451
  []\T1/cmr/bx/n/12 Diodes D3 and D4 (PMEG2010ER).[] \T1/cmr/m/n/12 Pro-tec-tion diodes placed on the BOOT0 (D3)
  []
 
 
-Overfull \hbox (4.81541pt too wide) in paragraph at lines 466--474
+Overfull \hbox (4.81541pt too wide) in paragraph at lines 465--473
 []\T1/cmr/bx/n/12 Why split ter-mi-na-tion in-stead of a sin-gle $\OT1/cmr/m/n/12 120$$
 $ \T1/cmr/bx/n/12 re-sis-tor. \T1/cmr/m/n/12 In a split-termination
  []
 
 
-Overfull \hbox (12.30766pt too wide) in paragraph at lines 501--506
+Overfull \hbox (12.30766pt too wide) in paragraph at lines 500--505
  []\T1/cmr/bx/n/12 Capacitors C6 and C13.[] \T1/cmr/m/n/12 Two $\OT1/cmr/m/n/12 10$$[]$ \T1/cmr/m/n/12 C0G, $\OT1/cmr/m/n/12 50$$V$ \T1/cmr/m/n/12 ca-pac-i-tors are placed from CANH (C6)
  []
 
 [12]
-Overfull \hbox (11.88539pt too wide) in paragraph at lines 508--512
+Overfull \hbox (11.88539pt too wide) in paragraph at lines 507--511
  []\T1/cmr/bx/n/12 U5 --- ESD Pro-tec-tion (ESD2CAN24-ES, SOT-23-3).[] \T1/cmr/m/n/12 A CAN-specific TVS/ESD
  []
 
 [13] [14] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 700--700
+Underfull \hbox (badness 10000) in paragraph at lines 699--699
 []|\T1/cmr/m/n/12 Nominal cur-
  []
 
@@ -658,12 +653,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 700--700
 <images/pcb_f.pdf, id=829, 597.52838pt x 421.1173pt>
 File: images/pcb_f.pdf Graphic file (type pdf)
 <use images/pcb_f.pdf>
-Package pdftex.def Info: images/pcb_f.pdf  used on input line 744.
+Package pdftex.def Info: images/pcb_f.pdf  used on input line 743.
 (pdftex.def)             Requested size: 625.79128pt x 441.036pt.
 <images/pcb_b.pdf, id=830, 597.52838pt x 421.1173pt>
 File: images/pcb_b.pdf Graphic file (type pdf)
 <use images/pcb_b.pdf>
-Package pdftex.def Info: images/pcb_b.pdf  used on input line 751.
+Package pdftex.def Info: images/pcb_b.pdf  used on input line 750.
 (pdftex.def)             Requested size: 625.79128pt x 441.036pt.
 ) (appendixA-en.tex [17] [18 <./images/pcb_f.pdf>] [19 <./images/pcb_b.pdf>]
 Chapter 2.
@@ -852,7 +847,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  74i,17n,90p,377b,1169s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\UserName\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\UserName\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\UserName\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\UserName\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\UserName\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\UserName\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\UserName\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\UserName\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\UserName\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\UserName\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc2074.pk> <C:\Users\UserName\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1440.pk><C:/Users/UserName/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/UserName/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/UserName/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/UserName/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/UserName/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/UserName/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/UserName/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/UserName/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main-en.pdf (39 pages, 1788323 bytes).
+Output written on main-en.pdf (39 pages, 1788230 bytes).
 PDF statistics:
  1572 PDF objects out of 1728 (max. 8388607)
  163 named destinations out of 1000 (max. 500000)

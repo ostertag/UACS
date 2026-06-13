@@ -55,11 +55,11 @@ The STM32H523 supports both JTAG and Serial Wire Debug (SWD), as well as the Emb
 
 The Serial Wire Output trace pin (TRACESWO) is brought out on PB3, enabling single-wire instrumentation trace (printf-style debug output) without consuming a UART peripheral. The connector follows the standard 10-pin 1.27 mm Cortex-debug pinout, which balances size against reliability. *[13]*
 
-The STLINK-V3PWR probe was already available and was therefore the natural choice. In addition to SWD/SWV (supported up to 10 MHz) it integrates a source measurement unit (SMU) with a programmable 1.6–3.6 V output and current measurement from the nanoampere range up to 500 mA. *[4]* This capability is useful during development for verifying the board's power budget, since the entire 3.3 V system is supplied by a single 1 A regulator. The probe is supported directly by the STM32CubeMonitor-Power software tool. *[4]*
+The STLINK-V3PWR probe as we already had it available. *[4]*
 
 ### 2.1.2 Reset Circuit
 
-The NRST line is shared between three reset sources: the on-board push button (RESET1), the remote reset line carried over the RJ45 connector (Section 2.4.2), and the STLINK debug probe. Tying the probe's reset into the same net improves recovery when firmware or a low-power state would otherwise block a debug attach. *[13]*
+The NRST line is shared between three reset sources: the on-board push button (RESET1), the remote reset line carried over the RJ45 connector (Section 2.4.2), and the STLINK debug probe. If software reset over SWD fails, the probe can still assert NRST to force a hardware reset. *[13]*
 
 #### Resistor R5
 
@@ -138,7 +138,8 @@ A 10 µF local bypass capacitor is placed on the module VCC pin. VCC connects di
 
 The micro-SD slot (U3) stores the audio files played back through the amplifier.
 
-The preferred interface would have been the dedicated SDMMC peripheral, which provides higher throughput than SPI. However, the SDMMC peripheral on the STM32H523 is only available on larger packages; on the LQFP-48 the required pins are not bonded out, so SDMMC is physically unavailable and SPI is the only option. *[1]* This is a package constraint, not a design preference.
+SPI was chosen over SDMMC for three reasons: the application does not require SDMMC's higher throughput; SPI was already in use for the RFID reader, reducing the number of active interfaces and occupied pins; and while this STM32 series supports SDMMC, it is only available on larger packages.
+
 
 The SD card shares SPI1 with the RC522 reader, with its own software chip select on PB0 (SD_SS). In SPI mode, the card's CD/DAT3 pin (slot pin 2) functions as the active-low chip select; this is confirmed by the slot's pin table, which labels pin 2 as CD/DAT3 with I/O type PP. *[8]*
 
@@ -422,12 +423,12 @@ SBU1 and SBU2 pins are left unconnected, as they are not required for USB 2.0 de
 
 ## 2.7 Indicator LEDs — APHBM2012 Series
 
-The board carries two dual-colour (red + emerald-green) SMD indicator LEDs from the Kingbright APHBM2012 series. Each LED has independent red and green elements with common cathodes to GND, so each colour is driven through its own current-limiting resistor from a GPIO.
+The board carries two dual-colour (red + emerald-green) SMD indicator LEDs from the Kingbright APHBM2012 series the APHBM2012LSURKZGKC. Each LED has independent red and green elements with common cathodes to GND, so each colour is driven through its own current-limiting resistor from a GPIO.
 
-| Ref | Part | Nominal current | Signals |
-|-----|------|-----------------|---------|
-| LED1 | APHBM2012LSURKZGKC | 2 mA (low current) | Green: LED_G1 (PB4); Red: LED_R1 (PA15) |
-| LED2 | APHBM2012LSURKZGKC | 2 mA (low current) | Green: LED_G2 (PB6); Red: LED_R2 (PB5) |
+| Ref  | Nominal current | Green signal   | Red signal     |
+|------|-----------------|----------------|----------------|
+| LED1 | 2 mA            | LED_G1 (PB4)   | LED_R1 (PA15)  |
+| LED2 | 2 mA            | LED_G2 (PB6)   | LED_R2 (PB5)   |
 
 The predecessor board used two different LED variants (2 mA and 20 mA) because the required brightness was unknown during the initial design. Once confirmed that 2 mA provides sufficient visibility for the application, both LEDs were standardised to the low-current APHBM2012LSURKZGKC variant, simplifying the BOM.
 
@@ -484,7 +485,7 @@ In both cases the nearest standard resistor value was selected.
 |----------|-----------|
 | STM32H523CET6 (LQFP-48) | Cortex-M33 at 250 MHz; central controller *[1]* |
 | SWD debug (not JTAG) | Two-signal interface, frees pins on LQFP-48 *[12][13]* |
-| SPI for SD card (not SDMMC) | SDMMC pins unavailable on LQFP-48 — package constraint *[1]* |
+| SPI for SD card (not SDMMC) | Throughput sufficient; SPI already in use for RFID reader (fewer interfaces, fewer pins); SDMMC unavailable on LQFP-48 *[1]* |
 | RC522 RFID module | Carried over from predecessor; known design *[3]* |
 | MAX98357A amplifier | I²S receiver + Class D amp + direct drive in one device; settable gain; reputable vendor |
 | 8 Ω speaker (not 4 Ω) | Keeps peak current within the 1 A regulator budget |
@@ -506,7 +507,7 @@ In both cases the nearest standard resistor value was selected.
 
 ## Component Datasheets (1–12)
 
- *[1]* STMicroelectronics, *STM32H523xx datasheet* (DS14540). https://www.st.com/resource/en/datasheet/stm32h523ce.pdf
+ *[1]* STMicroelectronics, *STM32H523xx datasheet* (DS14540). https://www.lcsc.com/datasheet/C22460834.pdf
 
  *[2]* Microchip, *MCP16301/H High-Voltage Input Integrated Switch Step-Down Regulator* (DS20005004D). http://ww1.microchip.com/downloads/en/DeviceDoc/20005004D.pdf
 
@@ -516,18 +517,18 @@ In both cases the nearest standard resistor value was selected.
 
  *[5]* Kingbright, *APHBM2012LSURKZGKC datasheet* (LED1, 2 mA). https://www.lcsc.com/datasheet/C6465979.pdf
 
-
  *[6]* Analog Devices (Maxim), *MAX98357A/MAX98357B datasheet* (Rev. 16). https://www.analog.com/media/en/technical-documentation/data-sheets/MAX98357A-MAX98357B.pdf
 
  *[7]* Texas Instruments, *TCAN1057A-Q1 / TCAN1057AV-Q1 Automotive CAN FD Transceiver datasheet* (ZHCSN36B). https://www.lcsc.com/datasheet/C3235000.pdf
 
  *[8]* Shenzhen Minlianda Technology Co., Ltd., *MLD-TF PUSH-H18 micro-SD push-push slot mechanical drawing* (DWG No. MLD-2509031032, Rev. A/0). https://www.lcsc.com/datasheet/C52750848.pdf
 
- *[9]* Nexperia, *PMEG2010ER datasheet*. https://assets.nexperia.com/documents/data-sheet/PMEG2010ER.pdf
+ *[9]* Nexperia, *PMEG2010ER datasheet*. https://www.lcsc.com/datasheet/C82288.pdf
 
  *[10]* Nexperia, *PESD5V0U1BA low-capacitance bidirectional ESD protection diode datasheet* (v.2, April 2023). https://www.lcsc.com/datasheet/C552574.pdf
 
  *[11]* ElecSuper, *ESD2CAN24-ES Normal Capacitance ESD protection datasheet* (Rev. 1.5). https://www.lcsc.com/datasheet/C19170841.pdf
+ 
 
 ## Technical Literature (13–23)
 
@@ -556,7 +557,3 @@ In both cases the nearest standard resistor value was selected.
  *[23]* Microchip Technology, *Introduction to USB Type-C* (DS00001953A) — UFP must present 5.1 kΩ ±10 % Rd on both CC pins; pins pulled down independently. https://ww1.microchip.com/downloads/en/AppNotes/00001953A.pdf
 
  *[predecessor]* Previous UACS/Deadlock project documentation (predecessor board revision).
-
----
-
-*This document is the distilled hardware design rationale for the UACS project and will be extended into a full bachelor thesis in the following semester. Inherited component values (e.g. the MCP16301H feedback divider, the two LED variants) will be expanded using the predecessor project's documentation.*

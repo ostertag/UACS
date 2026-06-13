@@ -194,11 +194,10 @@ MFRC522's worst-case current.)
 
 The micro-SD slot (U3) stores the audio files played back through the amplifier.
 
-The preferred interface would have been the dedicated SDMMC peripheral, which provides
-higher throughput than SPI. However, the SDMMC peripheral on the STM32H523 is only
-available on larger packages; on the LQFP-48 the required pins are not bonded out, so
-SDMMC is physically unavailable and SPI is the only option~\cite{ref1}. This is a package
-constraint, not a design preference.
+SPI was chosen over SDMMC for three reasons: the application does not require SDMMC's
+higher throughput; SPI was already in use for the RFID reader, reducing the number of
+active interfaces and occupied pins; and while this STM32 series supports SDMMC, it is
+only available on larger packages~\cite{ref1}.
 
 The SD card shares SPI1 with the RC522 reader, with its own software chip select on PB0
 (SD\_SS). In SPI mode, the card's CD/DAT3 pin (slot pin~2) functions as the active-low
