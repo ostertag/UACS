@@ -45,13 +45,7 @@ instrumentation trace (printf-style debug output) without consuming a UART perip
 The connector follows the standard 10-pin 1.27\,mm Cortex-debug pinout, which balances
 size against reliability~\cite{ref13}.
 
-The STLINK-V3PWR probe was already available and was therefore the natural choice. In
-addition to SWD/SWV (supported up to \SI{10}{\mega\hertz}) it integrates a source
-measurement unit~(SMU) with a programmable 1.6--\SI{3.6}{\volt} output and current
-measurement from the nanoampere range up to \SI{500}{\milli\ampere}~\cite{ref4}. This
-capability is useful during development for verifying the board's power budget, since the
-entire \SI{3.3}{\volt} system is supplied by a single \SI{1}{\ampere} regulator. The
-probe is supported directly by the STM32CubeMonitor-Power software tool~\cite{ref4}.
+The STLINK-V3PWR probe as we already had it available~\cite{ref4}.
 
 % ----------------------------------------------------------------
 \subsection{Reset Circuit}
@@ -60,9 +54,7 @@ probe is supported directly by the STM32CubeMonitor-Power software tool~\cite{re
 
 The NRST line is shared between three reset sources: the on-board push button (RESET1),
 the remote reset line carried over the RJ45 connector
-(Section~\ref{subsec:rj45}), and the STLINK debug probe. Tying the probe's reset into the
-same net improves recovery when firmware or a low-power state would otherwise block a
-debug attach~\cite{ref13}.
+(Section~\ref{subsec:rj45}), and the STLINK debug probe. If software reset over SWD fails, the probe can still assert NRST to force a hardware reset~\cite{ref13}.
 
 \paragraph{Resistor R5.}
 A \SI{10}{\kilo\ohm} pull-up resistor holds the NRST line high during normal operation.
@@ -695,21 +687,20 @@ operation. The shield and GND~(A1) are tied to GND.
 % ================================================================
 
 The board carries two dual-colour (red + emerald-green) SMD indicator LEDs from the
-Kingbright APHBM2012 series. Each LED has independent red and green elements with common
-cathodes to GND, so each colour is driven through its own current-limiting resistor from
-a GPIO.
+Kingbright APHBM2012 series the APHBM2012LSURKZGKC. Each LED has independent red and
+green elements with common cathodes to GND, so each colour is driven through its own
+current-limiting resistor from a GPIO.
 
 \begin{table}[htbp]
   \centering
   \caption{Indicator LED assignments.}
   \label{tab:leds}
-  \begin{tabular}{p{0.05\textwidth} p{0.27\textwidth} p{0.12\textwidth}
-                  p{0.20\textwidth} p{0.20\textwidth}}
+  \begin{tabular}{p{0.08\textwidth} p{0.18\textwidth} p{0.30\textwidth} p{0.30\textwidth}}
     \toprule
-    Ref  & Part                    & Nominal current & Green signal     & Red signal       \\
+    Ref  & Nominal current         & Green signal     & Red signal       \\
     \midrule
-    LED1 & APHBM2012LSURKZGKC      & \SI{2}{\milli\ampere} & LED\_G1 (PB4)  & LED\_R1 (PA15) \\
-    LED2 & APHBM2012LSURKZGKC      & \SI{2}{\milli\ampere} & LED\_G2 (PB6)  & LED\_R2 (PB5)  \\
+    LED1 & \SI{2}{\milli\ampere}   & LED\_G1 (PB4)    & LED\_R1 (PA15)   \\
+    LED2 & \SI{2}{\milli\ampere}   & LED\_G2 (PB6)    & LED\_R2 (PB5)    \\
     \bottomrule
   \end{tabular}
 \end{table}

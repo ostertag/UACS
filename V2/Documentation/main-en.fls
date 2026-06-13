@@ -1,6 +1,6 @@
-PWD c:\.willkove\university\RP\Praca
+PWD c:\Users\UserName\any\school\rp\UACS\V2\Documentation
 INPUT C:\Users\UserName\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\.willkove\university\RP\Praca\main-en.tex
+INPUT c:\Users\UserName\any\school\rp\UACS\V2\Documentation\main-en.tex
 OUTPUT main-en.log
 INPUT C:\Users\UserName\AppData\Local\Programs\MiKTeX\tex\latex\base\book.cls
 INPUT C:\Users\UserName\AppData\Local\Programs\MiKTeX\tex\latex\base\book.cls
