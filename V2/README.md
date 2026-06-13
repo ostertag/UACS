@@ -95,7 +95,15 @@ No 32.768 kHz crystal is fitted; the LSE pins (PC14/PC15) are left unconnected a
 
 #### Capacitors C1 and C2
 
-Two 10 pF C0G load capacitors are placed to GND, one on each side of the crystal, matched to its specified 10 pF load capacitance. C0G (Class 1) dielectric is used because its capacitance is essentially independent of temperature and applied voltage — typically within ±30 ppm/°C — which is important for a stable oscillator load. *[19][20]*
+Per the AN2867 oscillator load model *[24]*, the two external capacitors $C_{L1}$ and $C_{L2}$ together with PCB stray capacitance $C_S$ must present the crystal's specified load $C_L$:
+
+$$C_L = \frac{C_{L1} \cdot C_{L2}}{C_{L1} + C_{L2}} + C_S$$
+
+Placing identical capacitors on both sides ($C_{L1} = C_{L2} = C$) simplifies this to $C = 2(C_L - C_S)$. With $C_L = 10\,\text{pF}$ and $C_S = 5\,\text{pF}$ (AN2867 typical range: 2–7 pF):
+
+$$C = 2\,(10 - 5) = 10\,\text{pF}$$
+
+Two 10 pF C0G capacitors are therefore placed to GND, one on each side of the crystal. C0G (Class 1) dielectric is used because its capacitance is essentially independent of temperature and applied voltage — typically within ±30 ppm/°C — which is important for a stable oscillator load. *[19][20]*
 
 ### 2.1.5 VCAP — Internal Regulator Capacitors
 
@@ -555,5 +563,7 @@ In both cases the nearest standard resistor value was selected.
  *[22]* Infineon, *USB Type-C connector: Rp, Rd, and Ra termination resistors* (KBA97180) — UFP Rd fixed at 5.1 kΩ. https://community.infineon.com/t5/Knowledge-Base-Articles/USB-Type-C-connector-Rp-Rd-and-Ra-termination-resistors/ta-p/253544
 
  *[23]* Microchip Technology, *Introduction to USB Type-C* (DS00001953A) — UFP must present 5.1 kΩ ±10 % Rd on both CC pins; pins pulled down independently. https://ww1.microchip.com/downloads/en/AppNotes/00001953A.pdf
+
+ *[24]* STMicroelectronics, *AN2867 — Oscillator design guide for STM8S, STM8A, and STM32 microcontrollers*, Rev. 14, 2021. https://www.st.com/resource/en/application_note/an2867-oscillator-design-guide-for-stm8s-stm8a-and-stm32-microcontrollers-stmicroelectronics.pdf
 
  *[predecessor]* Previous UACS/Deadlock project documentation (predecessor board revision).
