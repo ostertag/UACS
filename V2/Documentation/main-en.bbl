@@ -132,6 +132,14 @@ Eric Hackett.
   \url{https://learn.sparkfun.com/tutorials/arm-programming/jtag-and-swd},
   2020.
 
+\bibitem{ref24}
+{STMicroelectronics}.
+\newblock {AN2867}: Oscillator design guide for {STM8S}, {STM8A}, and {STM32}
+  microcontrollers.
+\newblock Technical report, STMicroelectronics, 2021.
+\newblock Rev.~14. Available at
+  \url{https://www.st.com/resource/en/application_note/an2867-oscillator-design-guide-for-stm8s-stm8a-and-stm32-microcontrollers-stmicroelectronics.pdf}.
+
 \bibitem{ref4}
 {STMicroelectronics}.
 \newblock {\em {STLINK-V3PWR} Product Page}, 2023.

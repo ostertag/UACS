@@ -109,11 +109,26 @@ No 32.768\,kHz crystal is fitted; the LSE pins (PC14/PC15) are left unconnected 
 configured in Analog mode.
 
 \paragraph{Capacitors C1 and C2.}
-Two \SI{10}{\pico\farad} C0G load capacitors are placed to GND, one on each side of the
-crystal, matched to its specified 10\,pF load capacitance. C0G (Class~1) dielectric is
-used because its capacitance is essentially independent of temperature and applied
-voltage --- typically within $\pm30$\,ppm/°C --- which is important for a stable
-oscillator load~\cite{ref19,ref20}.
+Per the AN2867 oscillator load model~\cite{ref24}, the two external capacitors
+$C_{L1}$ and $C_{L2}$ together with PCB stray capacitance~$C_S$ must present the
+crystal's specified load~$C_L$:
+%
+\begin{equation}
+  C_L = \frac{C_{L1} \cdot C_{L2}}{C_{L1} + C_{L2}} + C_S
+\end{equation}
+%
+Placing identical capacitors on both sides ($C_{L1} = C_{L2} = C$) simplifies this to
+$C = 2(C_L - C_S)$. With $C_L = \SI{10}{\pico\farad}$ and
+$C_S = \SI{5}{\pico\farad}$ (AN2867 typical range: 2--\SI{7}{\pico\farad}):
+%
+\begin{equation}
+  C = 2\,(10 - 5) = \SI{10}{\pico\farad}
+\end{equation}
+%
+Two \SI{10}{\pico\farad} C0G capacitors are therefore placed to GND, one on each side
+of the crystal. C0G (Class~1) dielectric is used because its capacitance is essentially
+independent of temperature and applied voltage --- typically within $\pm30$\,ppm/°C ---
+which is important for a stable oscillator load~\cite{ref19,ref20}.
 
 % ----------------------------------------------------------------
 \subsection{VCAP --- Internal Regulator Capacitors}
